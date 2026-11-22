@@ -132,7 +132,7 @@ function render(){
       <div class="row">
         <span class="badge ${i.verdict}">${i.verdict === "confirmed" ? "CONFIRMED" : "LIKELY"}</span>
         ${isNew ? '<span class="tag hot">BARU</span>' : ""}
-        ${(i.cves||[]).map(c=>`<a class="cve" href="https://nvd.nist.gov/vuln/detail/${esc(c)}" target="_blank" rel="noopener">${esc(c)}</a>`).join(" ")}
+        ${(i.cves||[]).length ? i.cves.map(c=>`<a class="cve" href="https://nvd.nist.gov/vuln/detail/${esc(c)}" target="_blank" rel="noopener">${esc(c)}</a>`).join(" ") : '<span class="tag">Belum ada CVE</span>'}
         ${i.vendor ? `<span class="tag">${esc(i.vendor)}${i.product?" · "+esc(i.product):""}</span>` : ""}
         ${k && k.ransomware === "Known" ? '<span class="tag" style="color:var(--red)">Dipakai ransomware</span>' : ""}
         <span class="meta" style="margin-left:auto" title="${esc(fmt(i.first_seen))}">${ago(i.first_seen)}</span>
