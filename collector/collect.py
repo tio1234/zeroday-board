@@ -49,7 +49,15 @@ STRONG_RE = re.compile(
     r"(?:was |were |is |are |has been |have been )?(?:exploited|abused|used in attacks)|"
     r"exploited zero[- ]?day|added to (?:cisa'?s )?(?:kev|known exploited)", re.I)
 # Tanda artikel bukan zero-day sungguhan
-NOISE_RE = re.compile(r"\b(?:webinar|podcast|sponsored|deal|discount|review|how to)\b", re.I)
+NOISE_RE = re.compile(r"\b(?:webinar|podcast|sponsored|deal|discount|review|how to|seminar|panduan)\b", re.I)
+ZD_TITLE_RE = re.compile(r"zero[- ]?day|0[- ]?day", re.I)
+# Petunjuk eksploitasi / belum ada patch (Inggris + Indonesia)
+CUES_RE = re.compile(
+    r"exploit|in the wild|attack|intrusion|compromis|unpatched|no patch|not (?:yet )?patched|"
+    r"dieksploitasi|eksploitasi|diserang|serangan|peretas|penyerang|intrusi|"
+    r"belum (?:ada )?(?:patch|penambal|perbaikan|versi|ditambal)|tanpa (?:patch|penambal)", re.I)
+RULES_VERSION = 2  # naikkan agar artikel lama dianalisis ulang
+MAX_FETCH = int(os.environ.get("MAX_FETCH", "25"))
 
 
 def log(*a):
@@ -201,18 +209,29 @@ def ai_analyze(item):
     return res
 
 
+def fetch_article_text(url):
+    """Ambil isi artikel (tag <article> jika ada) supaya ID CVE di badan artikel terbaca."""
+    html = fetch(url, timeout=15)[:400000].decode("utf-8", "ignore")
+    html = re.sub(r"<(script|style|nav|footer|aside)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
+    m = re.search(r"<article[^>]*>(.*?)</article>", html, re.S | re.I)
+    return strip_html(m.group(1) if m else html)[:8000]
+
+
 def rule_analyze(item):
-    text = f"{item['title']} {item['summary']}"
+    title, text = item["title"], f"{item['title']} {item['summary']}"
     cves = sorted({c.upper() for c in CVE_RE.findall(text)})
     strong = bool(STRONG_RE.search(text))
-    if NOISE_RE.search(item["title"]) or not cves or not strong:
-        verdict = "rejected"
-        reason = "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks."
+    zd_cues = bool(ZD_TITLE_RE.search(title) and CUES_RE.search(text))
+    if NOISE_RE.search(title):
+        verdict, reason = "rejected", "Judul menandakan iklan/panduan, bukan temuan baru."
+    elif cves and (strong or zd_cues):
+        verdict, reason = "likely", "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci)."
+    elif not cves and zd_cues:
+        verdict, reason = "likely", "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual."
     else:
-        verdict = "likely"
-        reason = "Artikel menyebut CVE dan frasa eksploitasi aktif (analisis kata kunci)."
+        verdict, reason = "rejected", "Tidak ada bukti eksploitasi aktif di teks."
     return {"verdict": verdict, "cves": cves, "vendor": "", "product": "",
-            "title": item["title"][:120], "reason": reason, "method": "rules"}
+            "title": item["title"][:120], "reason": reason, "method": "rules", "rv": RULES_VERSION}
 
 
 # ---------------------------------------------------------------- utama
@@ -278,13 +297,22 @@ def main():
     # 2) Feed berita/vendor: saring kandidat lalu analisis
     articles = load_feeds(sources.get("feeds", []))
     ai_calls = 0
+    fetched = 0
     for a in articles:
         if not a["link"] or not a["date"] or a["date"] < CUTOFF:
             continue
         if not CANDIDATE_RE.search(f"{a['title']} {a['summary']}"):
             continue
         res = cache.get(a["link"])
-        if not res or (res.get("method") == "rules" and API_KEY and ai_calls < MAX_AI_CALLS):
+        stale = bool(res) and res.get("method") == "rules" and (
+            (API_KEY and ai_calls < MAX_AI_CALLS) or res.get("rv") != RULES_VERSION)
+        if not res or stale:
+            if not CVE_RE.search(f"{a['title']} {a['summary']}") and fetched < MAX_FETCH:
+                fetched += 1
+                try:
+                    a["summary"] = (a["summary"] + " " + fetch_article_text(a["link"]))[:9000]
+                except Exception as ex:
+                    log("Gagal ambil isi artikel:", a["link"], ex)
             if API_KEY and ai_calls < MAX_AI_CALLS:
                 try:
                     res = ai_analyze(a)
@@ -302,8 +330,6 @@ def main():
 
         src = {"name": a["source"], "url": a["link"], "title": a["title"], "date": iso(a["date"])}
         ids = res["cves"] or ["ART-" + hashlib.sha1(a["link"].encode()).hexdigest()[:10]]
-        if not res["cves"] and res.get("method") != "ai":
-            continue  # tanpa CVE hanya diterima jika AI yang memverifikasi
         for eid in ids:
             e = entry_for(eid, iso(a["date"]))
             if eid.startswith("CVE-"):
