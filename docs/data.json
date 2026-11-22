@@ -1,1 +1,1110 @@
-{"generated_at":"1970-01-01T00:00:00Z","window_days":30,"analysis_mode":"rules","kev_status":"ok","counts":{"total":0,"confirmed":0,"likely":0},"items":[],"analysis_cache":{}}
+{
+ "generated_at": "2026-11-22T08:12:40Z",
+ "window_days": 30,
+ "analysis_mode": "rules",
+ "kev_status": "ok",
+ "counts": {
+  "total": 34,
+  "confirmed": 34,
+  "likely": 0
+ },
+ "items": [
+  {
+   "id": "CVE-2026-129448",
+   "cves": [
+    "CVE-2026-129448"
+   ],
+   "title": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "vendor": "Apache",
+   "product": "Roller",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-18T17:10:45Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+     "title": "CISA KEV + detail NVD"
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+     "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+     "date": "2026-11-18T17:10:45Z"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+   "last_update": "2026-11-20T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-123890",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-20T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
+   },
+   "analysis": "",
+   "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+   "last_update": "2026-11-20T00:00:00Z"
+  },
+  {
+   "id": "CVE-2025-42884",
+   "cves": [
+    "CVE-2025-42884"
+   ],
+   "title": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-20T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+   "last_update": "2026-11-20T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-76466",
+   "cves": [
+    "CVE-2026-76466"
+   ],
+   "title": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-20T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+   "last_update": "2026-11-20T00:00:00Z"
+  },
+  {
+   "id": "CVE-2024-10441",
+   "cves": [
+    "CVE-2024-10441"
+   ],
+   "title": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+   "vendor": "Synology",
+   "product": "DiskStation Manager (DSM)",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-18T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-18T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-18",
+    "due_date": "2026-11-21",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+   "last_update": "2026-11-18T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-40217",
+   "cves": [
+    "CVE-2026-40217"
+   ],
+   "title": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+   "vendor": "BerriAI",
+   "product": "LiteLLM",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-18T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-18T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-18",
+    "due_date": "2026-12-02",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+   "last_update": "2026-11-18T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-90817",
+   "cves": [
+    "CVE-2026-90817"
+   ],
+   "title": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+   "vendor": "Vanderbilt University",
+   "product": "Research Electronic Data Capture (REDCap)",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-18T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-18T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-18",
+    "due_date": "2026-11-21",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+   "last_update": "2026-11-18T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-90436",
+   "cves": [
+    "CVE-2026-90436"
+   ],
+   "title": "Apache Axis Unsafe Reflection Vulnerability",
+   "vendor": "Apache",
+   "product": "Axis",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-18T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-18T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-18",
+    "due_date": "2026-11-21",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+   "last_update": "2026-11-18T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-115731",
+   "cves": [
+    "CVE-2026-115731"
+   ],
+   "title": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-17T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-17T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-17",
+    "due_date": "2026-12-01",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+   "last_update": "2026-11-17T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-114713",
+   "cves": [
+    "CVE-2026-114713"
+   ],
+   "title": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-13T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-13T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-13",
+    "due_date": "2026-11-16",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+   "last_update": "2026-11-13T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-123039",
+   "cves": [
+    "CVE-2026-123039"
+   ],
+   "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-13T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-13T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-13",
+    "due_date": "2026-11-16",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+   "last_update": "2026-11-13T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-124194",
+   "cves": [
+    "CVE-2026-124194"
+   ],
+   "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "vendor": "Microsoft",
+   "product": "Office",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-10T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+   "last_update": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-111793",
+   "cves": [
+    "CVE-2026-111793"
+   ],
+   "title": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+   "vendor": "Openwave Messaging Limited",
+   "product": "Webtop Media Transcoder",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-10T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+   "last_update": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-20320",
+   "cves": [
+    "CVE-2026-20320"
+   ],
+   "title": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "vendor": "Cisco",
+   "product": "BroadWorks",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-10T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+   "last_update": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-111560",
+   "cves": [
+    "CVE-2026-111560"
+   ],
+   "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "vendor": "Barracuda Networks",
+   "product": "Multiple Products",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-10T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-13",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
+   "last_update": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-116606",
+   "cves": [
+    "CVE-2026-116606"
+   ],
+   "title": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "vendor": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-10T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-13",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+   "last_update": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-125350",
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "title": "Google Chromium Use-After-Free Vulnerability",
+   "vendor": "Google",
+   "product": "Chromium",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-10T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+   "last_update": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-102895",
+   "cves": [
+    "CVE-2026-102895"
+   ],
+   "title": "GPUStack Improper Authentication Vulnerability",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-09T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-09T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-09",
+    "due_date": "2026-11-12",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+   "last_update": "2026-11-09T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-123158",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-09T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-09T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-09",
+    "due_date": "2026-11-12",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+   "last_update": "2026-11-09T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-116779",
+   "cves": [
+    "CVE-2026-116779"
+   ],
+   "title": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-09T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-09T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-09",
+    "due_date": "2026-11-12",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+   "last_update": "2026-11-09T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-123218",
+   "cves": [
+    "CVE-2026-123218"
+   ],
+   "title": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "vendor": "IBM",
+   "product": "Aspera Faspex",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-09T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-09T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-09",
+    "due_date": "2026-11-12",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+   "last_update": "2026-11-09T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-19868",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "title": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "vendor": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-06T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-06T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-06",
+    "due_date": "2026-11-20",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+   "last_update": "2026-11-06T00:00:00Z"
+  },
+  {
+   "id": "CVE-2024-27834",
+   "cves": [
+    "CVE-2024-27834"
+   ],
+   "title": "Apple Multiple Products Improper Authentication Vulnerability",
+   "vendor": "Apple",
+   "product": "Multiple Products",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-04T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-04T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-04",
+    "due_date": "2026-11-18",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
+   "last_update": "2026-11-04T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-119977",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "title": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+   "vendor": "WordPress",
+   "product": "WordPress Core",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-03T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-03T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-03",
+    "due_date": "2026-11-06",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+   "last_update": "2026-11-03T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-118527",
+   "cves": [
+    "CVE-2026-118527"
+   ],
+   "title": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-30T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-30T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-30",
+    "due_date": "2026-11-13",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+   "last_update": "2026-10-30T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-111357",
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "title": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-30T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-30T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-30",
+    "due_date": "2026-11-02",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+   "last_update": "2026-10-30T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-97229",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "title": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+   "vendor": "GitLab",
+   "product": "Community Edition and Enterprise Edition",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-29T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-29T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-29",
+    "due_date": "2026-11-01",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+   "last_update": "2026-10-29T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-76418",
+   "cves": [
+    "CVE-2026-76418"
+   ],
+   "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+   "vendor": "Cisco",
+   "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-29T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-29T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-29",
+    "due_date": "2026-11-01",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+   "last_update": "2026-10-29T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-41709",
+   "cves": [
+    "CVE-2026-41709"
+   ],
+   "title": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+   "vendor": "Broadcom",
+   "product": "VMware ESX",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-28T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-28T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-28",
+    "due_date": "2026-11-11",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+   "last_update": "2026-10-28T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-46300",
+   "cves": [
+    "CVE-2026-46300"
+   ],
+   "title": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+   "vendor": "Linux",
+   "product": "Kernel",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-28T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-28T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-28",
+    "due_date": "2026-10-31",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+   "last_update": "2026-10-28T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-48356",
+   "cves": [
+    "CVE-2026-48356"
+   ],
+   "title": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-27T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-27T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-27",
+    "due_date": "2026-11-10",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+   "last_update": "2026-10-27T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-111497",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "title": "Google Brotli Unchecked Return Value Vulnerability",
+   "vendor": "Google",
+   "product": "Brotli",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-27T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-27T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-27",
+    "due_date": "2026-11-10",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+   "last_update": "2026-10-27T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-109618",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "title": "PHP Memory Corruption Vulnerability",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-26T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-26T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-26",
+    "due_date": "2026-10-29",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+   "last_update": "2026-10-26T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-109619",
+   "cves": [
+    "CVE-2026-109619"
+   ],
+   "title": "PHP Stale Internal Request-State Vulnerability",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-10-26T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-10-26T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-10-26",
+    "due_date": "2026-10-29",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+   "last_update": "2026-10-26T00:00:00Z"
+  }
+ ],
+ "analysis_cache": {
+  "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-20T17:30:00Z"
+  },
+  "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-20T00:26:25Z"
+  },
+  "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-21T11:03:17Z"
+  },
+  "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html": {
+   "verdict": "rejected",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-20T09:38:15Z"
+  },
+  "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-20T05:30:01Z"
+  },
+  "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-19T15:11:06Z"
+  },
+  "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-129448"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "reason": "Artikel menyebut CVE dan frasa eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-18T17:10:45Z"
+  },
+  "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-21T12:08:50Z"
+  },
+  "https://projectzero.google/2026/11/disclosure-policy.html": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Policy and Disclosure: 2026 Edition",
+   "reason": "Tidak ada CVE atau tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "analyzed_at": "2026-11-22T08:12:40Z",
+   "date": "2026-11-13T08:00:00Z"
+  }
+ }
+}
