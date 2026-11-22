@@ -1,12 +1,13 @@
 {
- "generated_at": "2026-11-22T08:24:51Z",
+ "generated_at": "2026-11-22T08:35:34Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 72,
+  "total": 51,
   "confirmed": 35,
-  "likely": 37
+  "likely": 0,
+  "watch": 16
  },
  "items": [
   {
@@ -17,41 +18,21 @@
    "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now - Rescana",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-22T05:36:31Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "Rescana",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5",
-     "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now - Rescana",
-     "date": "2026-11-22T05:36:31Z"
+     "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
+     "date": "2026-11-22T05:36:31Z",
+     "primary": false
     }
    ],
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-22T05:36:31Z"
-  },
-  {
-   "id": "ART-20993b8739",
-   "cves": [],
-   "title": "MONAI Label Zero-Day: AI Agents Exploit Medical Imaging Research Servers - Cloud Security Alliance (CSA)",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-22T02:23:51Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbGVRdmxYQ01aU2hXZzlmR0tSbGp4M0JMVTVFcWI3ZTc5SUhyYXJrYTc4RW93VmlkTzNVR3pXS2pTa2ZEamxXX0R6VE9NTjBpRlF3X204bm0xcE9UNkV3cElGd2hsVnVzdG1Wa0FGeTctZlRTeEhpN0pLdkN3TjdfcXNDOTlxaUplVFYyWWJNRkQ2SHpreTFCbjJoZFVpekhJVjkxMmRQeE11a205QWc?oc=5",
-     "title": "MONAI Label Zero-Day: AI Agents Exploit Medical Imaging Research Servers - Cloud Security Alliance (CSA)",
-     "date": "2026-11-22T02:23:51Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-22T02:23:51Z"
   },
   {
    "id": "CVE-2026-133968",
@@ -61,15 +42,16 @@
    "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now - Rescana",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-22T02:00:00Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "Rescana",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5",
-     "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now - Rescana",
-     "date": "2026-11-22T02:00:00Z"
+     "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now",
+     "date": "2026-11-22T02:00:00Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -82,15 +64,16 @@
    "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day - findarticles.com",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-22T00:26:21Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "findarticles.com",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0xGSjBRTVh2ejhXX2VuQjBjeDN1OWhTTGw0T0lvRnRUdzRXSFV4ZXc1dWRIdTR2a29SWTI5MENuUDFMUml6Z0dMc1dPd1daWU5VTHI5NHRqQTlyZW1Fa08zM210STgtVGg5b1FjZDVIQ09qMjRsQ0EyaWpWcU1TQXctektackFlQ2VFRU5YaXl4V2R6Y3dz?oc=5",
-     "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day - findarticles.com",
-     "date": "2026-11-22T00:26:21Z"
+     "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day",
+     "date": "2026-11-22T00:26:21Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -103,15 +86,16 @@
    "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation - Security Affairs",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T17:43:04Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "Security Affairs",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU2FxalZIcWszNGNUOFJQLU9qWjlQVVZfRmR2MW9RY0VlNW5RS09PYXAzYlRvNUNfSFhOMUlMZzRRQ1ZHTjVlRmJ4eGdrbjN3dUxGSTVaNTdCWFB3X2taSE5xRTZRdTJfXy1hQkszbzdVbDhLYUNZRTZwdXNDcUR6SGNZd2o5MnB3ZFRrT1BOVnNIYVVteEpuOTJKYUpPbzRtNmhRTtIBqgFBVV95cUxPT1VkdmVCQ0dmTTFsaUpvc2Z6STFwRDRRci1QeWlVbWFONnQwWGpaOVJZMlRCc1Y5c0ZYcTlqb0lNSkxSTHlsdW01WTZ6QWlTOVRlNTU0VUZPWmRaVldkLUthU041dDBrUVJwTlFsdlJRYmpNLWVTVUtIZUFVbDFueFdCeHpVV0NFVFlLQXlZejh0bzVpMFlEUkE5ZlBfd2FtT2pZNXZxSjJzdw?oc=5",
-     "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation - Security Affairs",
-     "date": "2026-11-21T17:43:04Z"
+     "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation",
+     "date": "2026-11-21T17:43:04Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -119,41 +103,21 @@
    "last_update": "2026-11-21T17:43:04Z"
   },
   {
-   "id": "ART-a6ca4b4959",
-   "cves": [],
-   "title": "VMware vCenter, security 0-day exploited since September - Observatorio Blockchain",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T16:56:41Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGc5dDVkQlhCdVRJcjZyYU5nc1REb2xRNXhpSjYzel9DWkZaR0M2WXdDSnl6b0NRYV9nc2N0T3NBQVN5MUQ5TDZBTW9OU0l0ZWxqemxNNHNvcEJRMHgxS3pidDY0VzUxMEFqX0Jza2JQWVQ4bDJUNW5JanZpN3hQYXo2SFVhTjhyem5CN20weWJqd0VmOUFv?oc=5",
-     "title": "VMware vCenter, security 0-day exploited since September - Observatorio Blockchain",
-     "date": "2026-11-21T16:56:41Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T16:56:41Z"
-  },
-  {
    "id": "ART-1f7b07f2be",
    "cves": [],
    "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password) - Medium",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T16:33:53Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "Medium",
      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2pBT0JDZWRGLXdRLWgwSVJuVXRNS19JclhhZDVjNzA0MFUtNFJ0NURjZ1YyS1pCSlM4RElZdFMzQnN0UG16cDZOeWtYVHU3MVB6cThZQ0RXTlEzdnRtOFcyRHFyV1pnWWJqOHpVU2RXY1NtRlR4aE9PTHEzWnhzLWY1aHVob0NpWURsb19JekdRME81aVV0bU1oM2dqWHo4dlNCS2NYU3FHZVVDN3lDN1VYUGtKbjlfdFp6TVA3YlZMMTVqU3hoSm9YR2p6RV9JcHV3WQ?oc=5",
-     "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password) - Medium",
-     "date": "2026-11-21T16:33:53Z"
+     "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password)",
+     "date": "2026-11-21T16:33:53Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -166,15 +130,16 @@
    "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September - LinkedIn",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T13:00:04Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "LinkedIn",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSy1NMGx5Sk1ZWnlTQjBZTmZQU05CSzhySmFDVGtPTV8xN1lrQmZXTDQ3TmNoNy1JUDRHTHlub3dwTzhvdDQyTGo0WTBTX0hmU2dMY25fLTl2Zy1nTnAwaE5tRlAtTTlELWs3anZuR0tiWWNQbV9VOVNFQ3dBWEpKSHpqd2tURnItN2h2eFB2UQ?oc=5",
-     "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September - LinkedIn",
-     "date": "2026-11-21T13:00:04Z"
+     "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September",
+     "date": "2026-11-21T13:00:04Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -187,15 +152,16 @@
    "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T12:08:50Z",
    "sources": [
     {
      "name": "SecurityWeek",
      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-     "date": "2026-11-21T12:08:50Z"
+     "date": "2026-11-21T12:08:50Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -208,15 +174,16 @@
    "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day - SecurityWeek",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T12:08:50Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "SecurityWeek",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS0RzYnRJVzA5MjhlSWJfODFMNDRMdDl3Zk81UkxlbklPbE8tQ2xMYWdzSElBdlF6eTJaeWRSdm9aa3JkYU5xbUZIUjUtc3VxZzlYUXhCOWplcHBDb1AzcEMzWXd1eTdndHdIVWlrUnVSMExWQnZaakd4Y3JYRkFZeE9POGNKTE5tRlhwTTJnWUs4QVBjM1l6OFpaYmVqNVZWa0ZIUU5R?oc=5",
-     "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day - SecurityWeek",
-     "date": "2026-11-21T12:08:50Z"
+     "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+     "date": "2026-11-21T12:08:50Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -224,167 +191,21 @@
    "last_update": "2026-11-21T12:08:50Z"
   },
   {
-   "id": "ART-7b3f5ce72e",
-   "cves": [],
-   "title": "AI Agents Zero-Day: Attackers’ Bots Found a Flaw Alone, and Failed Most of the Time - All Result Net",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T11:47:00Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNXhaaXdILUF4cWlzWC0xQmxKZzF4eXNzVnVqZTh2WXFCb2luLVNkYkNTa0ppWHRFTVdsaFk5Ull2d2FXR1BuMUpUb2MwSVh3TXd6UHE0emhraDVtdUtFTlFqSFhRUG92YUQ2ME40djA5MVFlZWZyTW5PQVMwNTZlZnJmcFF2bGlIYWRYWnJ0Tk5wLVZwZlhBY09naU9hbjhIMU5zNzFMcnFGQTBKOUV6V01Ld2ZDWEU?oc=5",
-     "title": "AI Agents Zero-Day: Attackers’ Bots Found a Flaw Alone, and Failed Most of the Time - All Result Net",
-     "date": "2026-11-21T11:47:00Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T11:47:00Z"
-  },
-  {
-   "id": "ART-16765aea3b",
-   "cves": [],
-   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T11:03:17Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-     "date": "2026-11-21T11:03:17Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T11:03:17Z"
-  },
-  {
-   "id": "ART-903b797f3c",
-   "cves": [],
-   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access - The Hacker News",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T11:03:00Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVFZmbjVDQTBnN181azlaZXV4R0VMVkxuT0xtN0FnQ3JINzRpTEJwZ2N1TUlvMmVXb3NsVzJrMnJJYm82eEozZmRpYU9tQ1Y2VzJCRVVHUXNHZFN0cFpnTFkwWXJ4WTVyQzVueGNjQ28yN3ZOU0FrRUJFUWZjcVZUdlRR?oc=5",
-     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access - The Hacker News",
-     "date": "2026-11-21T11:03:00Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T11:03:00Z"
-  },
-  {
-   "id": "ART-3477a65048",
-   "cves": [],
-   "title": "Broadcom Patches VMware vCenter Zero Day After Chinese Attacks - Demokratis.co.id",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T10:18:36Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSSFhUNnVsczFNcWNLZy0zNlFrQ0x5MFR3SW11ZHI3cy11dUJaSk1sT0lzTlBYWTRmTF84ZWM5NlZQaWQweTVtanFxNE1uMHl1ME1KN1c0M1NWUDV3TzQydWdQd0xqclE5Z1hJ?oc=5",
-     "title": "Broadcom Patches VMware vCenter Zero Day After Chinese Attacks - Demokratis.co.id",
-     "date": "2026-11-21T10:18:36Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T10:18:36Z"
-  },
-  {
-   "id": "ART-78d75d7102",
-   "cves": [],
-   "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes - SuaraGarut.ID",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T09:24:04Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wSG1uZW9CN3oxNmNNSmlycHVpYmhFUG1mekRsMFhJOTdudTNySmY2TU1BUlpiQ18zaUtoMHFhX1pManZwQzRrNE5jcTVjdUYyaVl3RkNoaGRFaE5WOV9ROFV3cTNfWlR2?oc=5",
-     "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes - SuaraGarut.ID",
-     "date": "2026-11-21T09:24:04Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T09:24:04Z"
-  },
-  {
-   "id": "ART-96bb2ff60b",
-   "cves": [],
-   "title": "AI Agents Exploit MONAI Label Zero Day to Seize University Server - cwibc.co.id",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T09:23:57Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16SlJJN3I2d3Q3MWdUWEY4bFl5T3RadEoyUVVPYi1kb2tyX09OV3hEVjNtLXdtSjhMd21Sa3RZSlpGdTZLd2Iwb2w5NFhacnBqcFRLNkFWU3czZzBrTWdObnp3?oc=5",
-     "title": "AI Agents Exploit MONAI Label Zero Day to Seize University Server - cwibc.co.id",
-     "date": "2026-11-21T09:23:57Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T09:23:57Z"
-  },
-  {
-   "id": "ART-ac799869ea",
-   "cves": [],
-   "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes - Demokratis.co.id",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T09:23:57Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TS0l3WDI2QXM2QnJaZFhLclRndTlOcFZOc3drbElaWTFrdHhpTVg3LWtnb2lzMkhUcXZncUJtekgwNHg5dE1JMU9IdXVTZG9GeGVHQmpyZVl2MEx3eXctQU1NYzMwbGVJaTBZdQ?oc=5",
-     "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes - Demokratis.co.id",
-     "date": "2026-11-21T09:23:57Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T09:23:57Z"
-  },
-  {
    "id": "ART-282abec57a",
    "cves": [],
    "title": "Broadcom Patches VMware Zero Day Exploited by Chinese Hackers - SuaraGarut.ID",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T09:20:30Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "SuaraGarut.ID",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84cldONUh1N3N5Rm1aajNKVXk0MG9TMFdwakNwNGpkd3d5ai1hejJIMVpzYzZPZ1ZPcUlhNUM3eFhuem5wMHQ1UVdoWEQ5Ykl0ZGlvX1R3WW1TSkJJZUhrSUpseFEzUQ?oc=5",
-     "title": "Broadcom Patches VMware Zero Day Exploited by Chinese Hackers - SuaraGarut.ID",
-     "date": "2026-11-21T09:20:30Z"
+     "title": "Broadcom Patches VMware Zero Day Exploited by Chinese Hackers",
+     "date": "2026-11-21T09:20:30Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -392,41 +213,21 @@
    "last_update": "2026-11-21T09:20:30Z"
   },
   {
-   "id": "ART-596e31a742",
-   "cves": [],
-   "title": "Chinese Hackers Use Cairn AI Agents to Exploit Zero-Day Vulnerability in East Asian Universities - OECD AI Policy Observ",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T08:13:04Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zT0pDQWplbHp0Y1Rnc1dVMlk3TTBiYVhZSVRrakNEcUtzbEFLZnlNSDBBcktUM3VTX0FBU0FXWVFuWjFfaUg1bTNtaXNWY1ZnZTZUT1pFMA?oc=5",
-     "title": "Chinese Hackers Use Cairn AI Agents to Exploit Zero-Day Vulnerability in East Asian Universities - OECD AI Policy Observatory",
-     "date": "2026-11-21T08:13:04Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T08:13:04Z"
-  },
-  {
    "id": "ART-44cfe1389a",
    "cves": [],
    "title": "Amazon Reports Autonomous AI Agents Exploited MONAI Label Zero-Day on University Server - CASRAI",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T06:12:30Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "CASRAI",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZE9PTnVnT3pTREcyOG1RQi03eERVMXd4S29UT0JPcHZfUl8wa0R3M2dHX2Z2UWxtNEFyb0VheUpzX25nMDg1b0xzMXZQZnVfVmJia19zaTlvdHAzS09vMXFVa0ZocHRNcV9CbGppZkNhYjBZaV9YcjRkRk5RTlBBU1BNU244R1BEZ0lpczl6Si14Y1BE?oc=5",
-     "title": "Amazon Reports Autonomous AI Agents Exploited MONAI Label Zero-Day on University Server - CASRAI",
-     "date": "2026-11-21T06:12:30Z"
+     "title": "Amazon Reports Autonomous AI Agents Exploited MONAI Label Zero-Day on University Server",
+     "date": "2026-11-21T06:12:30Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -434,41 +235,21 @@
    "last_update": "2026-11-21T06:12:30Z"
   },
   {
-   "id": "ART-2269e32750",
-   "cves": [],
-   "title": "Hackers use AI tool Cairn for zero-day exploit, server takeover - TechGig",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-21T01:37:28Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFVaZG5oakdRRzVCc25aY09ONUR4dERGNVVQVEFsMlY5dU1EcGlFbnU5eS1HcDZFU0Y1TXdsTXZkUFFZR0l6SkQtWUxHSk5BaUtuMEdseU1ZRjJEQ3FFcGQzR3BxSEduV3FaekxiNGVxZlJjbFVqRFBCRV9yaHcxQ19sVWVhNUFpVXNaWVAwdDBDYXZ2NHp0MUduUkxaR3ZhQlllb1EzdTVtcWZQSkoxWg?oc=5",
-     "title": "Hackers use AI tool Cairn for zero-day exploit, server takeover - TechGig",
-     "date": "2026-11-21T01:37:28Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T01:37:28Z"
-  },
-  {
    "id": "ART-2ff31d4029",
    "cves": [],
    "title": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - Ven",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-21T00:51:01Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "VentureBeat",
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjQ5c0hsZDBTcWxGNUVxN0phZDdwRGhzTk1nWWEzZTdOSVpVT2h2WlI3OUVfeVZVMWt4eTFTQXFGZ1hoM1dMS2puekZ1YVYzSWV0aHMtYkVkNUpKdEJtaHlTRE9NRE5YZHRWbDk2YVZPVmdrOXN6cmJGbnFlcWxGODhZTVdaRGJ0aF9icTYwamtYakRaTFY0bGo4dHJMY21mRFFGTjNxYWkzN1J2d2tFX1g4Wk5US25oU0ZKTHoxSlU1dW9qODFRNEYyRTlaQm1aWmhIU05rMzJ4bmN5X1E?oc=5",
-     "title": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - VentureBeat",
-     "date": "2026-11-21T00:51:01Z"
+     "title": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available",
+     "date": "2026-11-21T00:51:01Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -476,104 +257,21 @@
    "last_update": "2026-11-21T00:51:01Z"
   },
   {
-   "id": "ART-f901f780b0",
-   "cves": [],
-   "title": "MONAI Label Zero-day: The Cairn attack and protection measures - SecNews.gr",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T20:08:11Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xNGprTEtqNWU0dmpjODU3cnhNNEJFaFZBU3pIYmVTSWVSUW5iazdncjBFcW1zSWotOG9WanFidnR5TnJBSFR5S1V0UktwS0diOXdZVThTN19kYnR0Zl9GdWpFSkJlQTAwVFNlLQ?oc=5",
-     "title": "MONAI Label Zero-day: The Cairn attack and protection measures - SecNews.gr",
-     "date": "2026-11-20T20:08:11Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T20:08:11Z"
-  },
-  {
-   "id": "ART-80dc01eec6",
-   "cves": [],
-   "title": "Amazon says China-linked hackers used the open-source AI tool Cairn to find an apparent zero-day in a university attack ",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T18:53:47Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOR1E2YU50WkxoNzA0TEFqR0E0VnlSRkxlRmpraktnNGpMZHZoTkVEQi1adGh4a1ZISWJYSHZmWWZ0eG5EbUdaV3lXYkh2TmhaZ2tPMkoyb2VpVzlZSW5OY1p1Ny0zZ1lBM3RqZjZ2bWdfZWVhc1c2WW1ORzBMOWJVaTAyazgwdGhJR0lHVnZqSlBVSTJnUGJrMmQ1cmJrbEZCMjNucFpoNDh6VWl1dHhmb2YwSkc2ZFp4dm1oOUVNZTY3OTlmTjNqSk5vaHMwTHNxWHN2RHg2aw?oc=5",
-     "title": "Amazon says China-linked hackers used the open-source AI tool Cairn to find an apparent zero-day in a university attack - MLQ.ai",
-     "date": "2026-11-20T18:53:47Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T18:53:47Z"
-  },
-  {
-   "id": "ART-47c4146452",
-   "cves": [],
-   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university - The Record fr",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T17:43:16Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjhZNzFVX0VqWkxza0hMWlFLOWNIM3F3YTNid2Z2Ym9pT1kyODFhUXlBTDJXby1vUzlvMFBuNXI5bk54eUVyOWJHd2hyWWM5ejM2U0o3ZjVIakZULUhRVjJtNDczVHIyRUVDdzJYV1ZXWERlTFE1NVFMTVNXbTZYT2NteXRhY09sZG1VVkNB?oc=5",
-     "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university - The Record from Recorded Future News",
-     "date": "2026-11-20T17:43:16Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T17:43:16Z"
-  },
-  {
-   "id": "ART-0abe422151",
-   "cves": [],
-   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T17:30:00Z",
-   "sources": [
-    {
-     "name": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-     "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-     "date": "2026-11-20T17:30:00Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T17:30:00Z"
-  },
-  {
    "id": "ART-178cecd60a",
    "cves": [],
    "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server - The ",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-20T17:30:00Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "The Register",
      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQk5YNHNjY29BZEEzTFFFbnNrd2JhMkprU1JSTlRDcWpmLTdwdFZvOElvc1lMS0F0X2FNUERKaFFka0M0UEZGeGZXblJ1UlotamZMaXFNTXhaQ1RBWUZ2ZVIzTUJNTWxucE1GeFRaek0ybXVKa1dRV0ZVWkk0SDlhLXVEWFR4NFdKTWZjUG9VQ19XYnZERjZQdHhMY0puc3FjdGZqVTVQRDg0RzdYQ1owT1NvZGlQdzF0NThfeFcyaEozNWJVVF9BNVJhWTBfUkhmbWFIRl9aLUQ0TWNIdGxhaTBZMzhFbzlXNm42eVo0SGF1R3dicEl1U3h0M3Bwdw?oc=5",
-     "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server - The Register",
-     "date": "2026-11-20T17:30:00Z"
+     "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+     "date": "2026-11-20T17:30:00Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -593,52 +291,60 @@
    "first_seen": "2026-11-20T00:00:00Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "Pasquale Pillitteri",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPblgwd1BUUGlHOVJsaTFlREJwUFNOT1NJS2ItRTh5ZzYwNWlTZTluVlhOLWwtdFViTUdUNnlRNnVSRXhEdXd1RFliNmNCMEQ4S05zSW1yU0daOHpCUi1TOEloMTVua1JkbzBjWXowTlJCcWdyTGkweDNIdm1kYXZZMXctRmtxOE9DNFNheUVWUnhpNnFHdFBRRw?oc=5",
-     "title": "VMware vCenter zero-day CVE-2026-123890 exploited since September, patch now - Pasquale Pillitteri",
-     "date": "2026-11-20T16:57:05Z"
+     "title": "VMware vCenter zero-day CVE-2026-123890 exploited since September, patch now",
+     "date": "2026-11-20T16:57:05Z",
+     "primary": false
     },
     {
-     "name": "Google News (EN)",
+     "name": "SOCRadar",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4OVFyZmJubDRoQUpHV0Rfbm93ZFN0cVB6V25QdUdoYU1DMHRhS29sdDRyZURXS2JfdzhiZVlRMnE3NllLYTJ1bTk0ME4tOEV3VWxfV1VyQXN3T3lVa1ZFcjN0bF9xQ2FIRkVKaXg3eV82aUZ1cFlv?oc=5",
-     "title": "CVE-2026-123890: vCenter Zero-Day Exploited by Armory Castle - SOCRadar",
-     "date": "2026-11-20T14:36:37Z"
+     "title": "CVE-2026-123890: vCenter Zero-Day Exploited by Armory Castle",
+     "date": "2026-11-20T14:36:37Z",
+     "primary": false
     },
     {
-     "name": "Google News (EN)",
+     "name": "SOC Prime",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2s0UUhIZ1lGWC1pSWpqVXl1N0VuSmluX0QteGNIREd6Q2NmQUxiQ1JwNk42UzZNZmpSMjJfWERSdm1aS052X1RfZjl2OG1CRmc3ZVN4ZFI1djFDYlRYWXZ4Zy1WVW8yN3lsRXJfbDJSbk4zaHdMVGdSZGtocS1EVHpzOHgyWWphcUdDeEpLZlZiWXdFSjFYU3ZsYW9zVkh2bEtnaXNhQkEwNWVIaWc?oc=5",
-     "title": "CVE-2026-123890: Critical VMware vCenter Zero-Day Exploited by China-Linked Hackers - SOC Prime",
-     "date": "2026-11-20T14:14:50Z"
+     "title": "CVE-2026-123890: Critical VMware vCenter Zero-Day Exploited by China-Linked Hackers",
+     "date": "2026-11-20T14:14:50Z",
+     "primary": false
     },
     {
      "name": "Help Net Security",
      "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
      "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
-     "date": "2026-11-20T12:30:19Z"
+     "date": "2026-11-20T12:30:19Z",
+     "primary": false
     },
     {
-     "name": "Google News (EN)",
+     "name": "Help Net Security",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNME1FQXZQTWFzLU1oWGpIWWxqT2RTTnFTbTVHM2pIbElWOVo3MnQ1aUZCQW8zUGk4cWw1U1ZlNEVpRk1yTlFOWjZiTGtWSF9ybjMxN3NuemQwT0pwYU1yLXFUWXp0STEwUVRuaEpLWE5iSmtzRkQ5dTVyUjhYZjZJR3J1bk9FeUNyeUF6UGdhMGdHeUFWdDJrMg?oc=5",
-     "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890) - Help Net Security",
-     "date": "2026-11-20T12:30:19Z"
+     "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
+     "date": "2026-11-20T12:30:19Z",
+     "primary": false
     },
     {
      "name": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-     "date": "2026-11-20T09:38:15Z"
+     "date": "2026-11-20T09:38:15Z",
+     "primary": false
     },
     {
-     "name": "Google News (EN)",
+     "name": "Meteora Web",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMHFJdEtnQnMyelJ0d2JXS2oxM0cxQXBEcDVqMGl3NjdJYjR4YXJsVzFRU1ZQMndHY2RFZzBpaklybm5HazdHcE16bmhiVFl1bWZPeHlXcFJVODBIWlk2V0F4TGpVNmxFYXgzQ1RGdnRaYzd5WkRubWI4TE1TbGRJQndKeWZKR0JpOEh2VHFrWjdhRlExeDVtY0tzSVE?oc=5",
-     "title": "VMware vCenter, zero-day CVE-2026-123890 exploited since September by the ARMORY CASTLE group - Meteora Web",
-     "date": "2026-11-20T09:16:22Z"
+     "title": "VMware vCenter, zero-day CVE-2026-123890 exploited since September by the ARMORY CASTLE group",
+     "date": "2026-11-20T09:16:22Z",
+     "primary": false
     },
     {
      "name": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-     "date": "2026-11-20T00:26:25Z"
+     "date": "2026-11-20T00:26:25Z",
+     "primary": false
     },
     {
      "name": "CISA KEV",
@@ -663,15 +369,16 @@
    "title": "VMware vCenter zero-day exploited by spies since September - 2-Spyware",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-20T14:23:40Z",
    "sources": [
     {
-     "name": "Google News (EN)",
+     "name": "2-Spyware",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeE5tRjQ2a002dU1lekJCY2tieTFLYk5Bb3ZoazlPbFNYYkFsa0xUNW5PTW1OTnVvNkp5WWNKbUJoQThQaWt3VlV0ZXMwUmFHdFpuSFYzNVRBWlktX3hBT1VkNGNyUWxIOXR2VUJiNjJZOVZKNG8tcURDZm93LWh3WQ?oc=5",
-     "title": "VMware vCenter zero-day exploited by spies since September - 2-Spyware",
-     "date": "2026-11-20T14:23:40Z"
+     "title": "VMware vCenter zero-day exploited by spies since September",
+     "date": "2026-11-20T14:23:40Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -679,125 +386,21 @@
    "last_update": "2026-11-20T14:23:40Z"
   },
   {
-   "id": "ART-b8f418593f",
-   "cves": [],
-   "title": "New Windows 11 Zero-Day Vulnerability Lets Attackers Bypass Lock Screen and Execute Code - GBHackers News",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T13:54:43Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CMFVUSE5yM2kzLWJTeVZjRmh5NDduTG5xTGZ2STRqMzNDZ3VuQU9kdHd4S1hWc0FjclBabWNyMnpCWjlManNrOXJLWXluWXBmZjBQelllanRKRFRWejJGTE9UazhXbVVHREpiUmtvS2FLQdIBckFVX3lxTE5CMFVUSE5yM2kzLWJTeVZjRmh5NDduTG5xTGZ2STRqMzNDZ3VuQU9kdHd4S1hWc0FjclBabWNyMnpCWjlManNrOXJLWXluWXBmZjBQelllanRKRFRWejJGTE9UazhXbVVHREpiUmtvS2FLQQ?oc=5",
-     "title": "New Windows 11 Zero-Day Vulnerability Lets Attackers Bypass Lock Screen and Execute Code - GBHackers News",
-     "date": "2026-11-20T13:54:43Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T13:54:43Z"
-  },
-  {
-   "id": "ART-53225e227f",
-   "cves": [],
-   "title": "Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits - CyberSecurityNews",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T12:37:14Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LekRlUmdLNU82TUlBWWFYcGN6NzZIWUxBUG03SllicUtZV0VXRlZzeVpXRUJKczBMdE1yTEdXTDhFSXRSNTBxcE9jc1cyaTAyVzJFLU9uUUVhSDNtZ1BfaGttYWRONXZNaFJYOVBqQ2dXTHlvSGlmatIBfkFVX3lxTE5nZDhyanMyWml0SmwyQ2JIWURqNWFKb0swZkVMOWE3RXFENHpSRmlmNHRRZTNYMW5acjNNQkRkTFRaNUVndmRILUZpUHNNVTdITS0tNUxIcmpvNk5oOXViNzdyWjhEdzUzLU1LOFpJTWcyeV9nVWxrSVh5bkI1Zw?oc=5",
-     "title": "Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits - CyberSecurityNews",
-     "date": "2026-11-20T12:37:14Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T12:37:14Z"
-  },
-  {
-   "id": "ART-a5c1f3add4",
-   "cves": [],
-   "title": "Windows 11 FastUnlock Zero-Day Lets Attackers Run Code on Locked PCs - UrduPoint",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T12:31:02Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQc25BWm1JVjBnU2FZWU1WcmtaVC03MnJWQldMMTdPdk1aR3RZUHNwX3Jic3BGNWZhNDBPT2YteUNQTDAxMTRacDlscHNmTk1aXzlDOWtGbmVHOWp6TmdMQkN4WW8tNDRzenhxc2VIb2NiVWZtRVE2emZ4U0picTZaYXduV0ZzVkJ6ZDVPS0JLV0l5Mm1TamoxNVhFay13S1FrME5wYnM3dUlhQUptWVQ5VTRrZ01GdU1RSFZRZ19jZ3pRelYtUXpNNEZmVGlDUVVmS3AzRDdB?oc=5",
-     "title": "Windows 11 FastUnlock Zero-Day Lets Attackers Run Code on Locked PCs - UrduPoint",
-     "date": "2026-11-20T12:31:02Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T12:31:02Z"
-  },
-  {
-   "id": "ART-9f86813c3d",
-   "cves": [],
-   "title": "New Windows Zero-Day FastUnlock Lets Attackers Run Programs Without Login - The 420.in",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T11:53:30Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGxFX0xIQzQ2QjdLWmJ2bnhPWGEwY1BTLUVIVkVaUXc4aXhhamEyaEJGMm9kdFBZZzUwSkVQVTBpYVJhUzE5d3A2YlVMY2tqb0pkZU5CdGlNYmRSWl9oQmVYMWxBbnZ3Z282Uy1TemhHX21wTUtwUnU5Rm5sdllzMGpZWGo?oc=5",
-     "title": "New Windows Zero-Day FastUnlock Lets Attackers Run Programs Without Login - The 420.in",
-     "date": "2026-11-20T11:53:30Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T11:53:30Z"
-  },
-  {
-   "id": "ART-c2bcf2995a",
-   "cves": [],
-   "title": "Windows 11 FastUnlock Zero-Day Exploit Bypasses Lock Screen and BitLocker Protection - Windows Report",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-20T10:19:28Z",
-   "sources": [
-    {
-     "name": "Google News (EN)",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmNXcHdzOG1NWTBwazdJUnlRQlM5MG92U1dwNklfR3B1a0MtdTN0cXoxNWRBQWM1bDVuMERyNUtyV1VUMmpwYy1kZ3VTYVVtRC1iWXpxUnRtam9Ta2kwNHRabVFOejB5dktRaVU5VldCZHJPVm5iRExrT0ZSQ1p2MEZobEVZMFN0dUtHRndCZTRwNTR6RENiOGdnLTI2UVBzR2hnNkM5Z18zZjFxdEVPYQ?oc=5",
-     "title": "Windows 11 FastUnlock Zero-Day Exploit Bypasses Lock Screen and BitLocker Protection - Windows Report",
-     "date": "2026-11-20T10:19:28Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T10:19:28Z"
-  },
-  {
    "id": "ART-fa700a4eb8",
    "cves": [],
    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-20T05:30:01Z",
    "sources": [
     {
      "name": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-     "date": "2026-11-20T05:30:01Z"
+     "date": "2026-11-20T05:30:01Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -820,7 +423,8 @@
      "name": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-     "date": "2026-11-20T00:26:25Z"
+     "date": "2026-11-20T00:26:25Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -849,7 +453,8 @@
      "name": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-     "date": "2026-11-18T17:10:45Z"
+     "date": "2026-11-18T17:10:45Z",
+     "primary": false
     }
    ],
    "kev": {
@@ -928,15 +533,16 @@
    "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-19T18:25:50Z",
    "sources": [
     {
      "name": "Help Net Security",
      "url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
      "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
-     "date": "2026-11-19T18:25:50Z"
+     "date": "2026-11-19T18:25:50Z",
+     "primary": false
     }
    ],
    "kev": null,
@@ -951,41 +557,21 @@
    "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-19T18:25:50Z",
    "sources": [
     {
      "name": "Help Net Security",
      "url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
      "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
-     "date": "2026-11-19T18:25:50Z"
+     "date": "2026-11-19T18:25:50Z",
+     "primary": false
     }
    ],
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-19T18:25:50Z"
-  },
-  {
-   "id": "ART-7008c485fa",
-   "cves": [],
-   "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-   "vendor": "",
-   "product": "",
-   "verdict": "likely",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
-   "first_seen": "2026-11-19T15:11:06Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-     "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-     "date": "2026-11-19T15:11:06Z"
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-19T15:11:06Z"
   },
   {
    "id": "CVE-2024-10441",
@@ -1860,15 +1446,15 @@
  ],
  "analysis_cache": {
   "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
    "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T17:30:00Z"
   },
   "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/": {
@@ -1882,20 +1468,20 @@
    "title": "VMware patches vCenter zero-day exploited in attacks since September",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T00:26:25Z"
   },
   "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
    "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T11:03:17Z"
   },
   "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html": {
@@ -1908,8 +1494,8 @@
    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T09:38:15Z"
   },
   "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html": {
@@ -1920,20 +1506,20 @@
    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T05:30:01Z"
   },
   "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
    "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-19T15:11:06Z"
   },
   "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html": {
@@ -1946,8 +1532,8 @@
    "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-18T17:10:45Z"
   },
   "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": {
@@ -1958,8 +1544,8 @@
    "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T12:08:50Z"
   },
   "https://projectzero.google/2026/11/disclosure-policy.html": {
@@ -1970,8 +1556,8 @@
    "title": "Policy and Disclosure: 2026 Edition",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-13T08:00:00Z"
   },
   "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/": {
@@ -1984,8 +1570,8 @@
    "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T12:30:19Z"
   },
   "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/": {
@@ -1999,8 +1585,8 @@
    "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-19T18:25:50Z"
   },
   "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/": {
@@ -2011,20 +1597,20 @@
    "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T17:30:13Z"
   },
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbGVRdmxYQ01aU2hXZzlmR0tSbGp4M0JMVTVFcWI3ZTc5SUhyYXJrYTc4RW93VmlkTzNVR3pXS2pTa2ZEamxXX0R6VE9NTjBpRlF3X204bm0xcE9UNkV3cElGd2hsVnVzdG1Wa0FGeTctZlRTeEhpN0pLdkN3TjdfcXNDOTlxaUplVFYyWWJNRkQ2SHpreTFCbjJoZFVpekhJVjkxMmRQeE11a205QWc?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "MONAI Label Zero-Day: AI Agents Exploit Medical Imaging Research Servers - Cloud Security Alliance (CSA)",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "MONAI Label Zero-Day: AI Agents Exploit Medical Imaging Research Servers",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-22T02:23:51Z"
   },
   "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS0RzYnRJVzA5MjhlSWJfODFMNDRMdDl3Zk81UkxlbklPbE8tQ2xMYWdzSElBdlF6eTJaeWRSdm9aa3JkYU5xbUZIUjUtc3VxZzlYUXhCOWplcHBDb1AzcEMzWXd1eTdndHdIVWlrUnVSMExWQnZaakd4Y3JYRkFZeE9POGNKTE5tRlhwTTJnWUs4QVBjM1l6OFpaYmVqNVZWa0ZIUU5R?oc=5": {
@@ -2032,23 +1618,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day - SecurityWeek",
+   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T12:08:50Z"
   },
   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVFZmbjVDQTBnN181azlaZXV4R0VMVkxuT0xtN0FnQ3JINzRpTEJwZ2N1TUlvMmVXb3NsVzJrMnJJYm82eEozZmRpYU9tQ1Y2VzJCRVVHUXNHZFN0cFpnTFkwWXJ4WTVyQzVueGNjQ28yN3ZOU0FrRUJFUWZjcVZUdlRR?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access - The Hacker News",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T11:03:00Z"
   },
   "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5": {
@@ -2058,11 +1644,11 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now - Rescana",
+   "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-22T02:00:00Z"
   },
   "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU2FxalZIcWszNGNUOFJQLU9qWjlQVVZfRmR2MW9RY0VlNW5RS09PYXAzYlRvNUNfSFhOMUlMZzRRQ1ZHTjVlRmJ4eGdrbjN3dUxGSTVaNTdCWFB3X2taSE5xRTZRdTJfXy1hQkszbzdVbDhLYUNZRTZwdXNDcUR6SGNZd2o5MnB3ZFRrT1BOVnNIYVVteEpuOTJKYUpPbzRtNmhRTtIBqgFBVV95cUxPT1VkdmVCQ0dmTTFsaUpvc2Z6STFwRDRRci1QeWlVbWFONnQwWGpaOVJZMlRCc1Y5c0ZYcTlqb0lNSkxSTHlsdW01WTZ6QWlTOVRlNTU0VUZPWmRaVldkLUthU041dDBrUVJwTlFsdlJRYmpNLWVTVUtIZUFVbDFueFdCeHpVV0NFVFlLQXlZejh0bzVpMFlEUkE5ZlBfd2FtT2pZNXZxSjJzdw?oc=5": {
@@ -2070,11 +1656,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation - Security Affairs",
+   "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T17:43:04Z"
   },
   "https://news.google.com/rss/articles/CBMimAFBVV95cUxNME1FQXZQTWFzLU1oWGpIWWxqT2RTTnFTbTVHM2pIbElWOVo3MnQ1aUZCQW8zUGk4cWw1U1ZlNEVpRk1yTlFOWjZiTGtWSF9ybjMxN3NuemQwT0pwYU1yLXFUWXp0STEwUVRuaEpLWE5iSmtzRkQ5dTVyUjhYZjZJR3J1bk9FeUNyeUF6UGdhMGdHeUFWdDJrMg?oc=5": {
@@ -2084,11 +1670,11 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890) - Help Net Security",
+   "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T12:30:19Z"
   },
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2tWQWpaaGVqaTlPd2J0ZUtHTUxyX1pBOFpHRTJPeGFBZU16TWRVazRsamdtemY0VUZscERmU1ZUbVZCbjVxa3B1eHB5ellXVWpCb1ZMVU1rWlc3dGZIb3gxczRvaVRGRk9uSE5XQjJuaUQtcDM4WFZSZmVLdGRoM2JoaHFlaGNoUFViOEoxZ3N4YUtySG9tMVJUNUstZ00?oc=5": {
@@ -2096,11 +1682,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day - Dark Reading",
+   "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T21:17:53Z"
   },
   "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjQ5c0hsZDBTcWxGNUVxN0phZDdwRGhzTk1nWWEzZTdOSVpVT2h2WlI3OUVfeVZVMWt4eTFTQXFGZ1hoM1dMS2puekZ1YVYzSWV0aHMtYkVkNUpKdEJtaHlTRE9NRE5YZHRWbDk2YVZPVmdrOXN6cmJGbnFlcWxGODhZTVdaRGJ0aF9icTYwamtYakRaTFY0bGo4dHJMY21mRFFGTjNxYWkzN1J2d2tFX1g4Wk5US25oU0ZKTHoxSlU1dW9qODFRNEYyRTlaQm1aWmhIU05rMzJ4bmN5X1E?oc=5": {
@@ -2108,11 +1694,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - Ven",
+   "title": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T00:51:01Z"
   },
   "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMzE1c2pOdHRZM2llNzI1UnJtUHVlMmZFQ1FwWXF0bFVud1BVbUpMTmdQVS1tMGlsZVlMeEYxMUQ1WGVtTmgweTJVRlY4RmI0VWltTmVoUXQzSlZDNnJVTGFHem94Wi1lcVQ5TDIzRXBnMERjSUp3NlRMb2xCOXRLOGliVnY0b1JDTTlxeWhnMkVoUWNORV8w?oc=5": {
@@ -2120,11 +1706,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "AI agents find a MONAI Label zero-day on their own and hack a server - Pasquale Pillitteri",
+   "title": "AI agents find a MONAI Label zero-day on their own and hack a server",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-22T07:34:51Z"
   },
   "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2pBT0JDZWRGLXdRLWgwSVJuVXRNS19JclhhZDVjNzA0MFUtNFJ0NURjZ1YyS1pCSlM4RElZdFMzQnN0UG16cDZOeWtYVHU3MVB6cThZQ0RXTlEzdnRtOFcyRHFyV1pnWWJqOHpVU2RXY1NtRlR4aE9PTHEzWnhzLWY1aHVob0NpWURsb19JekdRME81aVV0bU1oM2dqWHo4dlNCS2NYU3FHZVVDN3lDN1VYUGtKbjlfdFp6TVA3YlZMMTVqU3hoSm9YR2p6RV9JcHV3WQ?oc=5": {
@@ -2132,23 +1718,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password) - Medium",
+   "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password)",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T16:33:53Z"
   },
   "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjhZNzFVX0VqWkxza0hMWlFLOWNIM3F3YTNid2Z2Ym9pT1kyODFhUXlBTDJXby1vUzlvMFBuNXI5bk54eUVyOWJHd2hyWWM5ejM2U0o3ZjVIakZULUhRVjJtNDczVHIyRUVDdzJYV1ZXWERlTFE1NVFMTVNXbTZYT2NteXRhY09sZG1VVkNB?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university - The Record fr",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T17:43:16Z"
   },
   "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQk5YNHNjY29BZEEzTFFFbnNrd2JhMkprU1JSTlRDcWpmLTdwdFZvOElvc1lMS0F0X2FNUERKaFFka0M0UEZGeGZXblJ1UlotamZMaXFNTXhaQ1RBWUZ2ZVIzTUJNTWxucE1GeFRaek0ybXVKa1dRV0ZVWkk0SDlhLXVEWFR4NFdKTWZjUG9VQ19XYnZERjZQdHhMY0puc3FjdGZqVTVQRDg0RzdYQ1owT1NvZGlQdzF0NThfeFcyaEozNWJVVF9BNVJhWTBfUkhmbWFIRl9aLUQ0TWNIdGxhaTBZMzhFbzlXNm42eVo0SGF1R3dicEl1U3h0M3Bwdw?oc=5": {
@@ -2156,11 +1742,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server - The ",
+   "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T17:30:00Z"
   },
   "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSy1NMGx5Sk1ZWnlTQjBZTmZQU05CSzhySmFDVGtPTV8xN1lrQmZXTDQ3TmNoNy1JUDRHTHlub3dwTzhvdDQyTGo0WTBTX0hmU2dMY25fLTl2Zy1nTnAwaE5tRlAtTTlELWs3anZuR0tiWWNQbV9VOVNFQ3dBWEpKSHpqd2tURnItN2h2eFB2UQ?oc=5": {
@@ -2168,11 +1754,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September - LinkedIn",
+   "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T13:00:04Z"
   },
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2s0UUhIZ1lGWC1pSWpqVXl1N0VuSmluX0QteGNIREd6Q2NmQUxiQ1JwNk42UzZNZmpSMjJfWERSdm1aS052X1RfZjl2OG1CRmc3ZVN4ZFI1djFDYlRYWXZ4Zy1WVW8yN3lsRXJfbDJSbk4zaHdMVGdSZGtocS1EVHpzOHgyWWphcUdDeEpLZlZiWXdFSjFYU3ZsYW9zVkh2bEtnaXNhQkEwNWVIaWc?oc=5": {
@@ -2182,11 +1768,11 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "CVE-2026-123890: Critical VMware vCenter Zero-Day Exploited by China-Linked Hackers - SOC Prime",
+   "title": "CVE-2026-123890: Critical VMware vCenter Zero-Day Exploited by China-Linked Hackers",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T14:14:50Z"
   },
   "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HdVJPcDByTjJyeHdobV9jRmJIaUVCXy1xdDJEMnJrZkxoS3ZWUVNVLS1YUTZseXVhSUVBUk1DTjI0amdpS3BVZTkxS09FSVc3QjRBQTBzSFZuel9Bel9tRUpKamg0OEdNNlE?oc=5": {
@@ -2194,11 +1780,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter authentication bypass zero-day fixed - Field Effect",
+   "title": "VMware vCenter authentication bypass zero-day fixed",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T19:55:30Z"
   },
   "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGc5dDVkQlhCdVRJcjZyYU5nc1REb2xRNXhpSjYzel9DWkZaR0M2WXdDSnl6b0NRYV9nc2N0T3NBQVN5MUQ5TDZBTW9OU0l0ZWxqemxNNHNvcEJRMHgxS3pidDY0VzUxMEFqX0Jza2JQWVQ4bDJUNW5JanZpN3hQYXo2SFVhTjhyem5CN20weWJqd0VmOUFv?oc=5": {
@@ -2218,11 +1804,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon Reports Autonomous AI Agents Exploited MONAI Label Zero-Day on University Server - CASRAI",
+   "title": "Amazon Reports Autonomous AI Agents Exploited MONAI Label Zero-Day on University Server",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T06:12:30Z"
   },
   "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZGVzUFN6Uk45UC1rS1JqSUc0b2tyLWhHSXR2a2hKX08xWlZjcW9veHpJM2FRQUVuM1JRSk5LSEpZSkpBa2RkVklXTHBvclFHN09oa3dYMjBDeU9ScTRWelNYeW1fdk1iVDFFaVcxSVp1ZDNtOER5aDdnblhYelZMeWxzZjVIYkFYU2haQU1kVVhTV1l6dFdaeG0zMkI3MElBZURWNFkwUXFJeW4yVTBDYm9TQUFwNWQzM1E?oc=5": {
@@ -2230,11 +1816,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server - BleepingComputer",
+   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T17:30:00Z"
   },
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5": {
@@ -2244,11 +1830,11 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now - Rescana",
+   "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-22T05:36:31Z"
   },
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxNelFhS1NIZVdFNDdPUWlhaThNR3Nyd3RwS05UVFRGNnJHNUNMRE9YUU1aamV1eVhkQWpYcHZuTmZQUlgyTmhJeUtlNkViWnNKWkpQeDhaYVEyR3lpY0VIN1NNeDlxMnc4V2VxY2JnMGVOWkVlNTZxZjRIU0JzdUVyR2ZqSk9ocktJQVMtaGxheWtqREhxTXpkQzM3MUI?oc=5": {
@@ -2256,11 +1842,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "New FastUnlock zero-day vulnerability affects Windows lock screens - SC Media",
+   "title": "New FastUnlock zero-day vulnerability affects Windows lock screens",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T14:32:03Z"
   },
   "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQzkxR2tfQmFBUDYyaE4tWnRtXzYtaUl5akZDY2dtR1pndHBlOVNPM0tnN2lBYnVwQm9YdEd2amlteV9fMlNVenA4bl9fSGNZOUtlN3ZPTEQ4TEVYU0g0YlVCWXhpck9fRFoyeDdaNHdKa0NWU2lZTkZocWZQMWJUVFIycDZjN2MzQ19BRjlsUXQ3QVozbHdKTGZJX1ZsMklveG16Tnk0YlRlS3pwNlBpUHZRdTlNSTQ2YTNicGpVY2tRR0xuMjFLcTRSTnJvRUxiblBNc2NZb1REUVA3dUthQlBRa05TVkk?oc=5": {
@@ -2268,11 +1854,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter: Critical Zero-Day Vulnerability Actively - igor´sLAB",
+   "title": "VMware vCenter: Critical Zero-Day Vulnerability Actively",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T05:00:00Z"
   },
   "https://news.google.com/rss/articles/CBMibkFVX3lxTE83Y3VXMmh2UkJfLWItSmcxMkNUMW5ZVjJqd01sMzBmUkZadFRtR1VDSVJ3OUFrRENHc2U4YldScEdVVXJCSmI0NXZuNEx1QkhldU5hanlVSmZVNUV6eV9oRGtqM3RWWWtqNWVLWWV3?oc=5": {
@@ -2280,11 +1866,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon: Cairn AI Agents Found MONAI Label Zero-Day - Hacked.com",
+   "title": "Amazon: Cairn AI Agents Found MONAI Label Zero-Day",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T09:08:38Z"
   },
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxOanNnZkpCTXFJRmlZZE1RUDlEUUl5Y3JkX1VWeXVudXhhUlpKcXh2VVNkVHM1Z2dvc28tX0FodjRWSGFzN3kzaDlOQ0J1MTRPUUg0X0VLZGdKX1BKNWE2YlZmRUdxQjhibEktWm1PMTJzSWhNRUkwTnIxLTdadk9QQzRkZw?oc=5": {
@@ -2292,11 +1878,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Cairn AI Agents Find a Zero-Day in MONAI Label - Meteora Web",
+   "title": "Cairn AI Agents Find a Zero-Day in MONAI Label",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T18:26:27Z"
   },
   "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4OVFyZmJubDRoQUpHV0Rfbm93ZFN0cVB6V25QdUdoYU1DMHRhS29sdDRyZURXS2JfdzhiZVlRMnE3NllLYTJ1bTk0ME4tOEV3VWxfV1VyQXN3T3lVa1ZFcjN0bF9xQ2FIRkVKaXg3eV82aUZ1cFlv?oc=5": {
@@ -2306,11 +1892,11 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "CVE-2026-123890: vCenter Zero-Day Exploited by Armory Castle - SOCRadar",
+   "title": "CVE-2026-123890: vCenter Zero-Day Exploited by Armory Castle",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T14:36:37Z"
   },
   "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwWk5sU2FMOUFfamRqVldmVlBIM3hCdjluc1BXWHEwZUJLT2diblVOZFdnMlB5dl9pUGhrX21Hd25oSTFHaWZWdnBrNF9oUGZtMnh3b2lCRjdCM09vYmV6UGkzeVJNTm9fcXFfNlpXRWl6dDZfb1E?oc=5": {
@@ -2318,11 +1904,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon Exposes AI Agents That Found a Zero-Day and Broke Into University Systems - BigGo Finance",
+   "title": "Amazon Exposes AI Agents That Found a Zero-Day and Broke Into University Systems",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T00:25:00Z"
   },
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMHFJdEtnQnMyelJ0d2JXS2oxM0cxQXBEcDVqMGl3NjdJYjR4YXJsVzFRU1ZQMndHY2RFZzBpaklybm5HazdHcE16bmhiVFl1bWZPeHlXcFJVODBIWlk2V0F4TGpVNmxFYXgzQ1RGdnRaYzd5WkRubWI4TE1TbGRJQndKeWZKR0JpOEh2VHFrWjdhRlExeDVtY0tzSVE?oc=5": {
@@ -2332,35 +1918,35 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter, zero-day CVE-2026-123890 exploited since September by the ARMORY CASTLE group - Meteora Web",
+   "title": "VMware vCenter, zero-day CVE-2026-123890 exploited since September by the ARMORY CASTLE group",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T09:16:22Z"
   },
   "https://news.google.com/rss/articles/CBMickFVX3lxTE5CMFVUSE5yM2kzLWJTeVZjRmh5NDduTG5xTGZ2STRqMzNDZ3VuQU9kdHd4S1hWc0FjclBabWNyMnpCWjlManNrOXJLWXluWXBmZjBQelllanRKRFRWejJGTE9UazhXbVVHREpiUmtvS2FLQdIBckFVX3lxTE5CMFVUSE5yM2kzLWJTeVZjRmh5NDduTG5xTGZ2STRqMzNDZ3VuQU9kdHd4S1hWc0FjclBabWNyMnpCWjlManNrOXJLWXluWXBmZjBQelllanRKRFRWejJGTE9UazhXbVVHREpiUmtvS2FLQQ?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "New Windows 11 Zero-Day Vulnerability Lets Attackers Bypass Lock Screen and Execute Code - GBHackers News",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "New Windows 11 Zero-Day Vulnerability Lets Attackers Bypass Lock Screen and Execute Code",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T13:54:43Z"
   },
   "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zT0pDQWplbHp0Y1Rnc1dVMlk3TTBiYVhZSVRrakNEcUtzbEFLZnlNSDBBcktUM3VTX0FBU0FXWVFuWjFfaUg1bTNtaXNWY1ZnZTZUT1pFMA?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Chinese Hackers Use Cairn AI Agents to Exploit Zero-Day Vulnerability in East Asian Universities - OECD AI Policy Observ",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Chinese Hackers Use Cairn AI Agents to Exploit Zero-Day Vulnerability in East Asian Universities",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T08:13:04Z"
   },
   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPblgwd1BUUGlHOVJsaTFlREJwUFNOT1NJS2ItRTh5ZzYwNWlTZTluVlhOLWwtdFViTUdUNnlRNnVSRXhEdXd1RFliNmNCMEQ4S05zSW1yU0daOHpCUi1TOEloMTVua1JkbzBjWXowTlJCcWdyTGkweDNIdm1kYXZZMXctRmtxOE9DNFNheUVWUnhpNnFHdFBRRw?oc=5": {
@@ -2370,11 +1956,11 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter zero-day CVE-2026-123890 exploited since September, patch now - Pasquale Pillitteri",
+   "title": "VMware vCenter zero-day CVE-2026-123890 exploited since September, patch now",
    "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T16:57:05Z"
   },
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWnRQMlM1QUExX21WbFZHM29heV81WUJHX0pqMkNHOW5rWG1QV01kNjFjRmlXSy1ZbVE1emNHVVc5SEUzQTdWbUo5Zm5qa2wxYXNlSnNYNlEyZUtRQUk1Njc3c21Va2d6dWt0dVhtNFFINDZNc1Z5c2wzLVRVUFB3WjIybUczeEZMcnlLWVRLams0bFU4VEl3LThyMXZYdjg?oc=5": {
@@ -2382,59 +1968,59 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Cairn Agents MONAI Zero-Day: 11 Min to Root (AWS) - explainx.ai",
+   "title": "Cairn Agents MONAI Zero-Day: 11 Min to Root (AWS)",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T00:00:00Z"
   },
   "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFVaZG5oakdRRzVCc25aY09ONUR4dERGNVVQVEFsMlY5dU1EcGlFbnU5eS1HcDZFU0Y1TXdsTXZkUFFZR0l6SkQtWUxHSk5BaUtuMEdseU1ZRjJEQ3FFcGQzR3BxSEduV3FaekxiNGVxZlJjbFVqRFBCRV9yaHcxQ19sVWVhNUFpVXNaWVAwdDBDYXZ2NHp0MUduUkxaR3ZhQlllb1EzdTVtcWZQSkoxWg?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Hackers use AI tool Cairn for zero-day exploit, server takeover - TechGig",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Hackers use AI tool Cairn for zero-day exploit, server takeover",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T01:37:28Z"
   },
   "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOR1E2YU50WkxoNzA0TEFqR0E0VnlSRkxlRmpraktnNGpMZHZoTkVEQi1adGh4a1ZISWJYSHZmWWZ0eG5EbUdaV3lXYkh2TmhaZ2tPMkoyb2VpVzlZSW5OY1p1Ny0zZ1lBM3RqZjZ2bWdfZWVhc1c2WW1ORzBMOWJVaTAyazgwdGhJR0lHVnZqSlBVSTJnUGJrMmQ1cmJrbEZCMjNucFpoNDh6VWl1dHhmb2YwSkc2ZFp4dm1oOUVNZTY3OTlmTjNqSk5vaHMwTHNxWHN2RHg2aw?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon says China-linked hackers used the open-source AI tool Cairn to find an apparent zero-day in a university attack ",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Amazon says China-linked hackers used the open-source AI tool Cairn to find an apparent zero-day in a university attack",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T18:53:47Z"
   },
   "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16SlJJN3I2d3Q3MWdUWEY4bFl5T3RadEoyUVVPYi1kb2tyX09OV3hEVjNtLXdtSjhMd21Sa3RZSlpGdTZLd2Iwb2w5NFhacnBqcFRLNkFWU3czZzBrTWdObnp3?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "AI Agents Exploit MONAI Label Zero Day to Seize University Server - cwibc.co.id",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "AI Agents Exploit MONAI Label Zero Day to Seize University Server",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T09:23:57Z"
   },
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGxFX0xIQzQ2QjdLWmJ2bnhPWGEwY1BTLUVIVkVaUXc4aXhhamEyaEJGMm9kdFBZZzUwSkVQVTBpYVJhUzE5d3A2YlVMY2tqb0pkZU5CdGlNYmRSWl9oQmVYMWxBbnZ3Z282Uy1TemhHX21wTUtwUnU5Rm5sdllzMGpZWGo?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "New Windows Zero-Day FastUnlock Lets Attackers Run Programs Without Login - The 420.in",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "New Windows Zero-Day FastUnlock Lets Attackers Run Programs Without Login",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T11:53:30Z"
   },
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd0lLLVpxUWJYX3NYaUI1OE9Tcl9adllxZk5pTkRvWUdqRnlwbFFQN1puSW5XUkI5TDNjak8tSE4teUxDbk5udVc4RGoxZHdzZE91S0p6c0t6a3dxR2dlQmgzNGVLN2xPRW1zeHczOEpMYVpjR3Uxa2x3dWVhSFhpNUstNGxVRmlXUmV0ZXNnRFBQdTdxbUc3eUY4TDRta3ZlNmNv?oc=5": {
@@ -2442,23 +2028,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "FastUnlock zero-day bypasses the Windows 11 lock screen with Win+U - Pasquale Pillitteri",
+   "title": "FastUnlock zero-day bypasses the Windows 11 lock screen with Win+U",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T20:06:20Z"
   },
   "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSSFhUNnVsczFNcWNLZy0zNlFrQ0x5MFR3SW11ZHI3cy11dUJaSk1sT0lzTlBYWTRmTF84ZWM5NlZQaWQweTVtanFxNE1uMHl1ME1KN1c0M1NWUDV3TzQydWdQd0xqclE5Z1hJ?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Broadcom Patches VMware vCenter Zero Day After Chinese Attacks - Demokratis.co.id",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Broadcom Patches VMware vCenter Zero Day After Chinese Attacks",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T10:18:36Z"
   },
   "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA3RVdyUmI1TUxubEFGSmF1SUhGSExOSlRaUmh4dXNSNmxXU0U0STdXN1V4LWRkdHE1LW10bGFwbGR0MEIyRHA4S3JB?oc=5": {
@@ -2466,23 +2052,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Windows 11 zero-day vulnerability raises security concerns - Daily Observer",
+   "title": "Windows 11 zero-day vulnerability raises security concerns",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T17:35:25Z"
   },
   "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TS0l3WDI2QXM2QnJaZFhLclRndTlOcFZOc3drbElaWTFrdHhpTVg3LWtnb2lzMkhUcXZncUJtekgwNHg5dE1JMU9IdXVTZG9GeGVHQmpyZVl2MEx3eXctQU1NYzMwbGVJaTBZdQ?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes - Demokratis.co.id",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T09:23:57Z"
   },
   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tQVNKWnB4NXBMYTdCU0QyZkt1aFMwXzV6WjJpcW9YMVRac1ltQm5uTXNhY2JTZlJxTnR0eHBHTjVfNG1rSmZscjgxWE5xNVl1elBlT0pURlNhMUhiZUNDelIzOEE4RzQ?oc=5": {
@@ -2490,11 +2076,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon Finds Zero Day in Autonomous AI Hacking Campaign - Demokratis.co.id",
+   "title": "Amazon Finds Zero Day in Autonomous AI Hacking Campaign",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T10:06:21Z"
   },
   "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0xGSjBRTVh2ejhXX2VuQjBjeDN1OWhTTGw0T0lvRnRUdzRXSFV4ZXc1dWRIdTR2a29SWTI5MENuUDFMUml6Z0dMc1dPd1daWU5VTHI5NHRqQTlyZW1Fa08zM210STgtVGg5b1FjZDVIQ09qMjRsQ0EyaWpWcU1TQXctektackFlQ2VFRU5YaXl4V2R6Y3dz?oc=5": {
@@ -2502,11 +2088,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day - findarticles.com",
+   "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-22T00:26:21Z"
   },
   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZDE1TEtwejFHTlVGMlY1cXkzZWx0N3I1VGhmWUJsd0JEZ193SFVRc3lTSlZXRU51UzJua242S0s5WDc1U24tdHhkME5uMFRKVzd4djV2bmhFRk5XbmRmc2IyRFhUOFMxT1F5cXN0VGJZQ0hlN3I0XzBJbGxYVUlEandqYkJtSGJNajJyU1JXbGRXWXFvVkFzZg?oc=5": {
@@ -2514,11 +2100,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "A new Windows zero-day reportedly gets past BitLocker using only the screen reader and a USB stick - TechSpot",
+   "title": "A new Windows zero-day reportedly gets past BitLocker using only the screen reader and a USB stick",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T15:23:00Z"
   },
   "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeE5tRjQ2a002dU1lekJCY2tieTFLYk5Bb3ZoazlPbFNYYkFsa0xUNW5PTW1OTnVvNkp5WWNKbUJoQThQaWt3VlV0ZXMwUmFHdFpuSFYzNVRBWlktX3hBT1VkNGNyUWxIOXR2VUJiNjJZOVZKNG8tcURDZm93LWh3WQ?oc=5": {
@@ -2526,23 +2112,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter zero-day exploited by spies since September - 2-Spyware",
+   "title": "VMware vCenter zero-day exploited by spies since September",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T14:23:40Z"
   },
   "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LekRlUmdLNU82TUlBWWFYcGN6NzZIWUxBUG03SllicUtZV0VXRlZzeVpXRUJKczBMdE1yTEdXTDhFSXRSNTBxcE9jc1cyaTAyVzJFLU9uUUVhSDNtZ1BfaGttYWRONXZNaFJYOVBqQ2dXTHlvSGlmatIBfkFVX3lxTE5nZDhyanMyWml0SmwyQ2JIWURqNWFKb0swZkVMOWE3RXFENHpSRmlmNHRRZTNYMW5acjNNQkRkTFRaNUVndmRILUZpUHNNVTdITS0tNUxIcmpvNk5oOXViNzdyWjhEdzUzLU1LOFpJTWcyeV9nVWxrSVh5bkI1Zw?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits - CyberSecurityNews",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T12:37:14Z"
   },
   "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10dG9UNWtUU0Rza0d6ZEFRYlZka2g3Vzd5VFlBanlfdnR0TmZUd216UTdyOVhyTUVEZTdWdndvVmNyNHFWdTByNk1QZ1JQQXg1Nk5MYzFPUWdDWW1kbktn0gFfQVVfeXFMTXR0b1Q1a1RTRHNrR3pkQVFiVmRraDdXN3lUWUFqeV92dHROZlR3bXpRN3I5WHJNRURlN1Z2d29WY3I0cVZ1MHI2TVBnUlBBeDU2TkxjMU9RZ0NZbWRuS2c?oc=5": {
@@ -2552,23 +2138,23 @@
    ],
    "vendor": "",
    "product": "",
-   "title": "ARMORY CASTLE Uses a vCenter Zero-Day After CVE-2026-102764 - The Cyber Express",
+   "title": "ARMORY CASTLE Uses a vCenter Zero-Day After CVE-2026-102764",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T08:50:23Z"
   },
   "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmNXcHdzOG1NWTBwazdJUnlRQlM5MG92U1dwNklfR3B1a0MtdTN0cXoxNWRBQWM1bDVuMERyNUtyV1VUMmpwYy1kZ3VTYVVtRC1iWXpxUnRtam9Ta2kwNHRabVFOejB5dktRaVU5VldCZHJPVm5iRExrT0ZSQ1p2MEZobEVZMFN0dUtHRndCZTRwNTR6RENiOGdnLTI2UVBzR2hnNkM5Z18zZjFxdEVPYQ?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Windows 11 FastUnlock Zero-Day Exploit Bypasses Lock Screen and BitLocker Protection - Windows Report",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Windows 11 FastUnlock Zero-Day Exploit Bypasses Lock Screen and BitLocker Protection",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T10:19:28Z"
   },
   "https://news.google.com/rss/articles/CBMidkFVX3lxTE41NTYwc0dCcEp0bWk3X2stTGs1ci16MTBNQzBIV2VqOWtDbzlHUmw5MjBoMUl4RThzTVJFSTZhdF9Ed2dHMV9pTUdVY1hISzFuM3BPZm5zS0pQVWRZeDJKWk5XUHFrNkkzQ0NtakxnWHd1clpHenc?oc=5": {
@@ -2576,11 +2162,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Hackers Used Cairn AI Agents to Find a Zero-Day and Take Over a Server - ShiftDelete.Net",
+   "title": "Hackers Used Cairn AI Agents to Find a Zero-Day and Take Over a Server",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T18:51:45Z"
   },
   "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTltYmIza3V0d1JMRjUtUTVNdnNyVWpoeXFab25DekNiOWd5T2haQkF6NFhkaF9GbHl0bGp2RnEyakwzbmtHT2dnTHNDZ3N6WHV3aDhqQnJaTHplM3pqR3AyZGhfdTNXNXNpUDEtbm11Nm1Ma3h4LXlyc0J5MjFMWmdRODZDUmxZWHZQNW1uMlhNYjBkZWZnWVVTdnpKV0dzb2R1N2tyR21iVmxPeUFDWUIxTFo0SnBoRGNPaTQ1RkZVTmF2ZTJ4dVBLbnk?oc=5": {
@@ -2588,23 +2174,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Amazon: AI Agents Found a Zero-Day and Took Over a Server - UrduPoint",
+   "title": "Amazon: AI Agents Found a Zero-Day and Took Over a Server",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T10:05:01Z"
   },
   "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xNGprTEtqNWU0dmpjODU3cnhNNEJFaFZBU3pIYmVTSWVSUW5iazdncjBFcW1zSWotOG9WanFidnR5TnJBSFR5S1V0UktwS0diOXdZVThTN19kYnR0Zl9GdWpFSkJlQTAwVFNlLQ?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "MONAI Label Zero-day: The Cairn attack and protection measures - SecNews.gr",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "MONAI Label Zero-day: The Cairn attack and protection measures",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T20:08:11Z"
   },
   "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84cldONUh1N3N5Rm1aajNKVXk0MG9TMFdwakNwNGpkd3d5ai1hejJIMVpzYzZPZ1ZPcUlhNUM3eFhuem5wMHQ1UVdoWEQ5Ykl0ZGlvX1R3WW1TSkJJZUhrSUpseFEzUQ?oc=5": {
@@ -2612,35 +2198,35 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Broadcom Patches VMware Zero Day Exploited by Chinese Hackers - SuaraGarut.ID",
+   "title": "Broadcom Patches VMware Zero Day Exploited by Chinese Hackers",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T09:20:30Z"
   },
   "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wSG1uZW9CN3oxNmNNSmlycHVpYmhFUG1mekRsMFhJOTdudTNySmY2TU1BUlpiQ18zaUtoMHFhX1pManZwQzRrNE5jcTVjdUYyaVl3RkNoaGRFaE5WOV9ROFV3cTNfWlR2?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes - SuaraGarut.ID",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "AI Agents Exploit MONAI Label Zero Day in 11 Minutes",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T09:24:04Z"
   },
   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQc25BWm1JVjBnU2FZWU1WcmtaVC03MnJWQldMMTdPdk1aR3RZUHNwX3Jic3BGNWZhNDBPT2YteUNQTDAxMTRacDlscHNmTk1aXzlDOWtGbmVHOWp6TmdMQkN4WW8tNDRzenhxc2VIb2NiVWZtRVE2emZ4U0picTZaYXduV0ZzVkJ6ZDVPS0JLV0l5Mm1TamoxNVhFay13S1FrME5wYnM3dUlhQUptWVQ5VTRrZ01GdU1RSFZRZ19jZ3pRelYtUXpNNEZmVGlDUVVmS3AzRDdB?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "Windows 11 FastUnlock Zero-Day Lets Attackers Run Code on Locked PCs - UrduPoint",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "Windows 11 FastUnlock Zero-Day Lets Attackers Run Code on Locked PCs",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T12:31:02Z"
   },
   "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMNFE3Zkg0SlRQVklOSkxNdmhueUFhSnBvNHBXUTJXSXBVQUppeUk1b1pjR1JST1BJQVFaN25GTWlIQWJqVzJtWVN1UU9tX2hTS3dkOGhHUC1yamd2N3Bzb2xfaUMxZENKTVh0bkNQeWxjak5GRkxZ?oc=5": {
@@ -2648,23 +2234,23 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "FastUnlock: Zero-Day in Windows bypasses the lock screen - SecNews.gr",
+   "title": "FastUnlock: Zero-Day in Windows bypasses the lock screen",
    "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-20T09:22:00Z"
   },
   "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNXhaaXdILUF4cWlzWC0xQmxKZzF4eXNzVnVqZTh2WXFCb2luLVNkYkNTa0ppWHRFTVdsaFk5Ull2d2FXR1BuMUpUb2MwSVh3TXd6UHE0emhraDVtdUtFTlFqSFhRUG92YUQ2ME40djA5MVFlZWZyTW5PQVMwNTZlZnJmcFF2bGlIYWRYWnJ0Tk5wLVZwZlhBY09naU9hbjhIMU5zNzFMcnFGQTBKOUV6V01Ld2ZDWEU?oc=5": {
-   "verdict": "likely",
+   "verdict": "rejected",
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "AI Agents Zero-Day: Attackers’ Bots Found a Flaw Alone, and Failed Most of the Time - All Result Net",
-   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "title": "AI Agents Zero-Day: Attackers’ Bots Found a Flaw Alone, and Failed Most of the Time",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 3,
+   "analyzed_at": "2026-11-22T08:35:34Z",
    "date": "2026-11-21T11:47:00Z"
   }
  }
