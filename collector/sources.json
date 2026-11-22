@@ -1,0 +1,10 @@
+{
+  "kev_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "feeds": [
+    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "primary": false},
+    {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "primary": false},
+    {"name": "SecurityWeek", "url": "https://feeds.feedburner.com/securityweek", "primary": false},
+    {"name": "Google Project Zero", "url": "https://googleprojectzero.blogspot.com/feeds/posts/default", "primary": true},
+    {"name": "Microsoft MSRC", "url": "https://msrc.microsoft.com/blog/feed", "primary": true}
+  ]
+}

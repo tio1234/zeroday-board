@@ -1,0 +1,19 @@
+{
+ "kev_url": "file:///home/claude/zeroday-board/tests/kev.json",
+ "feeds": [
+  {
+   "name": "TestNews",
+   "url": "file:///home/claude/zeroday-board/tests/feed.xml",
+   "primary": false
+  },
+  {
+   "name": "TestAtom",
+   "url": "file:///home/claude/zeroday-board/tests/atom.xml",
+   "primary": true
+  },
+  {
+   "name": "Broken",
+   "url": "file:///nonexistent.xml"
+  }
+ ]
+}

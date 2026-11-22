@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zero-Day Board</title>
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e;
+        --red:#f85149;--red-bg:#3d1214;--amber:#d29922;--amber-bg:#3a2a0a;--green:#3fb950;--blue:#58a6ff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+  header{border-bottom:1px solid var(--line);padding:18px 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  h1{margin:0;font-size:20px;font-weight:600;display:flex;align-items:center;gap:10px}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(63,185,80,.6);animation:p 2s infinite}
+  .dot.stale{background:var(--amber);animation:none}
+  @keyframes p{70%{box-shadow:0 0 0 8px rgba(63,185,80,0)}100%{box-shadow:0 0 0 0 rgba(63,185,80,0)}}
+  .meta{color:var(--muted);font-size:13px}
+  main{max-width:1100px;margin:0 auto;padding:20px 24px 60px}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .stat b{display:block;font-size:24px}
+  .stat span{color:var(--muted);font-size:12px}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+  input,select{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font:inherit}
+  input{flex:1;min-width:220px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:12px}
+  .card.new{border-left:3px solid var(--red)}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .badge{font-size:12px;padding:2px 8px;border-radius:20px;font-weight:600}
+  .confirmed{background:var(--red-bg);color:var(--red)}
+  .likely{background:var(--amber-bg);color:var(--amber)}
+  .tag{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:1px 8px}
+  .tag.hot{color:#fff;background:var(--red);border-color:var(--red)}
+  .cve{font-family:ui-monospace,Consolas,monospace;font-size:13px;color:var(--blue)}
+  h2{font-size:16px;margin:8px 0 4px;font-weight:600}
+  .desc{color:#c9d1d9;font-size:14px;margin:4px 0}
+  .reason{color:var(--muted);font-size:13px;margin:6px 0}
+  .srcs{margin-top:8px;font-size:13px}
+  .srcs a{color:var(--blue);text-decoration:none;margin-right:14px}
+  .srcs a:hover{text-decoration:underline}
+  .kev{font-size:13px;color:var(--muted);margin-top:6px}
+  .empty{color:var(--muted);text-align:center;padding:50px}
+  .err{background:var(--red-bg);color:var(--red);padding:10px 14px;border-radius:8px;margin-bottom:12px;display:none}
+  @media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="dot" id="dot"></span>Zero-Day Board</h1>
+  <div class="meta" id="meta">Memuat…</div>
+</header>
+<main>
+  <div class="err" id="err"></div>
+  <div class="stats">
+    <div class="stat"><b id="s-total">–</b><span>Total 30 hari</span></div>
+    <div class="stat"><b id="s-conf" style="color:var(--red)">–</b><span>Confirmed</span></div>
+    <div class="stat"><b id="s-likely" style="color:var(--amber)">–</b><span>Likely</span></div>
+    <div class="stat"><b id="s-24">–</b><span>Baru 24 jam</span></div>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Cari CVE, vendor, produk…">
+    <select id="fv"><option value="">Semua status</option><option value="confirmed">Confirmed</option><option value="likely">Likely</option></select>
+    <select id="fd"><option value="30">30 hari</option><option value="7">7 hari</option><option value="1">24 jam</option></select>
+    <select id="fvendor"><option value="">Semua vendor</option></select>
+  </div>
+  <div id="list"></div>
+</main>
+<script>
+const REFRESH_MS = 2 * 60 * 1000;
+let DATA = null;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+
+function ago(iso){
+  const s = (Date.now() - new Date(iso)) / 1000;
+  if (isNaN(s)) return "";
+  if (s < 3600) return Math.max(1, Math.round(s/60)) + " menit lalu";
+  if (s < 86400) return Math.round(s/3600) + " jam lalu";
+  return Math.round(s/86400) + " hari lalu";
+}
+function fmt(iso){
+  return new Date(iso).toLocaleString("id-ID",{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});
+}
+
+async function load(){
+  try{
+    const r = await fetch("data.json?t=" + Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    DATA = await r.json();
+    $("err").style.display = "none";
+    fillVendors();
+    render();
+  }catch(e){
+    $("err").textContent = "Gagal memuat data: " + e.message + ". Mencoba lagi otomatis.";
+    $("err").style.display = "block";
+  }
+}
+
+function fillVendors(){
+  const sel = $("fvendor"), cur = sel.value;
+  const vendors = [...new Set(DATA.items.map(i => i.vendor).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  sel.innerHTML = '<option value="">Semua vendor</option>' + vendors.map(v => `<option${v===cur?" selected":""}>${esc(v)}</option>`).join("");
+}
+
+function render(){
+  if(!DATA) return;
+  const gen = new Date(DATA.generated_at);
+  const stale = Date.now() - gen > 60*60*1000;
+  $("dot").classList.toggle("stale", stale);
+  $("meta").textContent = `Update data: ${ago(DATA.generated_at)} · analisis: ${DATA.analysis_mode === "ai" ? "AI" : "kata kunci"}` +
+    (DATA.kev_status !== "ok" ? " · KEV gagal diambil" : "") + (stale ? " · data belum diperbarui >1 jam" : "");
+
+  const q = $("q").value.trim().toLowerCase(), fv = $("fv").value, fvn = $("fvendor").value;
+  const days = +$("fd").value, cutoff = Date.now() - days*86400000, day = Date.now() - 86400000;
+  const items = DATA.items.filter(i =>
+    (!fv || i.verdict === fv) && (!fvn || i.vendor === fvn) &&
+    new Date(i.last_update) >= cutoff &&
+    (!q || [i.id, i.title, i.vendor, i.product, i.description, ...(i.cves||[])].join(" ").toLowerCase().includes(q)));
+
+  $("s-total").textContent = DATA.items.length;
+  $("s-conf").textContent = DATA.items.filter(i=>i.verdict==="confirmed").length;
+  $("s-likely").textContent = DATA.items.filter(i=>i.verdict==="likely").length;
+  $("s-24").textContent = DATA.items.filter(i=>new Date(i.first_seen) >= day).length;
+
+  if(!items.length){ $("list").innerHTML = '<div class="empty">Tidak ada zero-day yang cocok dengan filter.</div>'; return; }
+
+  $("list").innerHTML = items.map(i => {
+    const isNew = new Date(i.first_seen) >= day;
+    const k = i.kev;
+    return `<article class="card${isNew?" new":""}">
+      <div class="row">
+        <span class="badge ${i.verdict}">${i.verdict === "confirmed" ? "CONFIRMED" : "LIKELY"}</span>
+        ${isNew ? '<span class="tag hot">BARU</span>' : ""}
+        ${(i.cves||[]).map(c=>`<a class="cve" href="https://nvd.nist.gov/vuln/detail/${esc(c)}" target="_blank" rel="noopener">${esc(c)}</a>`).join(" ")}
+        ${i.vendor ? `<span class="tag">${esc(i.vendor)}${i.product?" · "+esc(i.product):""}</span>` : ""}
+        ${k && k.ransomware === "Known" ? '<span class="tag" style="color:var(--red)">Dipakai ransomware</span>' : ""}
+        <span class="meta" style="margin-left:auto" title="${esc(fmt(i.first_seen))}">${ago(i.first_seen)}</span>
+      </div>
+      <h2>${esc(i.title || i.id)}</h2>
+      ${i.description ? `<p class="desc">${esc(i.description)}</p>` : ""}
+      <p class="reason">${esc(i.reason)}</p>
+      ${k ? `<div class="kev">Masuk KEV: ${esc(k.date_added)} · Batas patch (FCEB): ${esc(k.due_date)}${k.action?" · "+esc(k.action):""}</div>` : ""}
+      <div class="srcs">${(i.sources||[]).map(s=>`<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`).join("")}</div>
+    </article>`;
+  }).join("");
+}
+
+["q","fv","fd","fvendor"].forEach(id => $(id).addEventListener("input", render));
+load();
+setInterval(load, REFRESH_MS);
+setInterval(render, 60*1000);
+</script>
+</body>
+</html>
