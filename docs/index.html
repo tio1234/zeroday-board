@@ -29,6 +29,7 @@
   .badge{font-size:12px;padding:2px 8px;border-radius:20px;font-weight:600}
   .confirmed{background:var(--red-bg);color:var(--red)}
   .likely{background:var(--amber-bg);color:var(--amber)}
+  .watch{background:#21262d;color:var(--muted)}
   .tag{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:1px 8px}
   .tag.hot{color:#fff;background:var(--red);border-color:var(--red)}
   .cve{font-family:ui-monospace,Consolas,monospace;font-size:13px;color:var(--blue)}
@@ -41,6 +42,12 @@
   .kev{font-size:13px;color:var(--muted);margin-top:6px}
   .empty{color:var(--muted);text-align:center;padding:50px}
   .err{background:var(--red-bg);color:var(--red);padding:10px 14px;border-radius:8px;margin-bottom:12px;display:none}
+  .pager{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center;margin-top:18px}
+  .pager button{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 12px;font:inherit;cursor:pointer;min-width:38px}
+  .pager button:hover:not(:disabled){border-color:var(--blue)}
+  .pager button.cur{background:var(--blue);border-color:var(--blue);color:#0d1117;font-weight:600}
+  .pager button:disabled{opacity:.4;cursor:default}
+  .pager .info{width:100%;text-align:center;color:var(--muted);font-size:13px;margin-bottom:2px}
   @media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
@@ -59,15 +66,17 @@
   </div>
   <div class="controls">
     <input id="q" type="search" placeholder="Cari CVE, vendor, produk…">
-    <select id="fv"><option value="">Semua status</option><option value="confirmed">Confirmed</option><option value="likely">Likely</option></select>
+    <select id="fv"><option value="">Semua status</option><option value="confirmed">Confirmed</option><option value="likely">Likely</option><option value="watch">Perlu dicek</option></select>
     <select id="fd"><option value="30">30 hari</option><option value="7">7 hari</option><option value="1">24 jam</option></select>
     <select id="fvendor"><option value="">Semua vendor</option></select>
+    <select id="fps"><option value="10">10 / halaman</option><option value="20" selected>20 / halaman</option><option value="30">30 / halaman</option><option value="40">40 / halaman</option></select>
   </div>
   <div id="list"></div>
+  <div class="pager" id="pager"></div>
 </main>
 <script>
 const REFRESH_MS = 2 * 60 * 1000;
-let DATA = null;
+let DATA = null, PAGE = 1;
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
@@ -114,23 +123,31 @@ function render(){
   const q = $("q").value.trim().toLowerCase(), fv = $("fv").value, fvn = $("fvendor").value;
   const days = +$("fd").value, cutoff = Date.now() - days*86400000, day = Date.now() - 86400000;
   const items = DATA.items.filter(i =>
-    (!fv || i.verdict === fv) && (!fvn || i.vendor === fvn) &&
+    (fv ? i.verdict === fv : i.verdict !== "watch") && (!fvn || i.vendor === fvn) &&
     new Date(i.last_update) >= cutoff &&
     (!q || [i.id, i.title, i.vendor, i.product, i.description, ...(i.cves||[])].join(" ").toLowerCase().includes(q)));
 
-  $("s-total").textContent = DATA.items.length;
-  $("s-conf").textContent = DATA.items.filter(i=>i.verdict==="confirmed").length;
-  $("s-likely").textContent = DATA.items.filter(i=>i.verdict==="likely").length;
-  $("s-24").textContent = DATA.items.filter(i=>new Date(i.first_seen) >= day).length;
+  const main = DATA.items.filter(i=>i.verdict !== "watch"), nWatch = DATA.items.length - main.length;
+  $("s-total").textContent = main.length;
+  $("s-conf").textContent = main.filter(i=>i.verdict==="confirmed").length;
+  $("s-likely").textContent = main.filter(i=>i.verdict==="likely").length;
+  $("s-24").textContent = main.filter(i=>new Date(i.first_seen) >= day).length;
+  $("fv").options[3].textContent = `Perlu dicek (${nWatch})`;
 
-  if(!items.length){ $("list").innerHTML = '<div class="empty">Tidak ada zero-day yang cocok dengan filter.</div>'; return; }
+  if(!items.length){ $("list").innerHTML = '<div class="empty">Tidak ada zero-day yang cocok dengan filter.</div>'; $("pager").innerHTML = ""; return; }
 
-  $("list").innerHTML = items.map(i => {
+  const size = +$("fps").value, pages = Math.ceil(items.length / size);
+  if (PAGE > pages) PAGE = pages;
+  if (PAGE < 1) PAGE = 1;
+  const pageItems = items.slice((PAGE - 1) * size, PAGE * size);
+  renderPager(items.length, size, pages);
+
+  $("list").innerHTML = pageItems.map(i => {
     const isNew = new Date(i.first_seen) >= day;
     const k = i.kev;
     return `<article class="card${isNew?" new":""}">
       <div class="row">
-        <span class="badge ${i.verdict}">${i.verdict === "confirmed" ? "CONFIRMED" : "LIKELY"}</span>
+        <span class="badge ${i.verdict}">${i.verdict === "confirmed" ? "CONFIRMED" : i.verdict === "likely" ? "LIKELY" : "PERLU DICEK"}</span>
         ${isNew ? '<span class="tag hot">BARU</span>' : ""}
         ${(i.cves||[]).length ? i.cves.map(c=>`<a class="cve" href="https://nvd.nist.gov/vuln/detail/${esc(c)}" target="_blank" rel="noopener">${esc(c)}</a>`).join(" ") : '<span class="tag">Belum ada CVE</span>'}
         ${i.vendor ? `<span class="tag">${esc(i.vendor)}${i.product?" · "+esc(i.product):""}</span>` : ""}
@@ -146,7 +163,41 @@ function render(){
   }).join("");
 }
 
-["q","fv","fd","fvendor"].forEach(id => $(id).addEventListener("input", render));
+function goPage(n){
+  PAGE = n; render();
+  window.scrollTo({top: Math.max(0, $("list").offsetTop - 90), behavior: "smooth"});
+}
+function renderPager(total, size, pages){
+  const box = $("pager"); box.innerHTML = "";
+  const info = document.createElement("div"); info.className = "info";
+  info.textContent = `Menampilkan ${(PAGE-1)*size + 1}–${Math.min(PAGE*size, total)} dari ${total}`;
+  box.appendChild(info);
+  if (pages <= 1) return;
+  const btn = (label, n, opts = {}) => {
+    const b = document.createElement("button");
+    b.textContent = label; b.disabled = !!opts.disabled;
+    if (opts.cur) b.className = "cur";
+    if (!opts.disabled) b.addEventListener("click", () => goPage(n));
+    box.appendChild(b);
+  };
+  btn("‹ Sebelumnya", PAGE - 1, {disabled: PAGE === 1});
+  let last = 0;
+  for (let n = 1; n <= pages; n++) {
+    if (n === 1 || n === pages || Math.abs(n - PAGE) <= 2) {
+      if (last && n - last > 1) { const s = document.createElement("span"); s.textContent = "…"; s.className = "meta"; box.appendChild(s); }
+      btn(String(n), n, {cur: n === PAGE});
+      last = n;
+    }
+  }
+  btn("Berikutnya ›", PAGE + 1, {disabled: PAGE === pages});
+}
+
+try { const ps = localStorage.getItem("zd_ps"); if (ps && ["10","20","30","40"].includes(ps)) $("fps").value = ps; } catch(e){}
+["q","fv","fd","fvendor","fps"].forEach(id => $(id).addEventListener("input", () => {
+  PAGE = 1;
+  if (id === "fps") { try { localStorage.setItem("zd_ps", $("fps").value); } catch(e){} }
+  render();
+}));
 load();
 setInterval(load, REFRESH_MS);
 setInterval(render, 60*1000);
