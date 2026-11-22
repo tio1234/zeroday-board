@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-22T16:13:52Z",
+ "generated_at": "2026-11-22T21:55:10Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 51,
-  "confirmed": 35,
+  "total": 50,
+  "confirmed": 34,
   "likely": 0,
   "watch": 16
  },
@@ -123,6 +123,28 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-21T17:43:04Z"
+  },
+  {
+   "id": "ART-a6ca4b4959",
+   "cves": [],
+   "title": "VMware vCenter, security 0-day exploited since September",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-21T16:56:41Z",
+   "sources": [
+    {
+     "name": "Observatorio Blockchain",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGc5dDVkQlhCdVRJcjZyYU5nc1REb2xRNXhpSjYzel9DWkZaR0M2WXdDSnl6b0NRYV9nc2N0T3NBQVN5MUQ5TDZBTW9OU0l0ZWxqemxNNHNvcEJRMHgxS3pidDY0VzUxMEFqX0Jza2JQWVQ4bDJUNW5JanZpN3hQYXo2SFVhTjhyem5CN20weWJqd0VmOUFv?oc=5",
+     "title": "VMware vCenter, security 0-day exploited since September",
+     "date": "2026-11-21T16:56:41Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-21T16:56:41Z"
   },
   {
    "id": "ART-1f7b07f2be",
@@ -279,28 +301,6 @@
    "last_update": "2026-11-21T00:51:01Z"
   },
   {
-   "id": "ART-178cecd60a",
-   "cves": [],
-   "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server - The ",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-20T17:30:00Z",
-   "sources": [
-    {
-     "name": "The Register",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQk5YNHNjY29BZEEzTFFFbnNrd2JhMkprU1JSTlRDcWpmLTdwdFZvOElvc1lMS0F0X2FNUERKaFFka0M0UEZGeGZXblJ1UlotamZMaXFNTXhaQ1RBWUZ2ZVIzTUJNTWxucE1GeFRaek0ybXVKa1dRV0ZVWkk0SDlhLXVEWFR4NFdKTWZjUG9VQ19XYnZERjZQdHhMY0puc3FjdGZqVTVQRDg0RzdYQ1owT1NvZGlQdzF0NThfeFcyaEozNWJVVF9BNVJhWTBfUkhmbWFIRl9aLUQ0TWNIdGxhaTBZMzhFbzlXNm42eVo0SGF1R3dicEl1U3h0M3Bwdw?oc=5",
-     "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
-     "date": "2026-11-20T17:30:00Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T17:30:00Z"
-  },
-  {
    "id": "CVE-2026-123890",
    "cves": [
     "CVE-2026-123890"
@@ -313,13 +313,6 @@
    "first_seen": "2026-11-20T00:00:00Z",
    "sources": [
     {
-     "name": "Pasquale Pillitteri",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPblgwd1BUUGlHOVJsaTFlREJwUFNOT1NJS2ItRTh5ZzYwNWlTZTluVlhOLWwtdFViTUdUNnlRNnVSRXhEdXd1RFliNmNCMEQ4S05zSW1yU0daOHpCUi1TOEloMTVua1JkbzBjWXowTlJCcWdyTGkweDNIdm1kYXZZMXctRmtxOE9DNFNheUVWUnhpNnFHdFBRRw?oc=5",
-     "title": "VMware vCenter zero-day CVE-2026-123890 exploited since September, patch now",
-     "date": "2026-11-20T16:57:05Z",
-     "primary": false
-    },
-    {
      "name": "Help Net Security",
      "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
      "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
@@ -331,13 +324,6 @@
      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
      "date": "2026-11-20T09:38:15Z",
-     "primary": false
-    },
-    {
-     "name": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-     "title": "VMware patches vCenter zero-day exploited in attacks since September",
-     "date": "2026-11-20T00:26:25Z",
      "primary": false
     },
     {
@@ -355,7 +341,7 @@
    },
    "analysis": "rules",
    "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-   "last_update": "2026-11-20T16:57:05Z"
+   "last_update": "2026-11-20T12:30:19Z"
   },
   {
    "id": "ART-fa700a4eb8",
@@ -378,30 +364,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-20T05:30:01Z"
-  },
-  {
-   "id": "CVE-2026-102764",
-   "cves": [
-    "CVE-2026-102764"
-   ],
-   "title": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-   "vendor": "BeyondTrust",
-   "product": "Remote Support",
-   "verdict": "confirmed",
-   "reason": "Dilaporkan sebagai zero-day dan tercatat di CISA KEV.",
-   "first_seen": "2026-11-20T00:26:25Z",
-   "sources": [
-    {
-     "name": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-     "title": "VMware patches vCenter zero-day exploited in attacks since September",
-     "date": "2026-11-20T00:26:25Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T00:26:25Z"
   },
   {
    "id": "CVE-2026-129448",
@@ -1764,11 +1726,11 @@
    "cves": [],
    "vendor": "",
    "product": "",
-   "title": "VMware vCenter, security 0-day exploited since September - Observatorio Blockchain",
+   "title": "VMware vCenter, security 0-day exploited since September",
    "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
    "method": "rules",
-   "rv": 2,
-   "analyzed_at": "2026-11-22T08:24:51Z",
+   "rv": 4,
+   "analyzed_at": "2026-11-22T21:55:10Z",
    "date": "2026-11-21T16:56:41Z"
   },
   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZE9PTnVnT3pTREcyOG1RQi03eERVMXd4S29UT0JPcHZfUl8wa0R3M2dHX2Z2UWxtNEFyb0VheUpzX25nMDg1b0xzMXZQZnVfVmJia19zaTlvdHAzS09vMXFVa0ZocHRNcV9CbGppZkNhYjBZaV9YcjRkRk5RTlBBU1BNU244R1BEZ0lpczl6Si14Y1BE?oc=5": {
@@ -2260,6 +2222,18 @@
    "rv": 4,
    "analyzed_at": "2026-11-22T16:13:52Z",
    "date": "2026-11-22T09:34:00Z"
+  },
+  "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5YSnFjSlBHSFBpMEF1VjBoSERZYUdDRXlWa3VJakQ1aGxDYmVZVjdIXzdvbGg3MWZMdGRjbHBTREc2Zw?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "AWS says AI agents found a zero-day. Their operator left the receipts online.",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-22T21:55:10Z",
+   "date": "2026-11-22T15:40:48Z"
   }
  }
 }
