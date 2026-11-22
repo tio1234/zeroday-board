@@ -59,7 +59,7 @@ CUES_RE = re.compile(
     r"exploited|exploitation|in the wild|unpatched|no patch|not (?:yet )?patched|no fix|"
     r"dieksploitasi|eksploitasi aktif|sedang dieksploitasi|"
     r"belum (?:ada )?(?:patch|penambal|perbaikan|ditambal)|tanpa (?:patch|penambal)", re.I)
-RULES_VERSION = 3  # naikkan agar artikel lama dianalisis ulang
+RULES_VERSION = 4  # naikkan agar artikel lama dianalisis ulang
 MAX_FETCH = int(os.environ.get("MAX_FETCH", "25"))
 
 
@@ -314,7 +314,11 @@ def main():
         stale = bool(res) and res.get("method") == "rules" and (
             (API_KEY and ai_calls < MAX_AI_CALLS) or res.get("rv") != RULES_VERSION)
         if not res or stale:
-            if not CVE_RE.search(f"{a['title']} {a['summary']}") and fetched < MAX_FETCH:
+            no_cve = not CVE_RE.search(f"{a['title']} {a['summary']}")
+            # Link Google News hanya halaman pengalihan, jadi isi artikelnya tidak diambil
+            if no_cve and not NOISE_RE.search(a["title"]) and not a.get("outlet"):
+                if fetched >= MAX_FETCH:
+                    continue  # tunda ke run berikutnya, jangan di-cache tanpa isi artikel
                 fetched += 1
                 try:
                     a["summary"] = (a["summary"] + " " + fetch_article_text(a["link"]))[:9000]
