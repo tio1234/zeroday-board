@@ -49,14 +49,17 @@ STRONG_RE = re.compile(
     r"(?:was |were |is |are |has been |have been )?(?:exploited|abused|used in attacks)|"
     r"exploited zero[- ]?day|added to (?:cisa'?s )?(?:kev|known exploited)", re.I)
 # Tanda artikel bukan zero-day sungguhan
-NOISE_RE = re.compile(r"\b(?:webinar|podcast|sponsored|deal|discount|review|how to|seminar|panduan)\b", re.I)
+NOISE_RE = re.compile(
+    r"\b(?:webinar|podcast|sponsored|deal|discount|review|how to|seminar|panduan|what is|apa itu|"
+    r"explained|survey|predictions?|best practices|top \d+|year in review|trends?|opinion|"
+    r"guide|tips|checklist|playbook|market|stocks?)\b", re.I)
 ZD_TITLE_RE = re.compile(r"zero[- ]?day|0[- ]?day", re.I)
 # Petunjuk eksploitasi / belum ada patch (Inggris + Indonesia)
 CUES_RE = re.compile(
-    r"exploit|in the wild|attack|intrusion|compromis|unpatched|no patch|not (?:yet )?patched|"
-    r"dieksploitasi|eksploitasi|diserang|serangan|peretas|penyerang|intrusi|"
-    r"belum (?:ada )?(?:patch|penambal|perbaikan|versi|ditambal)|tanpa (?:patch|penambal)", re.I)
-RULES_VERSION = 2  # naikkan agar artikel lama dianalisis ulang
+    r"exploited|exploitation|in the wild|unpatched|no patch|not (?:yet )?patched|no fix|"
+    r"dieksploitasi|eksploitasi aktif|sedang dieksploitasi|"
+    r"belum (?:ada )?(?:patch|penambal|perbaikan|ditambal)|tanpa (?:patch|penambal)", re.I)
+RULES_VERSION = 3  # naikkan agar artikel lama dianalisis ulang
 MAX_FETCH = int(os.environ.get("MAX_FETCH", "25"))
 
 
@@ -158,6 +161,10 @@ def load_feeds(feeds):
             items = parse_feed(fetch(f["url"]), f["name"])
             for i in items:
                 i["primary"] = bool(f.get("primary"))
+                if f["name"].startswith("Google News") and " - " in i["title"]:
+                    t, o = i["title"].rsplit(" - ", 1)
+                    if 0 < len(o) <= 40:
+                        i["title"], i["outlet"] = t.strip(), o.strip()
             out.extend(items)
             log(f"Feed {f['name']}: {len(items)} artikel")
         except Exception as e:
@@ -328,7 +335,8 @@ def main():
         if res["verdict"] == "rejected":
             continue
 
-        src = {"name": a["source"], "url": a["link"], "title": a["title"], "date": iso(a["date"])}
+        src = {"name": a.get("outlet") or a["source"], "url": a["link"], "title": a["title"],
+               "date": iso(a["date"]), "primary": bool(a.get("primary"))}
         ids = res["cves"] or ["ART-" + hashlib.sha1(a["link"].encode()).hexdigest()[:10]]
         for eid in ids:
             e = entry_for(eid, iso(a["date"]))
@@ -361,6 +369,21 @@ def main():
             if eid not in entries and old.get("kev"):
                 entries[eid] = old
 
+    # Verifikasi silang: berita saja tidak cukup untuk tampil sebagai temuan
+    for e in entries.values():
+        if e["verdict"] == "confirmed" or e.get("kev"):
+            continue
+        outlets = {x["name"] for x in e["sources"]}
+        has_primary = any(x.get("primary") for x in e["sources"])
+        if e["cves"] and (len(outlets) >= 2 or has_primary):
+            e["verdict"] = "likely"
+            e["reason"] = (f"CVE dilaporkan oleh {len(outlets)} sumber berbeda"
+                           + (", termasuk sumber utama." if has_primary else "."))
+        else:
+            e["verdict"] = "watch"
+            e["reason"] = ("Belum terverifikasi: " + ("tidak ada ID CVE" if not e["cves"] else "baru satu sumber")
+                           + ". Cek manual sebelum dipercaya.")
+
     # Buang yang di luar jendela 30 hari, urutkan terbaru dulu
     items = [e for e in entries.values() if (parse_date(e["first_seen"]) or NOW) >= CUTOFF]
     for e in items:
@@ -379,6 +402,7 @@ def main():
             "total": len(items),
             "confirmed": sum(1 for i in items if i["verdict"] == "confirmed"),
             "likely": sum(1 for i in items if i["verdict"] == "likely"),
+            "watch": sum(1 for i in items if i["verdict"] == "watch"),
         },
         "items": items,
         "analysis_cache": cache,

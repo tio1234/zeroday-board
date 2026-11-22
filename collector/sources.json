@@ -32,11 +32,6 @@
       "primary": true
     },
     {
-      "name": "CISSReC",
-      "url": "https://www.cissrec.org/feed",
-      "primary": false
-    },
-    {
       "name": "Google News (EN)",
       "url": "https://news.google.com/rss/search?q=%22zero-day%22+OR+%220-day%22+OR+%22exploited+in+the+wild%22+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "primary": false
