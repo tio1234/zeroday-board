@@ -1,15 +1,233 @@
 {
- "generated_at": "2026-11-23T11:05:21Z",
+ "generated_at": "2026-11-23T22:36:45Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 47,
-  "confirmed": 34,
+  "total": 48,
+  "confirmed": 36,
   "likely": 1,
-  "watch": 12
+  "watch": 11
  },
  "items": [
+  {
+   "id": "ART-a33ca5c991",
+   "cves": [],
+   "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-23T18:25:00Z",
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tbmJ6UUVOZFVNMGpVcHhzUGZPcnVoU1lNdzBXVVVxLTlVUXZERWJVV3NWUW9YdUFqUWFJUmJjZEQ4Qlk2TVMxOVNUaXl6UnpRaVRKUmxkWDkxSGFsVm9rUzhUb2F0cUJ0N0Q0SUhJUUNmMDFYWFE?oc=5",
+     "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
+     "date": "2026-11-23T18:25:00Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-23T18:25:00Z"
+  },
+  {
+   "id": "ART-5b137567e0",
+   "cves": [],
+   "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-23T17:54:41Z",
+   "sources": [
+    {
+     "name": "Social News XYZ",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1Q3MzZhQmd3TFdtcXNTUW1OUmxEcEcwbHJ1ZjVCY05RZ1FScjR6elBON1E1RWdtbDluQkFvUEVDLVU2V1VsRlNZaFRpSmh2bXZmd3gyQjV2Z2tlYTU1RFdKd0d1M1JUOVdTcHh3dE5UTkpWSUdia2VvY3pzMjk4M1l0QjVrNU9xM1djckw2N09hRFh5ODNxYWVibFJteXRmdWRYX2dJMkNXdzTSAasBQVVfeXFMT3dUNzM2YUJnd0xXbXFzU1FtTlJsRHBHMGxydWY1QmNOUWdRUnI0enpQTjdRNUVnbWw5bkJBb1BFQy1VNldVbEZTWWhUaUpodm12Znd4MkI1dmdrZWE1NURXSndHdTNSVDlXU3B4d3ROVE5KVklHYmtlb2N6czI5ODNZdEI1azVPcTNXY3JMNjdPYURYeTgzcWFlYmxSbXl0ZnVkWF9nSTJDV3c0?oc=5",
+     "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
+     "date": "2026-11-23T17:54:41Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-23T17:54:41Z"
+  },
+  {
+   "id": "ART-67a9d5e04f",
+   "cves": [],
+   "title": "Amazon: China-linked AI agents exploited medical software zero-day",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-23T15:44:27Z",
+   "sources": [
+    {
+     "name": "TechGig",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVFlTVRQN0JTcXA2ZUdNVnlCY2hSazZ2VW1ldEJjMVJKUk5QU2pjSmxNSjlLWDF0bXpCRHhHMkpDbVJNVW5nVzF0UlQzaGRBelRJa2lRZjRYRlVhMDFUVUFHZmFOTlJ1YkdSVUVFZ2ZPNndWUTRRWVU1UFhKWkRrN3BlNm8zdnlnM1JKMFVEZFh1T1RnSWpSQkZCeHk1d0ZIUE1oTTB2YTdjUUNPVG5lRTVsZDE?oc=5",
+     "title": "Amazon: China-linked AI agents exploited medical software zero-day",
+     "date": "2026-11-23T15:44:27Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-23T15:44:27Z"
+  },
+  {
+   "id": "ART-8baee3703b",
+   "cves": [],
+   "title": "VMware vCenter Zero-Day Exploited, Entra Connect Health Flaw Disclosed, and ONCD Leadership Shift + Video",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-23T13:47:42Z",
+   "sources": [
+    {
+     "name": "Howl.Link",
+     "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1QQ3RqVzBZTjhjUFA3ZzZXaWtIaUpWWkVQMm9id292RXA2ZVFQUW5zaWxpOW82WXYzZUdv?oc=5",
+     "title": "VMware vCenter Zero-Day Exploited, Entra Connect Health Flaw Disclosed, and ONCD Leadership Shift + Video",
+     "date": "2026-11-23T13:47:42Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-23T13:47:42Z"
+  },
+  {
+   "id": "ART-e7f80e3b13",
+   "cves": [],
+   "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-23T13:46:48Z",
+   "sources": [
+    {
+     "name": "The HIPAA Journal",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0pIbk9xdEVXczBSWjdUN3RCZ1NhR1BBNnFQZEx2a3VzZVhlQTZXcXhPN09yZUhjY0RHZ29fN3FFaENrcHRzT2xqV1lBZlBMNmlQNER6RlpxVUY2Yy1RQmt3ZklYMzhBcC13dU9QRFROQ3FKSDlmUHFDckJITzhIcVRYbHRpSVRvRHM5OWMwYWY3UjFIakh3R2l3?oc=5",
+     "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
+     "date": "2026-11-23T13:46:48Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-23T13:46:48Z"
+  },
+  {
+   "id": "CVE-2026-123890",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-20T00:00:00Z",
+   "sources": [
+    {
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+     "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+     "date": "2026-11-23T12:26:10Z",
+     "primary": false
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+     "date": "2026-11-20T09:38:15Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
+   },
+   "analysis": "rules",
+   "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+   "last_update": "2026-11-23T12:26:10Z"
+  },
+  {
+   "id": "CVE-2026-76466",
+   "cves": [
+    "CVE-2026-76466"
+   ],
+   "title": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-20T00:00:00Z",
+   "sources": [
+    {
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+     "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+     "date": "2026-11-23T12:26:10Z",
+     "primary": false
+    },
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+     "date": "2026-11-23T07:44:19Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+   "last_update": "2026-11-23T12:26:10Z"
+  },
+  {
+   "id": "ART-8a4d43ae7a",
+   "cves": [],
+   "title": "vCenter Zero-Day Exploited in Control Planes as Entra Flaw Exposes Tenant Metadata and AI Agents Hunt Zero-Days + Video",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-23T11:37:18Z",
+   "sources": [
+    {
+     "name": "Howl.Link",
+     "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5zek1iRV82R2xBX2Zmalk4QXBGZWNlODZOdkU5Q3hQQU44bGt0QkRlMWt0MjdOR1drT0xR?oc=5",
+     "title": "vCenter Zero-Day Exploited in Control Planes as Entra Flaw Exposes Tenant Metadata and AI Agents Hunt Zero-Days + Video",
+     "date": "2026-11-23T11:37:18Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-23T11:37:18Z"
+  },
   {
    "id": "CVE-2026-131914",
    "cves": [
@@ -40,42 +258,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-23T09:11:56Z"
-  },
-  {
-   "id": "CVE-2026-76466",
-   "cves": [
-    "CVE-2026-76466"
-   ],
-   "title": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-   "vendor": "Cisco",
-   "product": "Expressway Series",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-20T00:00:00Z",
-   "sources": [
-    {
-     "name": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-     "date": "2026-11-23T07:44:19Z",
-     "primary": false
-    },
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-20T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-20",
-    "due_date": "2026-11-23",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "rules",
-   "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
-   "last_update": "2026-11-23T07:44:19Z"
   },
   {
    "id": "CVE-2026-20320",
@@ -160,7 +342,72 @@
    "last_update": "2026-11-23T04:39:26Z"
   },
   {
-   "id": "ART-df72f2f359",
+   "id": "CVE-2026-133968",
+   "cves": [
+    "CVE-2026-133968"
+   ],
+   "title": "Project MONAI MONAI Label Path Traversal Vulnerability",
+   "vendor": "Project MONAI",
+   "product": "MONAI Label",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-22T02:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-23T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+     "title": "CISA KEV + detail NVD"
+    },
+    {
+     "name": "Rescana",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5",
+     "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now",
+     "date": "2026-11-22T02:00:00Z",
+     "primary": false
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-23",
+    "due_date": "2026-11-26",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+   "last_update": "2026-11-23T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-134624",
+   "cves": [
+    "CVE-2026-134624"
+   ],
+   "title": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+   "vendor": "N-able",
+   "product": "MailAssure",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-23T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-23T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-23",
+    "due_date": "2026-11-26",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+   "last_update": "2026-11-23T00:00:00Z"
+  },
+  {
+   "id": "ART-838a06cbf0",
    "cves": [],
    "title": "China-linked hackers’ AI agents exploited medical software zero-day - Daily Mirror",
    "vendor": "",
@@ -171,7 +418,7 @@
    "sources": [
     {
      "name": "Sri Lanka",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeHlDRHZGRW5JN2xEY3BCS2U2WFE4b2pUUExtTVBGcm9aN1FKNHhvcTY0VVp1dENMQ091Z2VXVTlhM2ZpM1NYN29JRHhMM29VOFlzR1oxOWQ0SHVHR0tGaS1nV29WNHNKcEpnaXBYWWJmZm1IUzJjZDFHWWxNREVHWlFRSTZSTWN1TENFNUE4aHJfTmVfMzlYR2daaTFGRnk1RVdIWm0wdjVwWVhGMjhkakxSMlFLVGlNaFdCTWhNWHVjV2dJTkE?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRWdhendGTDBGMmJtNTNJTHYzSUhiNzBCd2xmc1pjSV9jbWozUUd4TkhIXzh6b3hnV2g4bE1acGcwdTZPSTdacHlac01peHNURGdMWERQQTdGeUxvdTQ3cmV6dlo4TFdxcnJ1N2JQRkFiSUhuUjlteEU1blp2VmJmNExqaXNReElhdlVGRGttTXhZU2NYMGJJSVhPRDViMVJ4REF6THZDOXg3NzVLenU5RUZRLU1kamR4UUE?oc=5",
      "title": "China-linked hackers’ AI agents exploited medical software zero-day - Daily Mirror",
      "date": "2026-11-22T09:34:00Z",
      "primary": false
@@ -180,30 +427,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-22T09:34:00Z"
-  },
-  {
-   "id": "CVE-2026-133968",
-   "cves": [
-    "CVE-2026-133968"
-   ],
-   "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now - Rescana",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-22T02:00:00Z",
-   "sources": [
-    {
-     "name": "Rescana",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5",
-     "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now",
-     "date": "2026-11-22T02:00:00Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-22T02:00:00Z"
   },
   {
    "id": "ART-b8af005ebe",
@@ -226,174 +449,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-22T00:26:21Z"
-  },
-  {
-   "id": "ART-88555f0cc7",
-   "cves": [],
-   "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation - Security Affairs",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-21T17:43:04Z",
-   "sources": [
-    {
-     "name": "Security Affairs",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU2FxalZIcWszNGNUOFJQLU9qWjlQVVZfRmR2MW9RY0VlNW5RS09PYXAzYlRvNUNfSFhOMUlMZzRRQ1ZHTjVlRmJ4eGdrbjN3dUxGSTVaNTdCWFB3X2taSE5xRTZRdTJfXy1hQkszbzdVbDhLYUNZRTZwdXNDcUR6SGNZd2o5MnB3ZFRrT1BOVnNIYVVteEpuOTJKYUpPbzRtNmhRTtIBqgFBVV95cUxPT1VkdmVCQ0dmTTFsaUpvc2Z6STFwRDRRci1QeWlVbWFONnQwWGpaOVJZMlRCc1Y5c0ZYcTlqb0lNSkxSTHlsdW01WTZ6QWlTOVRlNTU0VUZPWmRaVldkLUthU041dDBrUVJwTlFsdlJRYmpNLWVTVUtIZUFVbDFueFdCeHpVV0NFVFlLQXlZejh0bzVpMFlEUkE5ZlBfd2FtT2pZNXZxSjJzdw?oc=5",
-     "title": "Cairn AI Framework Used in Autonomous Zero-Day Exploitation",
-     "date": "2026-11-21T17:43:04Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T17:43:04Z"
-  },
-  {
-   "id": "ART-a6ca4b4959",
-   "cves": [],
-   "title": "VMware vCenter, security 0-day exploited since September",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-21T16:56:41Z",
-   "sources": [
-    {
-     "name": "Observatorio Blockchain",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGc5dDVkQlhCdVRJcjZyYU5nc1REb2xRNXhpSjYzel9DWkZaR0M2WXdDSnl6b0NRYV9nc2N0T3NBQVN5MUQ5TDZBTW9OU0l0ZWxqemxNNHNvcEJRMHgxS3pidDY0VzUxMEFqX0Jza2JQWVQ4bDJUNW5JanZpN3hQYXo2SFVhTjhyem5CN20weWJqd0VmOUFv?oc=5",
-     "title": "VMware vCenter, security 0-day exploited since September",
-     "date": "2026-11-21T16:56:41Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T16:56:41Z"
-  },
-  {
-   "id": "ART-1f7b07f2be",
-   "cves": [],
-   "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password) - Medium",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-21T16:33:53Z",
-   "sources": [
-    {
-     "name": "Medium",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2pBT0JDZWRGLXdRLWgwSVJuVXRNS19JclhhZDVjNzA0MFUtNFJ0NURjZ1YyS1pCSlM4RElZdFMzQnN0UG16cDZOeWtYVHU3MVB6cThZQ0RXTlEzdnRtOFcyRHFyV1pnWWJqOHpVU2RXY1NtRlR4aE9PTHEzWnhzLWY1aHVob0NpWURsb19JekdRME81aVV0bU1oM2dqWHo4dlNCS2NYU3FHZVVDN3lDN1VYUGtKbjlfdFp6TVA3YlZMMTVqU3hoSm9YR2p6RV9JcHV3WQ?oc=5",
-     "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password)",
-     "date": "2026-11-21T16:33:53Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T16:33:53Z"
-  },
-  {
-   "id": "ART-577f4b8f54",
-   "cves": [],
-   "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September - LinkedIn",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-21T13:00:04Z",
-   "sources": [
-    {
-     "name": "LinkedIn",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSy1NMGx5Sk1ZWnlTQjBZTmZQU05CSzhySmFDVGtPTV8xN1lrQmZXTDQ3TmNoNy1JUDRHTHlub3dwTzhvdDQyTGo0WTBTX0hmU2dMY25fLTl2Zy1nTnAwaE5tRlAtTTlELWs3anZuR0tiWWNQbV9VOVNFQ3dBWEpKSHpqd2tURnItN2h2eFB2UQ?oc=5",
-     "title": "Broadcom Patches Critical VMware vCenter Zero-Day Exploited By China-Linked Hackers Since September",
-     "date": "2026-11-21T13:00:04Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T13:00:04Z"
-  },
-  {
-   "id": "ART-6231e48f3b",
-   "cves": [],
-   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-21T12:08:50Z",
-   "sources": [
-    {
-     "name": "SecurityWeek",
-     "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-     "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-     "date": "2026-11-21T12:08:50Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T12:08:50Z"
-  },
-  {
-   "id": "ART-f48b0f2cfb",
-   "cves": [],
-   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day - SecurityWeek",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-21T12:08:50Z",
-   "sources": [
-    {
-     "name": "SecurityWeek",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS0RzYnRJVzA5MjhlSWJfODFMNDRMdDl3Zk81UkxlbklPbE8tQ2xMYWdzSElBdlF6eTJaeWRSdm9aa3JkYU5xbUZIUjUtc3VxZzlYUXhCOWplcHBDb1AzcEMzWXd1eTdndHdIVWlrUnVSMExWQnZaakd4Y3JYRkFZeE9POGNKTE5tRlhwTTJnWUs4QVBjM1l6OFpaYmVqNVZWa0ZIUU5R?oc=5",
-     "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-     "date": "2026-11-21T12:08:50Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-21T12:08:50Z"
-  },
-  {
-   "id": "CVE-2026-123890",
-   "cves": [
-    "CVE-2026-123890"
-   ],
-   "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "vendor": "Broadcom",
-   "product": "VMware vCenter",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-20T00:00:00Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-     "date": "2026-11-20T09:38:15Z",
-     "primary": false
-    },
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-20T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-20",
-    "due_date": "2026-11-23",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
-   },
-   "analysis": "rules",
-   "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-   "last_update": "2026-11-20T09:38:15Z"
   },
   {
    "id": "ART-fa700a4eb8",
@@ -504,7 +559,7 @@
    "kev": {
     "date_added": "2026-11-18",
     "due_date": "2026-11-21",
-    "ransomware": "Unknown",
+    "ransomware": "Known",
     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
    },
    "analysis": "",
@@ -2354,6 +2409,241 @@
    "rv": 4,
    "analyzed_at": "2026-11-23T11:05:21Z",
    "date": "2026-11-23T06:16:01Z"
+  },
+  "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T15:10:48Z"
+  },
+  "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-123890",
+    "CVE-2026-76466"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T12:26:10Z"
+  },
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT0E2TUFpX0VzcmVZaHd5dF9ydmpGTWtZeVlsamZmQmlXdHRMVXhMMjJXVk4wVVZVVERKdHdEdUdJcUszaE85RVFfZ2dtSFExUHJCRTZ2YVdaZXM3U2NiTVpMYVJOT1hPLUFJZFhXUDk4bUhGVmZmZ3hyR2g5QUVqUA?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T15:10:00Z"
+  },
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0pIbk9xdEVXczBSWjdUN3RCZ1NhR1BBNnFQZEx2a3VzZVhlQTZXcXhPN09yZUhjY0RHZ29fN3FFaENrcHRzT2xqV1lBZlBMNmlQNER6RlpxVUY2Yy1RQmt3ZklYMzhBcC13dU9QRFROQ3FKSDlmUHFDckJITzhIcVRYbHRpSVRvRHM5OWMwYWY3UjFIakh3R2l3?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T13:46:48Z"
+  },
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tbmJ6UUVOZFVNMGpVcHhzUGZPcnVoU1lNdzBXVVVxLTlVUXZERWJVV3NWUW9YdUFqUWFJUmJjZEQ4Qlk2TVMxOVNUaXl6UnpRaVRKUmxkWDkxSGFsVm9rUzhUb2F0cUJ0N0Q0SUhJUUNmMDFYWFE?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T18:25:00Z"
+  },
+  "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5zek1iRV82R2xBX2Zmalk4QXBGZWNlODZOdkU5Q3hQQU44bGt0QkRlMWt0MjdOR1drT0xR?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "vCenter Zero-Day Exploited in Control Planes as Entra Flaw Exposes Tenant Metadata and AI Agents Hunt Zero-Days + Video",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T11:37:18Z"
+  },
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNl96aFdBWUM3MldVbF8zQ1E5VUh3OVJSOVRwaTd6c2RzSlpvTk9NeWpHaTliQjBmakdRVTZlU1RYWmdXMS1JeWIwaWhuSElZOXpxVjlYNU4tMzdELWZVN3lhakJtWEVfcEJBV0xjdV9WLWMxbEhjX3hJVzFWRGZoTHFRNDczNUc3RFBudjY4QjB4dXdNcWhkSGNNdjBCNU5DYzRXTktvRlpENGM?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "China-linked hackers' AI agents found a zero-day in 11 minutes, Amazon says",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T13:30:18Z"
+  },
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYnhXMW82WjlSMVZKa3J3b3JnV1dPQmFjRUY5MTVpa1NJUnZLLUlwenVNMl9mcmFtOU9sYWVKYmhDeTEyV2tXbUNuY2NSOFFPMnhibWE4cndCNjJqNlFtUzJjbmFCMjJ1M1V0cWZaVGVISFRpaE01WmlEQ3VMbERFVFBJS3c2TUFzT1hYZUFqYXpoeXNo?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Amazon Says Chinese Hackers Used AI Agents To Find Zero-day Flaw",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T18:52:59Z"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE51NEdERGMwY2pPR3dLc052Zk9jb0QwR0NnYUIwbUtVV1JyZ3BzQ0xPWW9ld05GdlA5QzJhUlF3N2tEd25OczFoakFaR3BSUHpLc2wtZkJFdmR5QjBIMWVZd19PYnRpVmZnemdSVmUwUE5sOVBzc1M4?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "KEPCO Breach, Aeroméxico Leak & RCS Zero-Day Sale",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T10:55:57Z"
+  },
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FUlM1bU1BR21KdUVpNzNuZ2VMQjd6dDlUcGlMa0t5WDc1WnRHck5DMXhYek5CMGJkcjh3N0k4Rkk5S0Vfcnh4T19rUDl6WGNEOTlGRzZkajdKSWU4NEp5bWtXUlVsTTDSAWxBVV95cUxNSUtXdnhTSmw5eC1RQUlpU25GcE5ma0Vfak1uY3F5R2dlclh2Qk1qV2dKZDJNajBnYnBoOEpibTltV1gxLXM5RXJHcEZIc2RPQ3ZVcXd1YXZERjN1NGxCSzdabVVXd0xuZGRyVHg?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Hackers Direct AI Agents to Break Into University Networks, Discovering Zero-Day Along the Way",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T06:31:32Z"
+  },
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVFlTVRQN0JTcXA2ZUdNVnlCY2hSazZ2VW1ldEJjMVJKUk5QU2pjSmxNSjlLWDF0bXpCRHhHMkpDbVJNVW5nVzF0UlQzaGRBelRJa2lRZjRYRlVhMDFUVUFHZmFOTlJ1YkdSVUVFZ2ZPNndWUTRRWVU1UFhKWkRrN3BlNm8zdnlnM1JKMFVEZFh1T1RnSWpSQkZCeHk1d0ZIUE1oTTB2YTdjUUNPVG5lRTVsZDE?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Amazon: China-linked AI agents exploited medical software zero-day",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T15:44:27Z"
+  },
+  "https://news.google.com/rss/articles/CBMiO0FVX3lxTE90LWVCSHBxUVVfX2JRUm8tbGdWYmZTcWdPcFFlTHZqSWRmYklOWUpDWFdGLU5UT3dlbUlZ?oc=5": {
+   "verdict": "rejected",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Critical Zero-Day Alert: Unauthenticated vCenter Authentication Bypass (CVE-2026-123890) Exposes Enterprise & Telco Clou",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T13:16:10Z"
+  },
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTEMyQmdTaHNwaXJCQjA5cmRWNzlhSDdTUFQzLWVrLWNrWGlaSXlhUWhmdkVheXNIVEZFUFpIQ2tvMDZaMjBDb0U4TWJHWDJucW9IY2JtVkQzY1pOYTZwSmtac0RLa294bTBGVFVaV3ZtTnk2Njl5cnYxeUxyMGFLTFFabndLaERKYlFEZ3RIa3JuMk9TcmdNZWpDdXNIcVNjRHliN1VUdndTUzU0?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Weekly Recap: VMware Zero-Day, Java4Shell, NGINX2Root and a Wave of Shell Exploits",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T20:00:01Z"
+  },
+  "https://news.google.com/rss/articles/CBMiO0FVX3lxTFAwM0IxeENnS05IYzZWN2tBRmNvX2JjRGVyNXBlbHFibUtYa2l3Tl8tNi10Wmx3VmtEZ2ZN?oc=5": {
+   "verdict": "rejected",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "ARMORY CASTLE Exploits BeyondTrust Zero-Day and BONESAW Tool to Target VMware vCenter (CVE-2026-123890) + Video",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T18:08:36Z"
+  },
+  "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1QQ3RqVzBZTjhjUFA3ZzZXaWtIaUpWWkVQMm9id292RXA2ZVFQUW5zaWxpOW82WXYzZUdv?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "VMware vCenter Zero-Day Exploited, Entra Connect Health Flaw Disclosed, and ONCD Leadership Shift + Video",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T13:47:42Z"
+  },
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWd19UUkxPZWxjeE5ZWjQyemM4Njl4UHVwbEtJcG9RMENPbk1SX1hVVDNPSWF6X1RreUlqLVpaOVY1MTBXYWJTeEVTVHBJQ2tLTGk1VU16VE_SAV5BVV95cUxQTEc0UDNMUUs5MUdHX3VyMVhtVUllVUQ0bmxNZGN3OU5hdlc5cTlDSEgtcm16RzljSzF1ZnpYVVlqVHBhOUUtOHNCTWFnazZaMmhtMVUwRFFHVU13MnZB?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Hackers Use AI to Discover Zero-Day in 11 Minutes, Then Take Full Control of Server",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T13:09:56Z"
+  },
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1Q3MzZhQmd3TFdtcXNTUW1OUmxEcEcwbHJ1ZjVCY05RZ1FScjR6elBON1E1RWdtbDluQkFvUEVDLVU2V1VsRlNZaFRpSmh2bXZmd3gyQjV2Z2tlYTU1RFdKd0d1M1JUOVdTcHh3dE5UTkpWSUdia2VvY3pzMjk4M1l0QjVrNU9xM1djckw2N09hRFh5ODNxYWVibFJteXRmdWRYX2dJMkNXdzTSAasBQVVfeXFMT3dUNzM2YUJnd0xXbXFzU1FtTlJsRHBHMGxydWY1QmNOUWdRUnI0enpQTjdRNUVnbWw5bkJBb1BFQy1VNldVbEZTWWhUaUpodm12Znd4MkI1dmdrZWE1NURXSndHdTNSVDlXU3B4d3ROVE5KVklHYmtlb2N6czI5ODNZdEI1azVPcTNXY3JMNjdPYURYeTgzcWFlYmxSbXl0ZnVkWF9nSTJDV3c0?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T17:54:41Z"
+  },
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fUkpvaHpNckJtOGFyb2xnSjBuN21zcFlmekVFZm1XRUZfcTNLVHdhMUlyRmxLNWRJMTExaU12WmhwUEczQUNSTUJlX3RrREpIdXJYeWYxcC1yUzVJNGVHNF9UWmxjYzltbU5OWmFfclpTM0NsY0HSAXtBVV95cUxQcVgxb1cyQjB3VVdsTVhaeW1YR1ZOTWJUZnlPb2ZDN0ZJeHdzUTg4M0VOV3ZoUndNeTFOcXVQQzRZQU5QT2VmaGhCN2JqWlQ5anpyRURXa1lzMjlvdlFvRVNYOTkxZnh0ZFJiMEpyd1ZWQVBKM29kSnByVFU?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Autonomous AI Agents Found a Zero-Day, Amazon Warns",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-23T06:00:00Z"
+  },
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRWdhendGTDBGMmJtNTNJTHYzSUhiNzBCd2xmc1pjSV9jbWozUUd4TkhIXzh6b3hnV2g4bE1acGcwdTZPSTdacHlac01peHNURGdMWERQQTdGeUxvdTQ3cmV6dlo4TFdxcnJ1N2JQRkFiSUhuUjlteEU1blp2VmJmNExqaXNReElhdlVGRGttTXhZU2NYMGJJSVhPRDViMVJ4REF6THZDOXg3NzVLenU5RUZRLU1kamR4UUE?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "China-linked hackers’ AI agents exploited medical software zero-day - Daily Mirror",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-23T22:36:45Z",
+   "date": "2026-11-22T09:34:00Z"
   }
  }
 }
