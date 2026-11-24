@@ -1,125 +1,15 @@
 {
- "generated_at": "2026-11-23T22:36:45Z",
+ "generated_at": "2026-11-24T06:25:20Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 48,
+  "total": 39,
   "confirmed": 36,
-  "likely": 1,
-  "watch": 11
+  "likely": 0,
+  "watch": 3
  },
  "items": [
-  {
-   "id": "ART-a33ca5c991",
-   "cves": [],
-   "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T18:25:00Z",
-   "sources": [
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tbmJ6UUVOZFVNMGpVcHhzUGZPcnVoU1lNdzBXVVVxLTlVUXZERWJVV3NWUW9YdUFqUWFJUmJjZEQ4Qlk2TVMxOVNUaXl6UnpRaVRKUmxkWDkxSGFsVm9rUzhUb2F0cUJ0N0Q0SUhJUUNmMDFYWFE?oc=5",
-     "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
-     "date": "2026-11-23T18:25:00Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T18:25:00Z"
-  },
-  {
-   "id": "ART-5b137567e0",
-   "cves": [],
-   "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T17:54:41Z",
-   "sources": [
-    {
-     "name": "Social News XYZ",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1Q3MzZhQmd3TFdtcXNTUW1OUmxEcEcwbHJ1ZjVCY05RZ1FScjR6elBON1E1RWdtbDluQkFvUEVDLVU2V1VsRlNZaFRpSmh2bXZmd3gyQjV2Z2tlYTU1RFdKd0d1M1JUOVdTcHh3dE5UTkpWSUdia2VvY3pzMjk4M1l0QjVrNU9xM1djckw2N09hRFh5ODNxYWVibFJteXRmdWRYX2dJMkNXdzTSAasBQVVfeXFMT3dUNzM2YUJnd0xXbXFzU1FtTlJsRHBHMGxydWY1QmNOUWdRUnI0enpQTjdRNUVnbWw5bkJBb1BFQy1VNldVbEZTWWhUaUpodm12Znd4MkI1dmdrZWE1NURXSndHdTNSVDlXU3B4d3ROVE5KVklHYmtlb2N6czI5ODNZdEI1azVPcTNXY3JMNjdPYURYeTgzcWFlYmxSbXl0ZnVkWF9nSTJDV3c0?oc=5",
-     "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
-     "date": "2026-11-23T17:54:41Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T17:54:41Z"
-  },
-  {
-   "id": "ART-67a9d5e04f",
-   "cves": [],
-   "title": "Amazon: China-linked AI agents exploited medical software zero-day",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T15:44:27Z",
-   "sources": [
-    {
-     "name": "TechGig",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVFlTVRQN0JTcXA2ZUdNVnlCY2hSazZ2VW1ldEJjMVJKUk5QU2pjSmxNSjlLWDF0bXpCRHhHMkpDbVJNVW5nVzF0UlQzaGRBelRJa2lRZjRYRlVhMDFUVUFHZmFOTlJ1YkdSVUVFZ2ZPNndWUTRRWVU1UFhKWkRrN3BlNm8zdnlnM1JKMFVEZFh1T1RnSWpSQkZCeHk1d0ZIUE1oTTB2YTdjUUNPVG5lRTVsZDE?oc=5",
-     "title": "Amazon: China-linked AI agents exploited medical software zero-day",
-     "date": "2026-11-23T15:44:27Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T15:44:27Z"
-  },
-  {
-   "id": "ART-8baee3703b",
-   "cves": [],
-   "title": "VMware vCenter Zero-Day Exploited, Entra Connect Health Flaw Disclosed, and ONCD Leadership Shift + Video",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T13:47:42Z",
-   "sources": [
-    {
-     "name": "Howl.Link",
-     "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1QQ3RqVzBZTjhjUFA3ZzZXaWtIaUpWWkVQMm9id292RXA2ZVFQUW5zaWxpOW82WXYzZUdv?oc=5",
-     "title": "VMware vCenter Zero-Day Exploited, Entra Connect Health Flaw Disclosed, and ONCD Leadership Shift + Video",
-     "date": "2026-11-23T13:47:42Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T13:47:42Z"
-  },
-  {
-   "id": "ART-e7f80e3b13",
-   "cves": [],
-   "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T13:46:48Z",
-   "sources": [
-    {
-     "name": "The HIPAA Journal",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0pIbk9xdEVXczBSWjdUN3RCZ1NhR1BBNnFQZEx2a3VzZVhlQTZXcXhPN09yZUhjY0RHZ29fN3FFaENrcHRzT2xqV1lBZlBMNmlQNER6RlpxVUY2Yy1RQmt3ZklYMzhBcC13dU9QRFROQ3FKSDlmUHFDckJITzhIcVRYbHRpSVRvRHM5OWMwYWY3UjFIakh3R2l3?oc=5",
-     "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
-     "date": "2026-11-23T13:46:48Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T13:46:48Z"
-  },
   {
    "id": "CVE-2026-123890",
    "cves": [
@@ -207,28 +97,6 @@
    "last_update": "2026-11-23T12:26:10Z"
   },
   {
-   "id": "ART-8a4d43ae7a",
-   "cves": [],
-   "title": "vCenter Zero-Day Exploited in Control Planes as Entra Flaw Exposes Tenant Metadata and AI Agents Hunt Zero-Days + Video",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T11:37:18Z",
-   "sources": [
-    {
-     "name": "Howl.Link",
-     "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5zek1iRV82R2xBX2Zmalk4QXBGZWNlODZOdkU5Q3hQQU44bGt0QkRlMWt0MjdOR1drT0xR?oc=5",
-     "title": "vCenter Zero-Day Exploited in Control Planes as Entra Flaw Exposes Tenant Metadata and AI Agents Hunt Zero-Days + Video",
-     "date": "2026-11-23T11:37:18Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T11:37:18Z"
-  },
-  {
    "id": "CVE-2026-131914",
    "cves": [
     "CVE-2026-131914"
@@ -236,8 +104,8 @@
    "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now - Rescana",
    "vendor": "",
    "product": "",
-   "verdict": "likely",
-   "reason": "CVE dilaporkan oleh 2 sumber berbeda.",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
    "first_seen": "2026-11-22T05:36:31Z",
    "sources": [
     {
@@ -245,13 +113,6 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
      "date": "2026-11-23T09:11:56Z",
-     "primary": false
-    },
-    {
-     "name": "Rescana",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5",
-     "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
-     "date": "2026-11-22T05:36:31Z",
      "primary": false
     }
    ],
@@ -320,28 +181,6 @@
    "last_update": "2026-11-23T07:44:19Z"
   },
   {
-   "id": "ART-7d794b3e1f",
-   "cves": [],
-   "title": "vCenter Zero-Day: CVSS 9.8, Exploited Since September",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T04:39:26Z",
-   "sources": [
-    {
-     "name": "shattered.io",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWEhGbUd1T1cyZHdCWjdRMi13bmxPWE1WZHd3UElHeURvU09TaEhNTFJGNnlGcUFITUlTOWxubk9lVXB4TFZtX0RHY0pfbzNZNGpwczlldE8tNF8teDlILWVObDcxS1pTc2ZsYVV5UTMwWFlNdGJiS0RQTUVlckEtV3h2SkFQLVVRSkFlR0tnQXpZaDlXR0VQMnJYRQ?oc=5",
-     "title": "vCenter Zero-Day: CVSS 9.8, Exploited Since September",
-     "date": "2026-11-23T04:39:26Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T04:39:26Z"
-  },
-  {
    "id": "CVE-2026-133968",
    "cves": [
     "CVE-2026-133968"
@@ -358,13 +197,6 @@
      "date": "2026-11-23T00:00:00Z",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
      "title": "CISA KEV + detail NVD"
-    },
-    {
-     "name": "Rescana",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5",
-     "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now",
-     "date": "2026-11-22T02:00:00Z",
-     "primary": false
     }
    ],
    "kev": {
@@ -405,50 +237,6 @@
    "analysis": "",
    "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
    "last_update": "2026-11-23T00:00:00Z"
-  },
-  {
-   "id": "ART-838a06cbf0",
-   "cves": [],
-   "title": "China-linked hackers’ AI agents exploited medical software zero-day - Daily Mirror",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-22T09:34:00Z",
-   "sources": [
-    {
-     "name": "Sri Lanka",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRWdhendGTDBGMmJtNTNJTHYzSUhiNzBCd2xmc1pjSV9jbWozUUd4TkhIXzh6b3hnV2g4bE1acGcwdTZPSTdacHlac01peHNURGdMWERQQTdGeUxvdTQ3cmV6dlo4TFdxcnJ1N2JQRkFiSUhuUjlteEU1blp2VmJmNExqaXNReElhdlVGRGttTXhZU2NYMGJJSVhPRDViMVJ4REF6THZDOXg3NzVLenU5RUZRLU1kamR4UUE?oc=5",
-     "title": "China-linked hackers’ AI agents exploited medical software zero-day - Daily Mirror",
-     "date": "2026-11-22T09:34:00Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-22T09:34:00Z"
-  },
-  {
-   "id": "ART-b8af005ebe",
-   "cves": [],
-   "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day - findarticles.com",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-22T00:26:21Z",
-   "sources": [
-    {
-     "name": "findarticles.com",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0xGSjBRTVh2ejhXX2VuQjBjeDN1OWhTTGw0T0lvRnRUdzRXSFV4ZXc1dWRIdTR2a29SWTI5MENuUDFMUml6Z0dMc1dPd1daWU5VTHI5NHRqQTlyZW1Fa08zM210STgtVGg5b1FjZDVIQ09qMjRsQ0EyaWpWcU1TQXctektackFlQ2VFRU5YaXl4V2R6Y3dz?oc=5",
-     "title": "Amazon Says AI Agents Exploited Medical Software Zero-Day",
-     "date": "2026-11-22T00:26:21Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-22T00:26:21Z"
   },
   {
    "id": "ART-fa700a4eb8",
