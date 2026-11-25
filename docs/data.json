@@ -1,15 +1,37 @@
 {
- "generated_at": "2026-11-25T11:39:39Z",
+ "generated_at": "2026-11-25T20:40:34Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 49,
-  "confirmed": 37,
+  "total": 57,
+  "confirmed": 47,
   "likely": 0,
-  "watch": 12
+  "watch": 10
  },
  "items": [
+  {
+   "id": "ART-33f47b92fc",
+   "cves": [],
+   "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-25T16:26:03Z",
+   "sources": [
+    {
+     "name": "inkl",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG9ldXVaZE5FX1VEZG1Kakg1eVViTGI0dUlaSmZYTnZ3VWZVWUhPaGdJbHhSTUhkbzlWMmZCWjE5dmZxeFdsYW5Qai1leUphb2lXV3RTZGRud1YxcDdJU1ExZ0hvNFV2aEZUdVhaZHVLamJwenQ3WTRRZ01heVJtNVloMWg5dzN5ZDdqZHVBdHdrV3NDcVpzMnhLYVJSVUZrNms3UEY0ZWRiNjFPT0pGWkVzLWZGcENYdEROMmM2NHh2aU43UEFOb3dIanNjWWFx?oc=5",
+     "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
+     "date": "2026-11-25T16:26:03Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-25T16:26:03Z"
+  },
   {
    "id": "CVE-2026-132165",
    "cves": [
@@ -47,26 +69,316 @@
    "last_update": "2026-11-25T10:10:20Z"
   },
   {
-   "id": "ART-79fe90d466",
+   "id": "ART-f61fa278e8",
    "cves": [],
    "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
    "vendor": "",
    "product": "",
    "verdict": "watch",
    "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T23:20:37Z",
+   "first_seen": "2026-11-25T00:45:58Z",
    "sources": [
     {
      "name": "TechGig",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWFBxV3pZTGJjLUtRV20tV2s2Mi1SdUhRekpJRkVJN3pTWlNPRENEQWkyX3NhWGkxQjRXLXdXV0I5QnNpU2QzV21VR2o3T3Bmc2Y4UFliZFFuRU9lbjlXWEwwc1ZNdDJFdi1kODhMSXBnNkpZRUctZUhocXdwUW9zel9XQWZCSWlYTlZSa0dpT09WNUxrVVZsenB3VVg2R0dDMDZIWll3Uy1yVl91dGg0R2V4dHVBems2bzAtX2VjZDnSAcABQVVfeXFMUFhQcVd6WUxiYy1LUVdtLVdrNjItUnVIUXpKSUZFSTd6U1pTT0RDREFpMl9zYVhpMUI0Vy13V1dCOUJzaVNkM1dtVUdqN09wZnNmOFBZYmRRbkVPZW45V1hMMHNWTXQyRXYtZDg4TElwZzZKWUVHLWVIaHF3cFFvc3pfV0FmQklpWE5WUmtHaU9PVjVMa1VWbHpwd1VYNkdHQzA2SFpZd1MtclZfdXRoNEdleHR1QXprNm8wLV9lY2Q5?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQW5veDhpTkFncHBkd1VBdHdEZWw1UnIzTDZvSlFDaTBzX3E1ZXdEUk1mdkNSWW1DcVE5T0pmSkNackxfUzREY1dpUC1CQVlwTWFieHViRmx5TEZWU09vOU16RkJBelFpZ2FDN0VnSERScFlTR2hrS3dsMEJWNHFQZllRcUNoS05OYzZzVk9TTGY3TURpd2dyNXN6RWRJYThvejdJY1VnQVNXbWNhQ0l0T2pXMTlxSEptd1lqYkoxOWNxN0tU0gHAAUFVX3lxTFBYUHFXellMYmMtS1FXbS1XazYyLVJ1SFF6SklGRUk3elNaU09EQ0RBaTJfc2FYaTFCNFctd1dXQjlCc2lTZDNXbVVHajdPcGZzZjhQWWJkUW5FT2VuOVdYTDBzVk10MkV2LWQ4OExJcGc2SllFRy1lSGhxd3BRb3N6X1dBZkJJaVhOVlJrR2lPT1Y1TGtVVmx6cHdVWDZHR0MwNkhaWXdTLXJWX3V0aDRHZXh0dUF6azZvMC1fZWNkOQ?oc=5",
      "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-     "date": "2026-11-24T23:20:37Z",
+     "date": "2026-11-25T00:45:58Z",
      "primary": false
     }
    ],
    "kev": null,
    "analysis": "rules",
-   "last_update": "2026-11-24T23:20:37Z"
+   "last_update": "2026-11-25T00:45:58Z"
+  },
+  {
+   "id": "CVE-2026-103406",
+   "cves": [
+    "CVE-2026-103406"
+   ],
+   "title": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+   "vendor": "Hewlett Packard Enterprise (HPE)",
+   "product": "Juniper Session Smart Conductor and Session Smart Router",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-133469",
+   "cves": [
+    "CVE-2026-133469"
+   ],
+   "title": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+   "vendor": "Vates",
+   "product": "Xen Orchestra",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2025-41450",
+   "cves": [
+    "CVE-2025-41450"
+   ],
+   "title": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+   "vendor": "Danfoss",
+   "product": "AK-SM 800A Series",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-12-09",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2023-25914",
+   "cves": [
+    "CVE-2023-25914"
+   ],
+   "title": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+   "vendor": "Danfoss",
+   "product": "AK-SM 800A Series",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2023-25915",
+   "cves": [
+    "CVE-2023-25915"
+   ],
+   "title": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+   "vendor": "Danfoss",
+   "product": "AK-SM 800A Series",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-133324",
+   "cves": [
+    "CVE-2026-133324"
+   ],
+   "title": "Mitel MiCollab Not Failing Securely Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-133275",
+   "cves": [
+    "CVE-2026-133275"
+   ],
+   "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-133311",
+   "cves": [
+    "CVE-2026-133311"
+   ],
+   "title": "Mitel MiCollab Weak Authentication Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-12-09",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-133303",
+   "cves": [
+    "CVE-2026-133303"
+   ],
+   "title": "Mitel MiCollab XML Injection Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+   "last_update": "2026-11-25T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-133323",
+   "cves": [
+    "CVE-2026-133323"
+   ],
+   "title": "Mitel MiCollab OS Command Injection Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+   "last_update": "2026-11-25T00:00:00Z"
   },
   {
    "id": "ART-d69f86af31",
@@ -324,72 +636,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-23T23:54:42Z"
-  },
-  {
-   "id": "ART-a33ca5c991",
-   "cves": [],
-   "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T18:25:00Z",
-   "sources": [
-    {
-     "name": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tbmJ6UUVOZFVNMGpVcHhzUGZPcnVoU1lNdzBXVVVxLTlVUXZERWJVV3NWUW9YdUFqUWFJUmJjZEQ4Qlk2TVMxOVNUaXl6UnpRaVRKUmxkWDkxSGFsVm9rUzhUb2F0cUJ0N0Q0SUhJUUNmMDFYWFE?oc=5",
-     "title": "Cisco Expressway Zero-Day Exploited in the Wild as CISA Sets Monday Patch Deadline",
-     "date": "2026-11-23T18:25:00Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T18:25:00Z"
-  },
-  {
-   "id": "ART-67a9d5e04f",
-   "cves": [],
-   "title": "Amazon: China-linked AI agents exploited medical software zero-day",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T15:44:27Z",
-   "sources": [
-    {
-     "name": "TechGig",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVFlTVRQN0JTcXA2ZUdNVnlCY2hSazZ2VW1ldEJjMVJKUk5QU2pjSmxNSjlLWDF0bXpCRHhHMkpDbVJNVW5nVzF0UlQzaGRBelRJa2lRZjRYRlVhMDFUVUFHZmFOTlJ1YkdSVUVFZ2ZPNndWUTRRWVU1UFhKWkRrN3BlNm8zdnlnM1JKMFVEZFh1T1RnSWpSQkZCeHk1d0ZIUE1oTTB2YTdjUUNPVG5lRTVsZDE?oc=5",
-     "title": "Amazon: China-linked AI agents exploited medical software zero-day",
-     "date": "2026-11-23T15:44:27Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T15:44:27Z"
-  },
-  {
-   "id": "ART-e7f80e3b13",
-   "cves": [],
-   "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T13:46:48Z",
-   "sources": [
-    {
-     "name": "The HIPAA Journal",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0pIbk9xdEVXczBSWjdUN3RCZ1NhR1BBNnFQZEx2a3VzZVhlQTZXcXhPN09yZUhjY0RHZ29fN3FFaENrcHRzT2xqV1lBZlBMNmlQNER6RlpxVUY2Yy1RQmt3ZklYMzhBcC13dU9QRFROQ3FKSDlmUHFDckJITzhIcVRYbHRpSVRvRHM5OWMwYWY3UjFIakh3R2l3?oc=5",
-     "title": "Zero-day Flaw in Medical Imaging App Identified and Exploited AI Agents",
-     "date": "2026-11-23T13:46:48Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T13:46:48Z"
   },
   {
    "id": "CVE-2026-133968",
@@ -2893,6 +3139,66 @@
    "rv": 4,
    "analyzed_at": "2026-11-25T11:39:39Z",
    "date": "2026-11-25T02:02:28Z"
+  },
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE52Y2tIdnh4Q1JIdWZZREh6Wi1KY0J3RVVsN2xWdU5OOVV5c1VFUTV2SWpwLWlKZ1M4Sjcwd2dfNHZteDhXSGRkWWhQYzlxNl9vWkRKYk5tMmVBajFCR3A4TUxnRmljd3ZnR3FiSk5uUdIBdEFVX3lxTE4xeEhjUmxjS2hDcl92a3dweUl1RVNzQWJMS1ozYlcxaGt0NmxyNlRsUTJQejBCTWRPWjk5WEc1MDhvd2owQ2ZWeHBMTjJ5TFEyc1FycHA5OEltSy1qdFNwR1NBRHZudWt6MVBkZnBoN1hvT2tV?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Critical Drupal Vulnerability Exploited in the Wild to Execute Arbitrary Code on Servers",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T20:40:34Z",
+   "date": "2026-11-25T14:31:21Z"
+  },
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oaFJGNm5wbHRXYjRwMFdkN0RaT1RvQ0J1U196aVh2WWxTSE1rcHZOaHZTa0ZEQ2NiMk12QTI1SzJfZnlaQlZjTkRfYjdRbi1UMWxDdW1sRjdlZUU3X0F5WUtUTUVBUXdBOGNFNjZySXFENFBoZ1RyT2pZOA?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Remus Stealer’s claimed Gmail zero-day is a malicious Chrome extension",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T20:40:34Z",
+   "date": "2026-11-25T13:03:03Z"
+  },
+  "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQW5veDhpTkFncHBkd1VBdHdEZWw1UnIzTDZvSlFDaTBzX3E1ZXdEUk1mdkNSWW1DcVE5T0pmSkNackxfUzREY1dpUC1CQVlwTWFieHViRmx5TEZWU09vOU16RkJBelFpZ2FDN0VnSERScFlTR2hrS3dsMEJWNHFQZllRcUNoS05OYzZzVk9TTGY3TURpd2dyNXN6RWRJYThvejdJY1VnQVNXbWNhQ0l0T2pXMTlxSEptd1lqYkoxOWNxN0tU0gHAAUFVX3lxTFBYUHFXellMYmMtS1FXbS1XazYyLVJ1SFF6SklGRUk3elNaU09EQ0RBaTJfc2FYaTFCNFctd1dXQjlCc2lTZDNXbVVHajdPcGZzZjhQWWJkUW5FT2VuOVdYTDBzVk10MkV2LWQ4OExJcGc2SllFRy1lSGhxd3BRb3N6X1dBZkJJaVhOVlJrR2lPT1Y1TGtVVmx6cHdVWDZHR0MwNkhaWXdTLXJWX3V0aDRHZXh0dUF6azZvMC1fZWNkOQ?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T20:40:34Z",
+   "date": "2026-11-25T00:45:58Z"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aSWlJZjN4NXhpN3NlaVVNZnBwSFYtRnh0bUptSmVKcnBGV2ZlMVYwZFVIZzZwdHdMR1UwdUF2U2NfOGY3SWE5Zi1ibjJFLXlTMEtZWnRiOGs1R3Yya2RFejZYV0RndnN6ZkZLU0ZFSUw0bnVXQmQ3bW5hY3o0UzDSAYQBQVVfeXFMTWREQ3h0d0hDM21Sc1RPOHJ2ODY1dlpqV0pYbXd4eUc3RXZQdkxpdHVzUGRURHpFVXdUQzZEUF9PM0NLbnFjR3lYVThGczhXUU9UVjBZRUs4R0JxMkpIb0dUY3ljOWNqcTZlMjROWnFoek41ejM1OVI5OUJVSGUyWldqdU1U?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Palo Alto Networks Warns of Fragnesia Vulnerability Exploited in the Wild",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T20:40:34Z",
+   "date": "2026-11-25T10:04:42Z"
+  },
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG9ldXVaZE5FX1VEZG1Kakg1eVViTGI0dUlaSmZYTnZ3VWZVWUhPaGdJbHhSTUhkbzlWMmZCWjE5dmZxeFdsYW5Qai1leUphb2lXV3RTZGRud1YxcDdJU1ExZ0hvNFV2aEZUdVhaZHVLamJwenQ3WTRRZ01heVJtNVloMWg5dzN5ZDdqZHVBdHdrV3NDcVpzMnhLYVJSVUZrNms3UEY0ZWRiNjFPT0pGWkVzLWZGcENYdEROMmM2NHh2aU43UEFOb3dIanNjWWFx?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T20:40:34Z",
+   "date": "2026-11-25T16:26:03Z"
   }
  }
 }
