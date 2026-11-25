@@ -1,15 +1,51 @@
 {
- "generated_at": "2026-11-25T02:29:32Z",
+ "generated_at": "2026-11-25T11:39:39Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 51,
+  "total": 49,
   "confirmed": 37,
   "likely": 0,
-  "watch": 14
+  "watch": 12
  },
  "items": [
+  {
+   "id": "CVE-2026-132165",
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "title": "Drupal Core Remote Code Execution Vulnerability",
+   "vendor": "Drupal",
+   "product": "Core",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-24T00:00:00Z",
+   "sources": [
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+     "date": "2026-11-25T10:10:20Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-24T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-24",
+    "due_date": "2026-11-27",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+   "last_update": "2026-11-25T10:10:20Z"
+  },
   {
    "id": "ART-79fe90d466",
    "cves": [],
@@ -268,35 +304,6 @@
    "last_update": "2026-11-24T00:00:00Z"
   },
   {
-   "id": "CVE-2026-132165",
-   "cves": [
-    "CVE-2026-132165"
-   ],
-   "title": "Drupal Core Remote Code Execution Vulnerability",
-   "vendor": "Drupal",
-   "product": "Core",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-24T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-24T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-24",
-    "due_date": "2026-11-27",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-   "last_update": "2026-11-24T00:00:00Z"
-  },
-  {
    "id": "ART-5b137567e0",
    "cves": [],
    "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
@@ -383,52 +390,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-23T13:46:48Z"
-  },
-  {
-   "id": "CVE-2026-23871",
-   "cves": [
-    "CVE-2026-23871"
-   ],
-   "title": "WhatsApp Android CVE-2026-23871 Actively Exploited",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T10:34:40Z",
-   "sources": [
-    {
-     "name": "Meteora Web",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWVdkcmZ0RDl5cnhBWEtKZHJjQmNLMGZfa0ItRWJoekJQMU5NaU1xLVlaN3E0bGtoT0YwaGNhMk9RU1VTRlRlMHFPYVd5RWVhZ1g0dnlKajZCZXNwTTNsS1o4SnVYTTVsSlJWMDBHVmdGZDNlRXZTdGpaQ3NfTzVIZzh6TWxNY0lCLVRoVTA3M3JkUQ?oc=5",
-     "title": "WhatsApp Android CVE-2026-23871 Actively Exploited",
-     "date": "2026-11-23T10:34:40Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T10:34:40Z"
-  },
-  {
-   "id": "ART-7d794b3e1f",
-   "cves": [],
-   "title": "vCenter Zero-Day: CVSS 9.8, Exploited Since September",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T04:39:26Z",
-   "sources": [
-    {
-     "name": "shattered.io",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWEhGbUd1T1cyZHdCWjdRMi13bmxPWE1WZHd3UElHeURvU09TaEhNTFJGNnlGcUFITUlTOWxubk9lVXB4TFZtX0RHY0pfbzNZNGpwczlldE8tNF8teDlILWVObDcxS1pTc2ZsYVV5UTMwWFlNdGJiS0RQTUVlckEtV3h2SkFQLVVRSkFlR0tnQXpZaDlXR0VQMnJYRQ?oc=5",
-     "title": "vCenter Zero-Day: CVSS 9.8, Exploited Since September",
-     "date": "2026-11-23T04:39:26Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T04:39:26Z"
   },
   {
    "id": "CVE-2026-133968",
@@ -534,13 +495,6 @@
      "date": "2026-11-20T00:00:00Z",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
      "title": "CISA KEV + detail NVD"
-    },
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-     "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-     "date": "2026-11-18T17:10:45Z",
-     "primary": false
     }
    ],
    "kev": {
@@ -2899,6 +2853,46 @@
    "rv": 4,
    "analyzed_at": "2026-11-25T02:29:32Z",
    "date": "2026-11-24T22:29:20Z"
+  },
+  "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T11:39:39Z",
+   "date": "2026-11-25T10:10:20Z"
+  },
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tS3MxakpHcWctcFRneFRGVDRReFN6eHo1N0VoR21qTFo1Q1hKRW15YlNrN0E0SDVTMGNMTlF3MWdfbjh5VDFMZ2hoc1lRSHE2N1A3YlQwMTNyeFFzbDk0UHUtdXRLeXNoNGJnT3hWRk9rd0E?oc=5": {
+   "verdict": "rejected",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "CVE-2026-123890: Patching VCenter Zero-Day Is Only Step One",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T11:39:39Z",
+   "date": "2026-11-24T08:06:53Z"
+  },
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVU5BcHpLd1dlVjB0cS1lMHBPMkJOQXNiYVpHMS1MTjl5LVRoQWcwTEVHWjJ6akFic2JpaWMwTllOUkF1Zk05Y1JPT1JBaG9HeVI5MmJaaFVhS0ZDQTNqSkRDeDIwRDdTZGJMdjhqZ2tVWndiSmJISjBwOFQwbm1tSHA5a09VNldibmlXaXVBUnFYc3Y1bF9pNThQSGc4T0wtSHFZaU01SDBqbmVFVUxKTUl3?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "FastUnlock: the zero day that unlocks BitLocker on Windows 11 with physical access",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-25T11:39:39Z",
+   "date": "2026-11-25T02:02:28Z"
   }
  }
 }
