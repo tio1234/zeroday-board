@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-25T20:40:34Z",
+ "generated_at": "2026-11-26T03:14:15Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 57,
-  "confirmed": 47,
+  "total": 54,
+  "confirmed": 45,
   "likely": 0,
-  "watch": 10
+  "watch": 9
  },
  "items": [
   {
@@ -67,28 +67,6 @@
    "analysis": "rules",
    "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
    "last_update": "2026-11-25T10:10:20Z"
-  },
-  {
-   "id": "ART-f61fa278e8",
-   "cves": [],
-   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-25T00:45:58Z",
-   "sources": [
-    {
-     "name": "TechGig",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQW5veDhpTkFncHBkd1VBdHdEZWw1UnIzTDZvSlFDaTBzX3E1ZXdEUk1mdkNSWW1DcVE5T0pmSkNackxfUzREY1dpUC1CQVlwTWFieHViRmx5TEZWU09vOU16RkJBelFpZ2FDN0VnSERScFlTR2hrS3dsMEJWNHFQZllRcUNoS05OYzZzVk9TTGY3TURpd2dyNXN6RWRJYThvejdJY1VnQVNXbWNhQ0l0T2pXMTlxSEptd1lqYkoxOWNxN0tU0gHAAUFVX3lxTFBYUHFXellMYmMtS1FXbS1XazYyLVJ1SFF6SklGRUk3elNaU09EQ0RBaTJfc2FYaTFCNFctd1dXQjlCc2lTZDNXbVVHajdPcGZzZjhQWWJkUW5FT2VuOVdYTDBzVk10MkV2LWQ4OExJcGc2SllFRy1lSGhxd3BRb3N6X1dBZkJJaVhOVlJrR2lPT1Y1TGtVVmx6cHdVWDZHR0MwNkhaWXdTLXJWX3V0aDRHZXh0dUF6azZvMC1fZWNkOQ?oc=5",
-     "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-     "date": "2026-11-25T00:45:58Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-25T00:45:58Z"
   },
   {
    "id": "CVE-2026-103406",
@@ -381,6 +359,28 @@
    "last_update": "2026-11-25T00:00:00Z"
   },
   {
+   "id": "ART-79fe90d466",
+   "cves": [],
+   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-24T23:20:37Z",
+   "sources": [
+    {
+     "name": "TechGig",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWFBxV3pZTGJjLUtRV20tV2s2Mi1SdUhRekpJRkVJN3pTWlNPRENEQWkyX3NhWGkxQjRXLXdXV0I5QnNpU2QzV21VR2o3T3Bmc2Y4UFliZFFuRU9lbjlXWEwwc1ZNdDJFdi1kODhMSXBnNkpZRUctZUhocXdwUW9zel9XQWZCSWlYTlZSa0dpT09WNUxrVVZsenB3VVg2R0dDMDZIWll3Uy1yVl91dGg0R2V4dHVBems2bzAtX2VjZDnSAcABQVVfeXFMUFhQcVd6WUxiYy1LUVdtLVdrNjItUnVIUXpKSUZFSTd6U1pTT0RDREFpMl9zYVhpMUI0Vy13V1dCOUJzaVNkM1dtVUdqN09wZnNmOFBZYmRRbkVPZW45V1hMMHNWTXQyRXYtZDg4TElwZzZKWUVHLWVIaHF3cFFvc3pfV0FmQklpWE5WUmtHaU9PVjVMa1VWbHpwd1VYNkdHQzA2SFpZd1MtclZfdXRoNEdleHR1QXprNm8wLV9lY2Q5?oc=5",
+     "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
+     "date": "2026-11-24T23:20:37Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-24T23:20:37Z"
+  },
+  {
    "id": "ART-d69f86af31",
    "cves": [],
    "title": "Amazon: Cairn AI autonomously exploited 0-day in university imaging app",
@@ -551,6 +551,49 @@
    "last_update": "2026-11-24T06:02:45Z"
   },
   {
+   "id": "CVE-2026-131914",
+   "cves": [
+    "CVE-2026-131914"
+   ],
+   "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "vendor": "Idunno",
+   "product": "AntiCsrf",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-22T05:36:31Z",
+   "sources": [
+    {
+     "name": "Rescana",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5",
+     "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
+     "date": "2026-11-24T05:58:14Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-24T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+     "title": "CISA KEV + detail NVD"
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "date": "2026-11-23T09:11:56Z",
+     "primary": false
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-24",
+    "due_date": "2026-11-27",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+   "last_update": "2026-11-24T05:58:14Z"
+  },
+  {
    "id": "CVE-2026-132224",
    "cves": [
     "CVE-2026-132224"
@@ -578,64 +621,6 @@
    "analysis": "",
    "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
    "last_update": "2026-11-24T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-131914",
-   "cves": [
-    "CVE-2026-131914"
-   ],
-   "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
-   "vendor": "Idunno",
-   "product": "AntiCsrf",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-22T05:36:31Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-24T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
-     "title": "CISA KEV + detail NVD"
-    },
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-     "date": "2026-11-23T09:11:56Z",
-     "primary": false
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-24",
-    "due_date": "2026-11-27",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "rules",
-   "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-   "last_update": "2026-11-24T00:00:00Z"
-  },
-  {
-   "id": "ART-5b137567e0",
-   "cves": [],
-   "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-23T23:54:42Z",
-   "sources": [
-    {
-     "name": "Social News XYZ",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1Q3MzZhQmd3TFdtcXNTUW1OUmxEcEcwbHJ1ZjVCY05RZ1FScjR6elBON1E1RWdtbDluQkFvUEVDLVU2V1VsRlNZaFRpSmh2bXZmd3gyQjV2Z2tlYTU1RFdKd0d1M1JUOVdTcHh3dE5UTkpWSUdia2VvY3pzMjk4M1l0QjVrNU9xM1djckw2N09hRFh5ODNxYWVibFJteXRmdWRYX2dJMkNXdzTSAasBQVVfeXFMT3dUNzM2YUJnd0xXbXFzU1FtTlJsRHBHMGxydWY1QmNOUWdRUnI0enpQTjdRNUVnbWw5bkJBb1BFQy1VNldVbEZTWWhUaUpodm12Znd4MkI1dmdrZWE1NURXSndHdTNSVDlXU3B4d3ROVE5KVklHYmtlb2N6czI5ODNZdEI1azVPcTNXY3JMNjdPYURYeTgzcWFlYmxSbXl0ZnVkWF9nSTJDV3c0?oc=5",
-     "title": "AI agents linked to China exploited Medical Software Zero-Day: Amazon",
-     "date": "2026-11-23T23:54:42Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-23T23:54:42Z"
   },
   {
    "id": "CVE-2026-133968",
@@ -1564,64 +1549,6 @@
    "analysis": "",
    "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
    "last_update": "2026-10-28T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-48356",
-   "cves": [
-    "CVE-2026-48356"
-   ],
-   "title": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-10-27T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-10-27T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-10-27",
-    "due_date": "2026-11-10",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
-   "last_update": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-111497",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "title": "Google Brotli Unchecked Return Value Vulnerability",
-   "vendor": "Google",
-   "product": "Brotli",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-10-27T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-10-27T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-10-27",
-    "due_date": "2026-11-10",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
-   "last_update": "2026-10-27T00:00:00Z"
   }
  ],
  "analysis_cache": {
