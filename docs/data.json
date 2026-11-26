@@ -1,15 +1,65 @@
 {
- "generated_at": "2026-11-26T12:52:06Z",
+ "generated_at": "2026-11-26T22:11:03Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 53,
+  "total": 51,
   "confirmed": 45,
   "likely": 0,
-  "watch": 8
+  "watch": 6
  },
  "items": [
+  {
+   "id": "CVE-2026-132165",
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "title": "Drupal Core Remote Code Execution Vulnerability",
+   "vendor": "Drupal",
+   "product": "Core",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-24T00:00:00Z",
+   "sources": [
+    {
+     "name": "SOCRadar",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyTTlrR0N6UDg1WHBqOEw3Y1JYVG9zN1F4d1I2c2VjaUJ2YzUxQUw4SDB2TDRLWW9QYi1GNVc5bllaMnU4VDFkWi1EazRkXy1teFNkUjdZUUFCVnlmakgyeDNfSVh6dzh4QlhYVXY4UUd1SjBaYkY4cFlhbw?oc=5",
+     "title": "Drupal Fail2Install RCE (CVE-2026-132165) Exploited in the Wild",
+     "date": "2026-11-26T11:37:48Z",
+     "primary": false
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "date": "2026-11-26T07:02:34Z",
+     "primary": false
+    },
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+     "date": "2026-11-25T10:10:20Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-24T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-24",
+    "due_date": "2026-11-27",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+   "last_update": "2026-11-26T11:37:48Z"
+  },
   {
    "id": "CVE-2026-133324",
    "cves": [
@@ -189,49 +239,6 @@
    "analysis": "rules",
    "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
    "last_update": "2026-11-26T11:35:25Z"
-  },
-  {
-   "id": "CVE-2026-132165",
-   "cves": [
-    "CVE-2026-132165"
-   ],
-   "title": "Drupal Core Remote Code Execution Vulnerability",
-   "vendor": "Drupal",
-   "product": "Core",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-24T00:00:00Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-     "date": "2026-11-26T07:02:34Z",
-     "primary": false
-    },
-    {
-     "name": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-     "date": "2026-11-25T10:10:20Z",
-     "primary": false
-    },
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-24T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-24",
-    "due_date": "2026-11-27",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "rules",
-   "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-   "last_update": "2026-11-26T07:02:34Z"
   },
   {
    "id": "CVE-2026-136716",
@@ -505,28 +512,6 @@
    "last_update": "2026-11-24T22:29:20Z"
   },
   {
-   "id": "ART-0993a2e32c",
-   "cves": [],
-   "title": "Cairn AI Agents Needed 11 Minutes to Find a MONAI Label Zero-Day, and CISA Has Now Flagged It as Exploited",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T16:10:47Z",
-   "sources": [
-    {
-     "name": "Hardware Busters",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQUhPV21LT2IxSUczWVZaY3hVcjRzdGlObWVTNzZIQmdpbHVPY3V6dlIzQjBtWnZNTmotT2NGWWVrYzNtOVROandVcTJHd2xxaFEzVnZTaXpUMjBPRUVFNzdEck9pWE56ZWU2VUZ2MWg0STV1UHFnSDh5RnFmbDBfODltSFR5eFVwaU83VjRVX2NadmxoRGFKWXQ0LUoxQ1NMWFRvc0ZMbzhIdEFXOGV5ZDNTSUg2ZG56Yjd1Q0ZRb3JjRzhGUUxCRHJNLU9Zdw?oc=5",
-     "title": "Cairn AI Agents Needed 11 Minutes to Find a MONAI Label Zero-Day, and CISA Has Now Flagged It as Exploited",
-     "date": "2026-11-24T16:10:47Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-24T16:10:47Z"
-  },
-  {
    "id": "CVE-2026-123903",
    "cves": [
     "CVE-2026-123903"
@@ -549,28 +534,6 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-24T13:28:26Z"
-  },
-  {
-   "id": "ART-1eb2d1a17c",
-   "cves": [],
-   "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T13:28:00Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkl0aHN0dnlIV2d0YW80VWRuY2wyb3dHUU1oT3J0TXozZ214U2ZwV2JPVEpOT0JZQ0o1MmhNU2s0eHZNOXBiUmw4Y1Nrc0tNV193dkd3dHlxckRsUWRaWlp0cjJaSjNCeUlCdnV1NkxGd3JrdHNwS2wxZ2R6Q1pHT0dCbw?oc=5",
-     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-     "date": "2026-11-24T13:28:00Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-24T13:28:00Z"
   },
   {
    "id": "CVE-2026-134624",
@@ -3217,6 +3180,116 @@
    "rv": 4,
    "analyzed_at": "2026-11-26T12:52:06Z",
    "date": "2026-11-25T16:33:18Z"
+  },
+  "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T15:23:28Z"
+  },
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUdOYW5QY1ZMdmJoSHBtUDJsYzU1NDVsc1k3amtReWVpQ2k1NmZiU0YybndwT0VETUtvZWZUMFBPM2NoX1B4ZVN2VUcxNmozYTlYSnpOQVk3MXJVQXhydmFWZnZrUDJiUjlRQmxaRTlqU0NadlRCRWtIQXdyZDZBZG9zd0JmRC1ZaVNSR2ZmTXNaeG5mRTFVam1YM2V4b1VwRmt2MEFad9IBrAFBVV95cUxNZ1dnOXBlbXQtYXM1d1RxdmtxZlFDVkRYamN2TEJHR2ota19ZdGJpQTFTY0QtMEMtSlA2Vmp1c2Q0ZEI2ZzAwQ1NpRkljcm0yVlpOZlFXV2F3dVJDY3hVeDN5T1FiNmJvM3dTZExIblhiY2thWTdySjNzTV9VbklBNTNNUHlnLW5nVVl0QVhROGhZRG55S0VjS2ZBa25uc3U4VFZ3cW9mTnBRbFYt?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Drupal Warns of New Critical Flaw Exploited in the Wild",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T20:37:30Z"
+  },
+  "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5EU1Jqd1ByMTdJb2NLdk44MllqZG5RcEwwOWRfMlZCZ1dtZ3l4OGpmeXNRNVQ3WGFFN0tr?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Critical Zero-Day Wave Strikes Hypervisors, Edge Appliances, and AI Medical Imaging + Video",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T13:18:43Z"
+  },
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSEZVVjBLM1VuTGlkM0lTeVBwVFBOdDZmMnE2V1JTVU9oMk83VTlBbHN1YW1KakRfcVRZV3l4Q1pqQzhZNEdrUko3RXViTmc2YkpueHFNUDBHZnM2QV8yQlVrVUZ4TlNaTjRQc1FrWFZLbGZkT1RKMHNSSUtpRGNLbGVPYm9PbnEtNmF0N3h6aWpYcUxrYkE?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Remus 'Gmail zero-day' is a fake Google Sheets extension, researchers say",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T19:09:18Z"
+  },
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyTTlrR0N6UDg1WHBqOEw3Y1JYVG9zN1F4d1I2c2VjaUJ2YzUxQUw4SDB2TDRLWW9QYi1GNVc5bllaMnU4VDFkWi1EazRkXy1teFNkUjdZUUFCVnlmakgyeDNfSVh6dzh4QlhYVXY4UUd1SjBaYkY4cFlhbw?oc=5": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Drupal Fail2Install RCE (CVE-2026-132165) Exploited in the Wild",
+   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T11:37:48Z"
+  },
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZERDeHR3SEMzbVJzVE84cnY4NjV2WmpXSlhtd3h5RzdFdlB2TGl0dXNQZFREekVVd1RDNkRQX08zQ0tucWNHeVhVOEZzOFdRT1RWMFlFSzhHQnEySkhvR1RjeWM5Y2pxNmUyNE5acWh6TjV6MzU5Ujk5QlVIZTJaV2p1TVTSAYQBQVVfeXFMTWREQ3h0d0hDM21Sc1RPOHJ2ODY1dlpqV0pYbXd4eUc3RXZQdkxpdHVzUGRURHpFVXdUQzZEUF9PM0NLbnFjR3lYVThGczhXUU9UVjBZRUs4R0JxMkpIb0dUY3ljOWNqcTZlMjROWnFoek41ejM1OVI5OUJVSGUyWldqdU1U?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Palo Alto Networks Warns of Fragnesia Vulnerability Exploited in the Wild",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-25T08:10:17Z"
+  },
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xeEhjUmxjS2hDcl92a3dweUl1RVNzQWJMS1ozYlcxaGt0NmxyNlRsUTJQejBCTWRPWjk5WEc1MDhvd2owQ2ZWeHBMTjJ5TFEyc1FycHA5OEltSy1qdFNwR1NBRHZudWt6MVBkZnBoN1hvT2tV0gF0QVVfeXFMTjF4SGNSbGNLaENyX3Zrd3B5SXVFU3NBYkxLWjNiVzFoa3Q2bHI2VGxRMlB6MEJNZE9aOTlYRzUwOG93ajBDZlZ4cExOMnlMUTJzUXJwcDk4SW1LLWp0U3BHU0FEdm51a3oxUGRmcGg3WG9Pa1U?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Critical Drupal Vulnerability Exploited in the Wild to Execute Arbitrary Code on Servers",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-25T14:18:39Z"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCWTlxUXYyVjU2M0VwTkM2R1VCQ1hWVVlvdm9qWEdrbHNXZE9LWTdUano2b3pSSDkxbmVPLWRncE9BUU85eXFWV3hDSkZoeml3WEowdG5VNm96TmRSekViVzJ4UDZXNDZWaXN5VHBjYWhuX21uWlYzOVRMaHplQ00?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T07:02:00Z"
+  },
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUXh2OEN0QVhVVHNHYVRNdUNhMVBkMEdLZG5JMWRQaTh5UWlVYjlNOTBZbjRUSE4zMzdIX3VMYW14ZjY4Y0Z0NDdzT0tLb3dqZEhkcGN2T09RRXRuczBYb1Rqc2NSVVp4RnRGLVNQN2toakFzSHYxeE9KdjhQY0pzdXdnb3pzaEU4S3ZaZWE2LTVXY0dkR2xIZzItR0VlXzZZVnNYMkVWQ3RDZ1p2TDQ5TzhEOTQ2Y2M3aWx0b3M1dXlIbkRDdUEw?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Ethena USDe price: Risk Committee approves zero-day sUSDe unstaking",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T22:11:03Z",
+   "date": "2026-11-26T17:32:56Z"
   }
  }
 }
