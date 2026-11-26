@@ -1,36 +1,194 @@
 {
- "generated_at": "2026-11-26T03:14:15Z",
+ "generated_at": "2026-11-26T12:52:06Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 54,
+  "total": 53,
   "confirmed": 45,
   "likely": 0,
-  "watch": 9
+  "watch": 8
  },
  "items": [
   {
-   "id": "ART-33f47b92fc",
-   "cves": [],
-   "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-25T16:26:03Z",
+   "id": "CVE-2026-133324",
+   "cves": [
+    "CVE-2026-133324"
+   ],
+   "title": "Mitel MiCollab Not Failing Securely Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
    "sources": [
     {
-     "name": "inkl",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG9ldXVaZE5FX1VEZG1Kakg1eVViTGI0dUlaSmZYTnZ3VWZVWUhPaGdJbHhSTUhkbzlWMmZCWjE5dmZxeFdsYW5Qai1leUphb2lXV3RTZGRud1YxcDdJU1ExZ0hvNFV2aEZUdVhaZHVLamJwenQ3WTRRZ01heVJtNVloMWg5dzN5ZDdqZHVBdHdrV3NDcVpzMnhLYVJSVUZrNms3UEY0ZWRiNjFPT0pGWkVzLWZGcENYdEROMmM2NHh2aU43UEFOb3dIanNjWWFx?oc=5",
-     "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
-     "date": "2026-11-25T16:26:03Z",
+     "name": "SecurityWeek",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+     "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+     "date": "2026-11-26T11:35:25Z",
      "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+     "title": "CISA KEV + detail NVD"
     }
    ],
-   "kev": null,
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
    "analysis": "rules",
-   "last_update": "2026-11-25T16:26:03Z"
+   "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+   "last_update": "2026-11-26T11:35:25Z"
+  },
+  {
+   "id": "CVE-2026-133275",
+   "cves": [
+    "CVE-2026-133275"
+   ],
+   "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "SecurityWeek",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+     "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+     "date": "2026-11-26T11:35:25Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+   "last_update": "2026-11-26T11:35:25Z"
+  },
+  {
+   "id": "CVE-2026-133311",
+   "cves": [
+    "CVE-2026-133311"
+   ],
+   "title": "Mitel MiCollab Weak Authentication Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "SecurityWeek",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+     "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+     "date": "2026-11-26T11:35:25Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-12-09",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+   "last_update": "2026-11-26T11:35:25Z"
+  },
+  {
+   "id": "CVE-2026-133303",
+   "cves": [
+    "CVE-2026-133303"
+   ],
+   "title": "Mitel MiCollab XML Injection Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "SecurityWeek",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+     "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+     "date": "2026-11-26T11:35:25Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+   "last_update": "2026-11-26T11:35:25Z"
+  },
+  {
+   "id": "CVE-2026-133323",
+   "cves": [
+    "CVE-2026-133323"
+   ],
+   "title": "Mitel MiCollab OS Command Injection Vulnerability",
+   "vendor": "Mitel",
+   "product": "MiCollab",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-25T00:00:00Z",
+   "sources": [
+    {
+     "name": "SecurityWeek",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+     "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+     "date": "2026-11-26T11:35:25Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-25T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-25",
+    "due_date": "2026-11-28",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+   "last_update": "2026-11-26T11:35:25Z"
   },
   {
    "id": "CVE-2026-132165",
@@ -44,6 +202,13 @@
    "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
    "first_seen": "2026-11-24T00:00:00Z",
    "sources": [
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "date": "2026-11-26T07:02:34Z",
+     "primary": false
+    },
     {
      "name": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
@@ -66,7 +231,111 @@
    },
    "analysis": "rules",
    "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-   "last_update": "2026-11-25T10:10:20Z"
+   "last_update": "2026-11-26T07:02:34Z"
+  },
+  {
+   "id": "CVE-2026-136716",
+   "cves": [
+    "CVE-2026-136716"
+   ],
+   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-26T07:02:34Z",
+   "sources": [
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "date": "2026-11-26T07:02:34Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-26T07:02:34Z"
+  },
+  {
+   "id": "CVE-2026-133968",
+   "cves": [
+    "CVE-2026-133968"
+   ],
+   "title": "Project MONAI MONAI Label Path Traversal Vulnerability",
+   "vendor": "Project MONAI",
+   "product": "MONAI Label",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-22T02:00:00Z",
+   "sources": [
+    {
+     "name": "Rescana",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5",
+     "title": "MONAI Label CVE-2026-133968 Path Traversal Exploited in the Wild: No Fixed Release, Mitigate Now",
+     "date": "2026-11-26T05:33:43Z",
+     "primary": false
+    },
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-23T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-23",
+    "due_date": "2026-11-26",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+   "last_update": "2026-11-26T05:33:43Z"
+  },
+  {
+   "id": "ART-5498f4145d",
+   "cves": [],
+   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-25T16:33:18Z",
+   "sources": [
+    {
+     "name": "TechGig",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnNLSUNoaGY3aV9BWE1MdEVLZzFCVlBrLXdjNkU1b1FQcF82VnZtQXBaUnpvMkdPYk5lMjFXajV3WktNeUtJakt3VHRFRDFXbnZYMzQ0QXVhZDBncE11NG04WlVXM25UODZrd0lmZnBJWHVWcGpEbWFObTFkX3FzTzRrSW1QUjRiVWQzZS01ekRaa0JzMGZwa3k3SWVQRTFQc2JFeEQ1Wm4xYUlVaEV4ZDVMaEZBbmprM1pF0gHAAUFVX3lxTFBYUHFXellMYmMtS1FXbS1XazYyLVJ1SFF6SklGRUk3elNaU09EQ0RBaTJfc2FYaTFCNFctd1dXQjlCc2lTZDNXbVVHajdPcGZzZjhQWWJkUW5FT2VuOVdYTDBzVk10MkV2LWQ4OExJcGc2SllFRy1lSGhxd3BRb3N6X1dBZkJJaVhOVlJrR2lPT1Y1TGtVVmx6cHdVWDZHR0MwNkhaWXdTLXJWX3V0aDRHZXh0dUF6azZvMC1fZWNkOQ?oc=5",
+     "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
+     "date": "2026-11-25T16:33:18Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-25T16:33:18Z"
+  },
+  {
+   "id": "ART-33f47b92fc",
+   "cves": [],
+   "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-25T16:26:03Z",
+   "sources": [
+    {
+     "name": "inkl",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG9ldXVaZE5FX1VEZG1Kakg1eVViTGI0dUlaSmZYTnZ3VWZVWUhPaGdJbHhSTUhkbzlWMmZCWjE5dmZxeFdsYW5Qai1leUphb2lXV3RTZGRud1YxcDdJU1ExZ0hvNFV2aEZUdVhaZHVLamJwenQ3WTRRZ01heVJtNVloMWg5dzN5ZDdqZHVBdHdrV3NDcVpzMnhLYVJSVUZrNms3UEY0ZWRiNjFPT0pGWkVzLWZGcENYdEROMmM2NHh2aU43UEFOb3dIanNjWWFx?oc=5",
+     "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
+     "date": "2026-11-25T16:26:03Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-25T16:26:03Z"
   },
   {
    "id": "CVE-2026-103406",
@@ -214,173 +483,6 @@
    "last_update": "2026-11-25T00:00:00Z"
   },
   {
-   "id": "CVE-2026-133324",
-   "cves": [
-    "CVE-2026-133324"
-   ],
-   "title": "Mitel MiCollab Not Failing Securely Vulnerability",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-25T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-25T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-25",
-    "due_date": "2026-11-28",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
-   "last_update": "2026-11-25T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-133275",
-   "cves": [
-    "CVE-2026-133275"
-   ],
-   "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-25T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-25T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-25",
-    "due_date": "2026-11-28",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
-   "last_update": "2026-11-25T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-133311",
-   "cves": [
-    "CVE-2026-133311"
-   ],
-   "title": "Mitel MiCollab Weak Authentication Vulnerability",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-25T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-25T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-25",
-    "due_date": "2026-12-09",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
-   "last_update": "2026-11-25T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-133303",
-   "cves": [
-    "CVE-2026-133303"
-   ],
-   "title": "Mitel MiCollab XML Injection Vulnerability",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-25T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-25T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-25",
-    "due_date": "2026-11-28",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
-   "last_update": "2026-11-25T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-133323",
-   "cves": [
-    "CVE-2026-133323"
-   ],
-   "title": "Mitel MiCollab OS Command Injection Vulnerability",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-25T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-25T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-25",
-    "due_date": "2026-11-28",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
-   "last_update": "2026-11-25T00:00:00Z"
-  },
-  {
-   "id": "ART-79fe90d466",
-   "cves": [],
-   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T23:20:37Z",
-   "sources": [
-    {
-     "name": "TechGig",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWFBxV3pZTGJjLUtRV20tV2s2Mi1SdUhRekpJRkVJN3pTWlNPRENEQWkyX3NhWGkxQjRXLXdXV0I5QnNpU2QzV21VR2o3T3Bmc2Y4UFliZFFuRU9lbjlXWEwwc1ZNdDJFdi1kODhMSXBnNkpZRUctZUhocXdwUW9zel9XQWZCSWlYTlZSa0dpT09WNUxrVVZsenB3VVg2R0dDMDZIWll3Uy1yVl91dGg0R2V4dHVBems2bzAtX2VjZDnSAcABQVVfeXFMUFhQcVd6WUxiYy1LUVdtLVdrNjItUnVIUXpKSUZFSTd6U1pTT0RDREFpMl9zYVhpMUI0Vy13V1dCOUJzaVNkM1dtVUdqN09wZnNmOFBZYmRRbkVPZW45V1hMMHNWTXQyRXYtZDg4TElwZzZKWUVHLWVIaHF3cFFvc3pfV0FmQklpWE5WUmtHaU9PVjVMa1VWbHpwd1VYNkdHQzA2SFpZd1MtclZfdXRoNEdleHR1QXprNm8wLV9lY2Q5?oc=5",
-     "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-     "date": "2026-11-24T23:20:37Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-24T23:20:37Z"
-  },
-  {
    "id": "ART-d69f86af31",
    "cves": [],
    "title": "Amazon: Cairn AI autonomously exploited 0-day in university imaging app",
@@ -471,50 +573,6 @@
    "last_update": "2026-11-24T13:28:00Z"
   },
   {
-   "id": "ART-3e3bb48015",
-   "cves": [],
-   "title": "Amazon says AI agents found and exploited a zero-day with almost no human help",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T12:39:05Z",
-   "sources": [
-    {
-     "name": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BeTE3d2t0S1VHV1lxZ2NoQmw3M0JtUlJoMUo2OTlLVW5kb1ktWVliMGcyZXVLM2ZYQXNXeWpfZ0dfWXlSQmd2YzdwUm1Bd3c1Y2xaMGFBWWMzVmxncVZ5bUV0YzJSeC12S3lvNEV3?oc=5",
-     "title": "Amazon says AI agents found and exploited a zero-day with almost no human help",
-     "date": "2026-11-24T12:39:05Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-24T12:39:05Z"
-  },
-  {
-   "id": "ART-fec5709721",
-   "cves": [],
-   "title": "Amazon says hackers’ AI agents found and exploited 0-day with little human input",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T12:30:05Z",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEl5b3ZJMXBEYm5sS0J6cWR4WUhtUnYzaXV1emJQSFFDdERIVTMyVmdPVnpHaV9ubVJDUTVBa3NQOVFlcXBDQjJiWkQyVmJ0X3hxamd1MEFfWC1sZHE4RmVIRy1tUnBMMHBrdXpOMnVoX1JEXzRrVGthRkQtRlI0dFh0VHBSX0t3STlmRFRGbGd2azlMSjlxbnA3Y3lhbWNBWFRwSHN0NjVfbHBPSEVsdWRtNUR5Y1ZtcGJkRHF3?oc=5",
-     "title": "Amazon says hackers’ AI agents found and exploited 0-day with little human input",
-     "date": "2026-11-24T12:30:05Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-24T12:30:05Z"
-  },
-  {
    "id": "CVE-2026-134624",
    "cves": [
     "CVE-2026-134624"
@@ -551,49 +609,6 @@
    "last_update": "2026-11-24T06:02:45Z"
   },
   {
-   "id": "CVE-2026-131914",
-   "cves": [
-    "CVE-2026-131914"
-   ],
-   "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
-   "vendor": "Idunno",
-   "product": "AntiCsrf",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-22T05:36:31Z",
-   "sources": [
-    {
-     "name": "Rescana",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5",
-     "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
-     "date": "2026-11-24T05:58:14Z",
-     "primary": false
-    },
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-24T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
-     "title": "CISA KEV + detail NVD"
-    },
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-     "date": "2026-11-23T09:11:56Z",
-     "primary": false
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-24",
-    "due_date": "2026-11-27",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "rules",
-   "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-   "last_update": "2026-11-24T05:58:14Z"
-  },
-  {
    "id": "CVE-2026-132224",
    "cves": [
     "CVE-2026-132224"
@@ -623,33 +638,40 @@
    "last_update": "2026-11-24T00:00:00Z"
   },
   {
-   "id": "CVE-2026-133968",
+   "id": "CVE-2026-131914",
    "cves": [
-    "CVE-2026-133968"
+    "CVE-2026-131914"
    ],
-   "title": "Project MONAI MONAI Label Path Traversal Vulnerability",
-   "vendor": "Project MONAI",
-   "product": "MONAI Label",
+   "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "vendor": "Idunno",
+   "product": "AntiCsrf",
    "verdict": "confirmed",
    "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-22T02:00:00Z",
+   "first_seen": "2026-11-22T05:36:31Z",
    "sources": [
     {
      "name": "CISA KEV",
-     "date": "2026-11-23T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+     "date": "2026-11-24T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
      "title": "CISA KEV + detail NVD"
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "date": "2026-11-23T09:11:56Z",
+     "primary": false
     }
    ],
    "kev": {
-    "date_added": "2026-11-23",
-    "due_date": "2026-11-26",
+    "date_added": "2026-11-24",
+    "due_date": "2026-11-27",
     "ransomware": "Unknown",
     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
    },
    "analysis": "rules",
-   "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
-   "last_update": "2026-11-23T00:00:00Z"
+   "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+   "last_update": "2026-11-24T00:00:00Z"
   },
   {
    "id": "CVE-2026-123890",
@@ -3126,6 +3148,75 @@
    "rv": 4,
    "analyzed_at": "2026-11-25T20:40:34Z",
    "date": "2026-11-25T16:26:03Z"
+  },
+  "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-132165",
+    "CVE-2026-136716"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T12:52:06Z",
+   "date": "2026-11-26T07:02:34Z"
+  },
+  "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-133275",
+    "CVE-2026-133303",
+    "CVE-2026-133311",
+    "CVE-2026-133323",
+    "CVE-2026-133324"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T12:52:06Z",
+   "date": "2026-11-26T11:35:25Z"
+  },
+  "https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "More than 4,400 malicious domains are waiting for holiday shoppers",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T12:52:06Z",
+   "date": "2026-11-26T06:00:53Z"
+  },
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHhjUmdldFcyYWllLUN4akhwa3dYTDh3NUt4c1dRWVcwQkhWSmN5OEQ4cVRrRlMxWjdtZVNkcHBIeGo0V3JLcFpNcU5xOFk1S0pjMXVNV1E2WkFpelhlMDFFQnJ4bDVzVkpqX1VQNW1DZWNPX1B1S2p3QkNYaGFyV1ZwQ1lLV2dJdnFQY0lhSEVXd0g3bHFZV0JWcw?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "AI agents zero-day exploit: Amazon’s Cairn report",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T12:52:06Z",
+   "date": "2026-11-26T10:07:11Z"
+  },
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnNLSUNoaGY3aV9BWE1MdEVLZzFCVlBrLXdjNkU1b1FQcF82VnZtQXBaUnpvMkdPYk5lMjFXajV3WktNeUtJakt3VHRFRDFXbnZYMzQ0QXVhZDBncE11NG04WlVXM25UODZrd0lmZnBJWHVWcGpEbWFObTFkX3FzTzRrSW1QUjRiVWQzZS01ekRaa0JzMGZwa3k3SWVQRTFQc2JFeEQ1Wm4xYUlVaEV4ZDVMaEZBbmprM1pF0gHAAUFVX3lxTFBYUHFXellMYmMtS1FXbS1XazYyLVJ1SFF6SklGRUk3elNaU09EQ0RBaTJfc2FYaTFCNFctd1dXQjlCc2lTZDNXbVVHajdPcGZzZjhQWWJkUW5FT2VuOVdYTDBzVk10MkV2LWQ4OExJcGc2SllFRy1lSGhxd3BRb3N6X1dBZkJJaVhOVlJrR2lPT1Y1TGtVVmx6cHdVWDZHR0MwNkhaWXdTLXJWX3V0aDRHZXh0dUF6azZvMC1fZWNkOQ?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-26T12:52:06Z",
+   "date": "2026-11-25T16:33:18Z"
   }
  }
 }
