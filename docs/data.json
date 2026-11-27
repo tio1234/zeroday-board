@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-27T04:19:43Z",
+ "generated_at": "2026-11-27T14:04:19Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 48,
+  "total": 49,
   "confirmed": 43,
   "likely": 0,
-  "watch": 5
+  "watch": 6
  },
  "items": [
   {
@@ -23,10 +23,10 @@
    "first_seen": "2026-11-24T00:00:00Z",
    "sources": [
     {
-     "name": "SOCRadar",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyTTlrR0N6UDg1WHBqOEw3Y1JYVG9zN1F4d1I2c2VjaUJ2YzUxQUw4SDB2TDRLWW9QYi1GNVc5bllaMnU4VDFkWi1EazRkXy1teFNkUjdZUUFCVnlmakgyeDNfSVh6dzh4QlhYVXY4UUd1SjBaYkY4cFlhbw?oc=5",
-     "title": "Drupal Fail2Install RCE (CVE-2026-132165) Exploited in the Wild",
-     "date": "2026-11-26T11:37:48Z",
+     "name": "SOC Prime",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR0diMEp5cVl4Q0hXUWx5ZW1sYmNTekVaZHdYa21kaW1oT3pFSWlVTkpNS1EzcTlRazF2cVYzZnRhX2NfMjNsQU9NMFB0ZVEwaHJySF9XTng0X2lsb2R5VEM1QjlFWWlLenplOUxDYlFSLTVONlFQSjFZekZyTWNaeHZVQUpvZXowVFdRZ3hZWTI4QQ?oc=5",
+     "title": "CVE-2026-132165: Drupal Fail2Install RCE Exploited in the Wild",
+     "date": "2026-11-27T13:52:19Z",
      "primary": false
     },
     {
@@ -34,13 +34,6 @@
      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
      "date": "2026-11-26T07:02:34Z",
-     "primary": false
-    },
-    {
-     "name": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-     "date": "2026-11-25T10:10:20Z",
      "primary": false
     },
     {
@@ -58,7 +51,51 @@
    },
    "analysis": "rules",
    "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-   "last_update": "2026-11-26T11:37:48Z"
+   "last_update": "2026-11-27T13:52:19Z"
+  },
+  {
+   "id": "ART-706168821f",
+   "cves": [],
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-27T05:48:20Z",
+   "sources": [
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+     "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+     "date": "2026-11-27T05:48:20Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-27T05:48:20Z"
+  },
+  {
+   "id": "ART-771121faf2",
+   "cves": [],
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-27T05:48:00Z",
+   "sources": [
+    {
+     "name": "The Hacker News",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOS1VUmpJcEM5SHNNX09PYlZaQWstSGNyQnpEbWt5TXlVcVdkakhyS0p1NjQ5em5PRGpTLUVYVzhsZE5xSWRhMHpYUDZ6UDctcUhtaUl4VENGc01jN09sX29Ta05Cdkw3LXJfVlk4MzVkb3RlUTBuNnJBX0tUMHVOMVpxdV8?oc=5",
+     "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+     "date": "2026-11-27T05:48:00Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-27T05:48:00Z"
   },
   {
    "id": "CVE-2026-133324",
@@ -615,64 +652,6 @@
    "last_update": "2026-11-24T00:00:00Z"
   },
   {
-   "id": "CVE-2026-123890",
-   "cves": [
-    "CVE-2026-123890"
-   ],
-   "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "vendor": "Broadcom",
-   "product": "VMware vCenter",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-11-20T00:00:00Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-     "date": "2026-11-20T09:38:15Z",
-     "primary": false
-    },
-    {
-     "name": "CISA KEV",
-     "date": "2026-11-20T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-11-20",
-    "due_date": "2026-11-23",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
-   },
-   "analysis": "rules",
-   "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-   "last_update": "2026-11-20T09:38:15Z"
-  },
-  {
-   "id": "ART-fa700a4eb8",
-   "cves": [],
-   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-20T05:30:01Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-     "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-     "date": "2026-11-20T05:30:01Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-20T05:30:01Z"
-  },
-  {
    "id": "CVE-2026-129448",
    "cves": [
     "CVE-2026-129448"
@@ -699,6 +678,35 @@
    },
    "analysis": "rules",
    "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+   "last_update": "2026-11-20T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-123890",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-20T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-20T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-20",
+    "due_date": "2026-11-23",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
+   },
+   "analysis": "rules",
+   "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
    "last_update": "2026-11-20T00:00:00Z"
   },
   {
@@ -3210,6 +3218,92 @@
    "rv": 4,
    "analyzed_at": "2026-11-26T22:11:03Z",
    "date": "2026-11-26T17:32:56Z"
+  },
+  "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T05:48:20Z"
+  },
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOS1VUmpJcEM5SHNNX09PYlZaQWstSGNyQnpEbWt5TXlVcVdkakhyS0p1NjQ5em5PRGpTLUVYVzhsZE5xSWRhMHpYUDZ6UDctcUhtaUl4VENGc01jN09sX29Ta05Cdkw3LXJfVlk4MzVkb3RlUTBuNnJBX0tUMHVOMVpxdV8?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T05:48:00Z"
+  },
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR0diMEp5cVl4Q0hXUWx5ZW1sYmNTekVaZHdYa21kaW1oT3pFSWlVTkpNS1EzcTlRazF2cVYzZnRhX2NfMjNsQU9NMFB0ZVEwaHJySF9XTng0X2lsb2R5VEM1QjlFWWlLenplOUxDYlFSLTVONlFQSjFZekZyTWNaeHZVQUpvZXowVFdRZ3hZWTI4QQ?oc=5": {
+   "verdict": "likely",
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "vendor": "",
+   "product": "",
+   "title": "CVE-2026-132165: Drupal Fail2Install RCE Exploited in the Wild",
+   "reason": "Artikel menyebut CVE dan indikasi eksploitasi aktif (analisis kata kunci).",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T13:52:19Z"
+  },
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pMEdHaHJoWVl2dTlVWi1MYnFUdV9MU2cweXZrUzFpWlpqTDdYSWhHbjhlaHVkblVCbThrUnNPMGZWanA0TUJQTnM5OVBQdW90ODNFcm9EZWYyQ1p50gFiQVVfeXFMTmlfTTZ5YVBOcmczR2NlbHQzamRCT0VoZDROVmRJd1JlTXpOZmtwNDZKazJ0SFZ4LU9KZEg2ZVNUZEpkeTFpazlXZ2ZIUFlvNFdmTUNEOUZKUE5haFdwVHNnbVE?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti 4HTTP2ROOT Zero-Day Enables Unauthenticated Remote Code Execution",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T10:04:30Z"
+  },
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yTENKMGdyUGs0RjZ3QkNEaHlXQ0ZBajRlUHRnVjBJRWpyYjYtRkNEY3hWeFVXcXZRN21MSlBSREJmcWtiRjQxZV96bDl0Yld1RndlLVhEcUZKTlI3NkxwUUdLONIBY0FVX3lxTE8yTENKMGdyUGs0RjZ3QkNEaHlXQ0ZBajRlUHRnVjBJRWpyYjYtRkNEY3hWeFVXcXZRN21MSlBSREJmcWtiRjQxZV96bDl0Yld1RndlLVhEcUZKTlI3NkxwUUdLOA?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Critical Cacti Zero-Day Could Let Hackers Take Over Network Monitoring Servers Without Authentication",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T06:18:51Z"
+  },
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE1id2NEVWxNX3djTlRoaXZNTW9Ja1owOEpfd09leXl2R0dxVkFDeU9BcG5SMk9ySzNaeW9ObmtXaU9vbHFybmR0N3JCQ3VLZFFmSy1hZEkxUHBpdDUwcl9lZU1yR2RvN291ZC1MZdIBbEFVX3lxTE1id2NEVWxNX3djTlRoaXZNTW9Ja1owOEpfd09leXl2R0dxVkFDeU9BcG5SMk9ySzNaeW9ObmtXaU9vbHFybmR0N3JCQ3VLZFFmSy1hZEkxUHBpdDUwcl9lZU1yR2RvN291ZC1MZQ?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti 4HTTP2ROOT Zero-Day Lets Hackers Execute Commands on Network Monitoring Servers Without Login",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T05:50:29Z"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HM1NQZW80dHZXTEp6NkRRUHF4YVNEaGFNekhIZWpsRFdNbjhXMlM2dkVWQ3RWcGRTck5PcUU5Qkk2S204N2ZCNkc4U2NvRW9oT2kyM2tBOV84MEtKNFFTX0xURG81NFdjNWZZZzM1WEZXaWxSWnZV?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti Zero-Day: RCE with just 4 HTTP Requests without Login",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T14:04:19Z",
+   "date": "2026-11-27T09:53:25Z"
   }
  }
 }
