@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-26T22:11:03Z",
+ "generated_at": "2026-11-27T04:19:43Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 51,
-  "confirmed": 45,
+  "total": 48,
+  "confirmed": 43,
   "likely": 0,
-  "watch": 6
+  "watch": 5
  },
  "items": [
   {
@@ -488,28 +488,6 @@
    "analysis": "",
    "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
    "last_update": "2026-11-25T00:00:00Z"
-  },
-  {
-   "id": "ART-d69f86af31",
-   "cves": [],
-   "title": "Amazon: Cairn AI autonomously exploited 0-day in university imaging app",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-24T22:29:20Z",
-   "sources": [
-    {
-     "name": "NewsBytes",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSF9NZUF3azFuOXp4SDdHaXJSaVVlUVlpckEtTWprUHZ6clhVUFgwbDlGRUl3S1poOHNTUXpySklSSk43OEZNazROWm1CcXBoUS10ckZnTmxNMmtqaS05Z2xiQ1BFemkxRjZfUk50RHdNX2dyb21TR0YzcEhyVVhZSU80NGxlRjluVUF6MG90LXpPUW9lakYySGN5S1JUTUVDTGJ2VHhJVV9iWXI1N3FfLWZhSVdHUzRG?oc=5",
-     "title": "Amazon: Cairn AI autonomously exploited 0-day in university imaging app",
-     "date": "2026-11-24T22:29:20Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-24T22:29:20Z"
   },
   {
    "id": "CVE-2026-123903",
@@ -1476,64 +1454,6 @@
    "analysis": "",
    "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
    "last_update": "2026-10-29T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-41709",
-   "cves": [
-    "CVE-2026-41709"
-   ],
-   "title": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
-   "vendor": "Broadcom",
-   "product": "VMware ESX",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-10-28T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-10-28T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-10-28",
-    "due_date": "2026-11-11",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
-   "last_update": "2026-10-28T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-46300",
-   "cves": [
-    "CVE-2026-46300"
-   ],
-   "title": "Linux Kernel Missing Initialization of a Variable Vulnerability",
-   "vendor": "Linux",
-   "product": "Kernel",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-10-28T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-10-28T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-10-28",
-    "due_date": "2026-10-31",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
-   "last_update": "2026-10-28T00:00:00Z"
   }
  ],
  "analysis_cache": {
