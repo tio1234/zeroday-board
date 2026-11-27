@@ -1,15 +1,59 @@
 {
- "generated_at": "2026-11-27T14:04:19Z",
+ "generated_at": "2026-11-27T22:40:28Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 49,
-  "confirmed": 43,
+  "total": 51,
+  "confirmed": 46,
   "likely": 0,
-  "watch": 6
+  "watch": 5
  },
  "items": [
+  {
+   "id": "ART-8b62149719",
+   "cves": [],
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-27T17:06:13Z",
+   "sources": [
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+     "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+     "date": "2026-11-27T17:06:13Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-27T17:06:13Z"
+  },
+  {
+   "id": "ART-4388b19337",
+   "cves": [],
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-27T16:35:09Z",
+   "sources": [
+    {
+     "name": "BleepingComputer",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQWtHUjlpZWZwUmRUUkpmTksxbV93bUFhRTdEeHlMSHBMSFBBWDNfVnRRTE5iX1hUam9IbVdqMWhPWXlvMXp6bkpkVDFWbDlCMkhEdTFMY09JRTBWWTJTd0YxaDg1YU5GNVh4a1djWGxvdUV2aERjN1dicU1ZUVpKVnRJTlZWbkJHelZqUWdaSE1hM0ZWQjI2aEJ4R0JvV2pyLTRiRzlNQkxVal9Rb1ZVbDJzYzNLWDg?oc=5",
+     "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+     "date": "2026-11-27T16:35:09Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-27T16:35:09Z"
+  },
   {
    "id": "CVE-2026-132165",
    "cves": [
@@ -27,6 +71,13 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR0diMEp5cVl4Q0hXUWx5ZW1sYmNTekVaZHdYa21kaW1oT3pFSWlVTkpNS1EzcTlRazF2cVYzZnRhX2NfMjNsQU9NMFB0ZVEwaHJySF9XTng0X2lsb2R5VEM1QjlFWWlLenplOUxDYlFSLTVONlFQSjFZekZyTWNaeHZVQUpvZXowVFdRZ3hZWTI4QQ?oc=5",
      "title": "CVE-2026-132165: Drupal Fail2Install RCE Exploited in the Wild",
      "date": "2026-11-27T13:52:19Z",
+     "primary": false
+    },
+    {
+     "name": "SOCRadar",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyTTlrR0N6UDg1WHBqOEw3Y1JYVG9zN1F4d1I2c2VjaUJ2YzUxQUw4SDB2TDRLWW9QYi1GNVc5bllaMnU4VDFkWi1EazRkXy1teFNkUjdZUUFCVnlmakgyeDNfSVh6dzh4QlhYVXY4UUd1SjBaYkY4cFlhbw?oc=5",
+     "title": "Drupal Fail2Install RCE (CVE-2026-132165) Exploited in the Wild",
+     "date": "2026-11-26T11:37:48Z",
      "primary": false
     },
     {
@@ -96,6 +147,100 @@
    "kev": null,
    "analysis": "rules",
    "last_update": "2026-11-27T05:48:00Z"
+  },
+  {
+   "id": "CVE-2026-120705",
+   "cves": [
+    "CVE-2026-120705"
+   ],
+   "title": "OSGeo GeoServer XML Injection Vulnerability",
+   "vendor": "OSGeo",
+   "product": "GeoServer",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-27T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-27T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-27",
+    "due_date": "2026-11-30",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+   "last_update": "2026-11-27T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-129243",
+   "cves": [
+    "CVE-2026-129243"
+   ],
+   "title": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+   "vendor": "OSGeo",
+   "product": "GeoServer",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-27T00:00:00Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-27T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+     "title": "CISA KEV + detail NVD"
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-27",
+    "due_date": "2026-11-30",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "",
+   "description": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+   "last_update": "2026-11-27T00:00:00Z"
+  },
+  {
+   "id": "CVE-2026-136716",
+   "cves": [
+    "CVE-2026-136716"
+   ],
+   "title": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "vendor": "Drupal",
+   "product": "Core",
+   "verdict": "confirmed",
+   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
+   "first_seen": "2026-11-26T07:02:34Z",
+   "sources": [
+    {
+     "name": "CISA KEV",
+     "date": "2026-11-27T00:00:00Z",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+     "title": "CISA KEV + detail NVD"
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "date": "2026-11-26T07:02:34Z",
+     "primary": false
+    }
+   ],
+   "kev": {
+    "date_added": "2026-11-27",
+    "due_date": "2026-11-30",
+    "ransomware": "Unknown",
+    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+   },
+   "analysis": "rules",
+   "description": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+   "last_update": "2026-11-27T00:00:00Z"
   },
   {
    "id": "CVE-2026-133324",
@@ -278,30 +423,6 @@
    "last_update": "2026-11-26T11:35:25Z"
   },
   {
-   "id": "CVE-2026-136716",
-   "cves": [
-    "CVE-2026-136716"
-   ],
-   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: baru satu sumber. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-26T07:02:34Z",
-   "sources": [
-    {
-     "name": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-     "date": "2026-11-26T07:02:34Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-26T07:02:34Z"
-  },
-  {
    "id": "CVE-2026-133968",
    "cves": [
     "CVE-2026-133968"
@@ -336,50 +457,6 @@
    "analysis": "rules",
    "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
    "last_update": "2026-11-26T05:33:43Z"
-  },
-  {
-   "id": "ART-5498f4145d",
-   "cves": [],
-   "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-25T16:33:18Z",
-   "sources": [
-    {
-     "name": "TechGig",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnNLSUNoaGY3aV9BWE1MdEVLZzFCVlBrLXdjNkU1b1FQcF82VnZtQXBaUnpvMkdPYk5lMjFXajV3WktNeUtJakt3VHRFRDFXbnZYMzQ0QXVhZDBncE11NG04WlVXM25UODZrd0lmZnBJWHVWcGpEbWFObTFkX3FzTzRrSW1QUjRiVWQzZS01ekRaa0JzMGZwa3k3SWVQRTFQc2JFeEQ1Wm4xYUlVaEV4ZDVMaEZBbmprM1pF0gHAAUFVX3lxTFBYUHFXellMYmMtS1FXbS1XazYyLVJ1SFF6SklGRUk3elNaU09EQ0RBaTJfc2FYaTFCNFctd1dXQjlCc2lTZDNXbVVHajdPcGZzZjhQWWJkUW5FT2VuOVdYTDBzVk10MkV2LWQ4OExJcGc2SllFRy1lSGhxd3BRb3N6X1dBZkJJaVhOVlJrR2lPT1Y1TGtVVmx6cHdVWDZHR0MwNkhaWXdTLXJWX3V0aDRHZXh0dUF6azZvMC1fZWNkOQ?oc=5",
-     "title": "Amazon reports AI agents exploited zero-day vulnerability autonomously",
-     "date": "2026-11-25T16:33:18Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-25T16:33:18Z"
-  },
-  {
-   "id": "ART-33f47b92fc",
-   "cves": [],
-   "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
-   "vendor": "",
-   "product": "",
-   "verdict": "watch",
-   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
-   "first_seen": "2026-11-25T16:26:03Z",
-   "sources": [
-    {
-     "name": "inkl",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG9ldXVaZE5FX1VEZG1Kakg1eVViTGI0dUlaSmZYTnZ3VWZVWUhPaGdJbHhSTUhkbzlWMmZCWjE5dmZxeFdsYW5Qai1leUphb2lXV3RTZGRud1YxcDdJU1ExZ0hvNFV2aEZUdVhaZHVLamJwenQ3WTRRZ01heVJtNVloMWg5dzN5ZDdqZHVBdHdrV3NDcVpzMnhLYVJSVUZrNms3UEY0ZWRiNjFPT0pGWkVzLWZGcENYdEROMmM2NHh2aU43UEFOb3dIanNjWWFx?oc=5",
-     "title": "Root Access in 11 Minutes: Amazon Says Chinese AI Hackers Exploited Zero-Day Flaw to Attack University Servers",
-     "date": "2026-11-25T16:26:03Z",
-     "primary": false
-    }
-   ],
-   "kev": null,
-   "analysis": "rules",
-   "last_update": "2026-11-25T16:26:03Z"
   },
   {
    "id": "CVE-2026-103406",
@@ -3304,6 +3381,54 @@
    "rv": 4,
    "analyzed_at": "2026-11-27T14:04:19Z",
    "date": "2026-11-27T09:53:25Z"
+  },
+  "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T22:40:28Z",
+   "date": "2026-11-27T17:06:13Z"
+  },
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQWtHUjlpZWZwUmRUUkpmTksxbV93bUFhRTdEeHlMSHBMSFBBWDNfVnRRTE5iX1hUam9IbVdqMWhPWXlvMXp6bkpkVDFWbDlCMkhEdTFMY09JRTBWWTJTd0YxaDg1YU5GNVh4a1djWGxvdUV2aERjN1dicU1ZUVpKVnRJTlZWbkJHelZqUWdaSE1hM0ZWQjI2aEJ4R0JvV2pyLTRiRzlNQkxVal9Rb1ZVbDJzYzNLWDg?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T22:40:28Z",
+   "date": "2026-11-27T16:35:09Z"
+  },
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORG5HZ3hiRm9pOU4yQTUwNUNtOEV6YWp4UERpN1NmRkpSM1N2Uy1ad1U5eklKUm5nMW15T0FfY2VEN0RoNDA0VnJ3NmR5dUVnSjhvZkVHb3d3aDVMSE5IaUUwbXdmQk5Vb0dDLXNBR1dWLXlOOGZ4RlNsWDFGV0cwM3NYRnRrM1FmOVI0?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti zero-day disclosed with public exploit for unauthenticated command execution",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T22:40:28Z",
+   "date": "2026-11-27T17:14:03Z"
+  },
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTMTJValFVeHI3Z0FwU1pkcDhYSjBGbUVsWTJiWVpTN0prX1RXZzdpdVcxQ3RQMzd4YzVYd3M4WVI0bk1BZEN3NTdOREZRRjlLTjlXdEVJd3dNODQ1bml6bDFueXhmWmPSAWxBVV95cUxNYndjRFVsTV93Y05UaGl2TU1vSWtaMDhKX3dPZXl5dkdHcVZBQ3lPQXBuUjJPckszWnlvTm5rV2lPb2xxcm5kdDdyQkN1S2RRZkstYWRJMVBwaXQ1MHJfZWVNckdkbzdvdWQtTGU?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti 4HTTP2ROOT Zero-Day Lets Hackers Execute Commands on Network Monitoring Servers Without Login",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-27T22:40:28Z",
+   "date": "2026-11-27T05:48:45Z"
   }
  }
 }
