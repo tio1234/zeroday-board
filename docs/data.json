@@ -1,15 +1,37 @@
 {
- "generated_at": "2026-11-27T22:40:28Z",
+ "generated_at": "2026-11-28T04:19:37Z",
  "window_days": 30,
  "analysis_mode": "rules",
  "kev_status": "ok",
  "counts": {
-  "total": 51,
-  "confirmed": 46,
+  "total": 50,
+  "confirmed": 44,
   "likely": 0,
-  "watch": 5
+  "watch": 6
  },
  "items": [
+  {
+   "id": "ART-49729b81a4",
+   "cves": [],
+   "title": "Unpatched Cacti zero-day gets a public exploit for remote code execution",
+   "vendor": "",
+   "product": "",
+   "verdict": "watch",
+   "reason": "Belum terverifikasi: tidak ada ID CVE. Cek manual sebelum dipercaya.",
+   "first_seen": "2026-11-28T01:00:36Z",
+   "sources": [
+    {
+     "name": "MLQ.ai",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd09QRDBJcmEyVGg2YWhDY0xfWXVvZFpUb0V6bjRUX3VsblpLQjlnYWRpUTZHNTdhZlFMcUNSSGdPOFUwWkdlUlktMUxyUkltUjQyRmM0WVRVWlRnd1NnVC1RTTY0UEltZVFxMmx1NkRZcktvYmE3T2F6TVc5T3preEdFVFlpUE1acTZIRzZkdS1JcUlJaXZpWQ?oc=5",
+     "title": "Unpatched Cacti zero-day gets a public exploit for remote code execution",
+     "date": "2026-11-28T01:00:36Z",
+     "primary": false
+    }
+   ],
+   "kev": null,
+   "analysis": "rules",
+   "last_update": "2026-11-28T01:00:36Z"
+  },
   {
    "id": "ART-8b62149719",
    "cves": [],
@@ -71,13 +93,6 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR0diMEp5cVl4Q0hXUWx5ZW1sYmNTekVaZHdYa21kaW1oT3pFSWlVTkpNS1EzcTlRazF2cVYzZnRhX2NfMjNsQU9NMFB0ZVEwaHJySF9XTng0X2lsb2R5VEM1QjlFWWlLenplOUxDYlFSLTVONlFQSjFZekZyTWNaeHZVQUpvZXowVFdRZ3hZWTI4QQ?oc=5",
      "title": "CVE-2026-132165: Drupal Fail2Install RCE Exploited in the Wild",
      "date": "2026-11-27T13:52:19Z",
-     "primary": false
-    },
-    {
-     "name": "SOCRadar",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyTTlrR0N6UDg1WHBqOEw3Y1JYVG9zN1F4d1I2c2VjaUJ2YzUxQUw4SDB2TDRLWW9QYi1GNVc5bllaMnU4VDFkWi1EazRkXy1teFNkUjdZUUFCVnlmakgyeDNfSVh6dzh4QlhYVXY4UUd1SjBaYkY4cFlhbw?oc=5",
-     "title": "Drupal Fail2Install RCE (CVE-2026-132165) Exploited in the Wild",
-     "date": "2026-11-26T11:37:48Z",
      "primary": false
     },
     {
@@ -1481,64 +1496,6 @@
    "analysis": "",
    "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
    "last_update": "2026-10-30T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-97229",
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "title": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-   "vendor": "GitLab",
-   "product": "Community Edition and Enterprise Edition",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-10-29T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-10-29T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-10-29",
-    "due_date": "2026-11-01",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
-   "last_update": "2026-10-29T00:00:00Z"
-  },
-  {
-   "id": "CVE-2026-76418",
-   "cves": [
-    "CVE-2026-76418"
-   ],
-   "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
-   "vendor": "Cisco",
-   "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
-   "verdict": "confirmed",
-   "reason": "Masuk katalog CISA Known Exploited Vulnerabilities (eksploitasi aktif terkonfirmasi).",
-   "first_seen": "2026-10-29T00:00:00Z",
-   "sources": [
-    {
-     "name": "CISA KEV",
-     "date": "2026-10-29T00:00:00Z",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-     "title": "CISA KEV + detail NVD"
-    }
-   ],
-   "kev": {
-    "date_added": "2026-10-29",
-    "due_date": "2026-11-01",
-    "ransomware": "Unknown",
-    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-   },
-   "analysis": "",
-   "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
-   "last_update": "2026-10-29T00:00:00Z"
   }
  ],
  "analysis_cache": {
@@ -3429,6 +3386,54 @@
    "rv": 4,
    "analyzed_at": "2026-11-27T22:40:28Z",
    "date": "2026-11-27T05:48:45Z"
+  },
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPek14cFNTTl84R19HSDFZNWxsQV9TT19yTGJDbmQ5bW10S2NuRFNXSHdYRlprSXJyOVZOWGowSGgwVVBfejVSaDZQalJqQmRJVkxIeDZDWW5VMGUwLWJxXzhhZ3paWkJibFQ2ZFNhbnVDYU9aZENjbmZCTG80c2lPeWNkMEZuZ3laZXZrajhhZmdzX0NBVGc?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti zero-day 4HTTP2SHELL, public exploit and fixes",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-28T04:19:37Z",
+   "date": "2026-11-27T17:14:12Z"
+  },
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd09QRDBJcmEyVGg2YWhDY0xfWXVvZFpUb0V6bjRUX3VsblpLQjlnYWRpUTZHNTdhZlFMcUNSSGdPOFUwWkdlUlktMUxyUkltUjQyRmM0WVRVWlRnd1NnVC1RTTY0UEltZVFxMmx1NkRZcktvYmE3T2F6TVc5T3preEdFVFlpUE1acTZIRzZkdS1JcUlJaXZpWQ?oc=5": {
+   "verdict": "likely",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Unpatched Cacti zero-day gets a public exploit for remote code execution",
+   "reason": "Judul menyebut zero-day dan isi menunjukkan eksploitasi/belum ada patch. Belum ada ID CVE, verifikasi manual.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-28T04:19:37Z",
+   "date": "2026-11-28T01:00:36Z"
+  },
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zZGNZZHNsRVYzXy1wV1ZHanhEc05vdFluSnI4R1YtZFp2VGs3VnUzZ1EyNXdudkRXcUVkTHM5V2V1Zm40ZzVNaWlMYk1MTnVFZDNEVzdxX2M2ekNXRGtJX2ZuckdMRC1OemJobE0ySHZ6UU5TSFE3UFJn?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti 4HTTP2ROOT Zero-Day Enables RCE via Guest Access",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-28T04:19:37Z",
+   "date": "2026-11-28T02:06:44Z"
+  },
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaC1zcGZ4emx3TFVLbjhEUlVyZy1rSjloLUVRVk1VRkJOdXpJTms1ZmJ4NDRBcFdOdV9YSl9XUlpCMzdsZUh6X08xQ013M1FfWExjSWhteTd3T2Qzc1lPTEpqd2txUEJUUnY5dm5SY1hzOTRRUWdTQU0yVVNEQTBqaEhMZk5wd0MtUnNyUXJUSjM3VXBHZWc?oc=5": {
+   "verdict": "rejected",
+   "cves": [],
+   "vendor": "",
+   "product": "",
+   "title": "Cacti zero-day 4HTTP2SHELL, exploit publik dan solusinya",
+   "reason": "Tidak ada bukti eksploitasi aktif di teks.",
+   "method": "rules",
+   "rv": 4,
+   "analyzed_at": "2026-11-28T04:19:37Z",
+   "date": "2026-11-27T17:14:12Z"
   }
  }
 }
